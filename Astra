@@ -1,0 +1,1797 @@
+local function createGui(parent)
+	--ScreenGui1--
+	local ScreenGui1 = Instance.new("ScreenGui",parent)
+	ScreenGui1["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling
+	----ScreenGui1----
+	--Frame2--
+	local Frame2 = Instance.new("Frame",ScreenGui1)
+	Frame2["Name"] = "MainFram"
+	Frame2["Position"] = UDim2.new(0.167577013, 0, 0.0981028751, 0)
+	Frame2["BorderColor3"] = Color3.new(0, 0, 0)
+	Frame2["Size"] = UDim2.new(0, 500, 0, 300)
+	Frame2["BorderSizePixel"] = 0
+	Frame2["BackgroundColor3"] = Color3.new(0, 0, 0)
+	----Frame2----
+	--UICorner3--
+	local UICorner3 = Instance.new("UICorner",Frame2)
+	----UICorner3----
+	--TextLabel4--
+	local TextLabel4 = Instance.new("TextLabel",Frame2)
+	TextLabel4["TextColor3"] = Color3.new(1, 1, 1)
+	TextLabel4["BorderColor3"] = Color3.new(0, 0, 0)
+	TextLabel4["Text"] = "Astra"
+	TextLabel4["Font"] = Enum.Font.SourceSansBold
+	TextLabel4["BackgroundTransparency"] = 1
+	TextLabel4["TextSize"] = 25
+	TextLabel4["Size"] = UDim2.new(0, 95, 0, 24)
+	TextLabel4["BorderSizePixel"] = 0
+	TextLabel4["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextLabel4----
+	--UIStroke5--
+	local UIStroke5 = Instance.new("UIStroke",Frame2)
+	UIStroke5["Color"] = Color3.new(1, 1, 1)
+	UIStroke5["Thickness"] = 5
+	----UIStroke5----
+	--Script6--
+	local Script6 = Instance.new("Script",Frame2)
+	Script6["Name"] = "Dragify"
+	----Script6----
+	--TextButton7--
+	local TextButton7 = Instance.new("TextButton",Frame2)
+	TextButton7["TextWrapped"] = true
+	TextButton7["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton7["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton7["Text"] = "Dahood"
+	TextButton7["TextSize"] = 29
+	TextButton7["Font"] = Enum.Font.SourceSansBold
+	TextButton7["BackgroundTransparency"] = 1
+	TextButton7["Position"] = UDim2.new(-0.00400000019, 0, 0.280724585, 0)
+	TextButton7["Name"] = "Dahood"
+	TextButton7["Size"] = UDim2.new(0, 95, 0, 30)
+	TextButton7["BorderSizePixel"] = 0
+	TextButton7["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton7----
+	--Script8--
+	local Script8 = Instance.new("Script",TextButton7)
+	----Script8----
+	--TextButton9--
+	local TextButton9 = Instance.new("TextButton",Frame2)
+	TextButton9["TextWrapped"] = true
+	TextButton9["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton9["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton9["Text"] = "Home"
+	TextButton9["TextSize"] = 29
+	TextButton9["Font"] = Enum.Font.SourceSansBold
+	TextButton9["BackgroundTransparency"] = 1
+	TextButton9["Position"] = UDim2.new(-0.00400000019, 0, 0.0799999982, 0)
+	TextButton9["Name"] = "Home"
+	TextButton9["Size"] = UDim2.new(0, 95, 0, 30)
+	TextButton9["BorderSizePixel"] = 0
+	TextButton9["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton9----
+	--Script10--
+	local Script10 = Instance.new("Script",TextButton9)
+	----Script10----
+	--TextButton11--
+	local TextButton11 = Instance.new("TextButton",Frame2)
+	TextButton11["TextWrapped"] = true
+	TextButton11["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton11["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton11["Text"] = "Scripts"
+	TextButton11["TextSize"] = 29
+	TextButton11["Font"] = Enum.Font.SourceSansBold
+	TextButton11["BackgroundTransparency"] = 1
+	TextButton11["Position"] = UDim2.new(0, 0, 0.178695679, 0)
+	TextButton11["Name"] = "Scripts"
+	TextButton11["Size"] = UDim2.new(0, 95, 0, 30)
+	TextButton11["BorderSizePixel"] = 0
+	TextButton11["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton11----
+	--Script12--
+	local Script12 = Instance.new("Script",TextButton11)
+	----Script12----
+	--Frame13--
+	local Frame13 = Instance.new("Frame",Frame2)
+	Frame13["Visible"] = false
+	Frame13["Size"] = UDim2.new(0, 403, 0, 300)
+	Frame13["BackgroundTransparency"] = 1
+	Frame13["Position"] = UDim2.new(0.193665773, 0, 0, 0)
+	Frame13["BorderColor3"] = Color3.new(0, 0, 0)
+	Frame13["Name"] = "DahoodFrame"
+	Frame13["BorderSizePixel"] = 0
+	Frame13["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----Frame13----
+	--Frame14--
+	local Frame14 = Instance.new("Frame",Frame13)
+	Frame14["Position"] = UDim2.new(-0.240105152, 0, 0.276666671, 0)
+	Frame14["BorderColor3"] = Color3.new(0, 0, 0)
+	Frame14["Size"] = UDim2.new(0, 94, 0, 30)
+	Frame14["BorderSizePixel"] = 0
+	Frame14["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----Frame14----
+	--TextLabel15--
+	local TextLabel15 = Instance.new("TextLabel",Frame14)
+	TextLabel15["TextColor3"] = Color3.new(0, 0, 0)
+	TextLabel15["BorderColor3"] = Color3.new(0, 0, 0)
+	TextLabel15["Text"] = "Dahood"
+	TextLabel15["Font"] = Enum.Font.SourceSansBold
+	TextLabel15["BackgroundTransparency"] = 1
+	TextLabel15["Position"] = UDim2.new(-0.010525967, 0, 0, 0)
+	TextLabel15["TextSize"] = 29
+	TextLabel15["Size"] = UDim2.new(0, 96, 0, 30)
+	TextLabel15["BorderSizePixel"] = 0
+	TextLabel15["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextLabel15----
+	--TextLabel16--
+	local TextLabel16 = Instance.new("TextLabel",Frame13)
+	TextLabel16["TextColor3"] = Color3.new(1, 1, 1)
+	TextLabel16["BorderColor3"] = Color3.new(0, 0, 0)
+	TextLabel16["Text"] = "Dahood"
+	TextLabel16["Font"] = Enum.Font.SourceSansBold
+	TextLabel16["BackgroundTransparency"] = 1
+	TextLabel16["Position"] = UDim2.new(7.55385585e-08, 0, 0, 0)
+	TextLabel16["TextSize"] = 25
+	TextLabel16["Size"] = UDim2.new(0, 404, 0, 17)
+	TextLabel16["BorderSizePixel"] = 0
+	TextLabel16["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextLabel16----
+	--ScrollingFrame17--
+	local ScrollingFrame17 = Instance.new("ScrollingFrame",Frame13)
+	ScrollingFrame17["ScrollBarImageColor3"] = Color3.new(0, 0, 0)
+	ScrollingFrame17["Active"] = true
+	ScrollingFrame17["BorderColor3"] = Color3.new(0, 0, 0)
+	ScrollingFrame17["ScrollBarThickness"] = 0
+	ScrollingFrame17["BackgroundTransparency"] = 1
+	ScrollingFrame17["Position"] = UDim2.new(0.0247525517, 0, 0.0799999982, 0)
+	ScrollingFrame17["CanvasSize"] = UDim2.new(0, 0, 1.79999995, 0)
+	ScrollingFrame17["Size"] = UDim2.new(0, 394, 0, 276)
+	ScrollingFrame17["BorderSizePixel"] = 0
+	ScrollingFrame17["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----ScrollingFrame17----
+	--UIGridLayout18--
+	local UIGridLayout18 = Instance.new("UIGridLayout",ScrollingFrame17)
+	UIGridLayout18["CellSize"] = UDim2.new(0, 390, 0, 40)
+	UIGridLayout18["SortOrder"] = Enum.SortOrder.LayoutOrder
+	----UIGridLayout18----
+	--Frame19--
+	local Frame19 = Instance.new("Frame",ScrollingFrame17)
+	Frame19["Name"] = "Swagmode"
+	Frame19["Position"] = UDim2.new(0.525065958, 0, 1.0629921, 0)
+	Frame19["BorderColor3"] = Color3.new(0, 0, 0)
+	Frame19["Size"] = UDim2.new(0, 180, 0, 40)
+	Frame19["BorderSizePixel"] = 0
+	Frame19["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----Frame19----
+	--UICorner20--
+	local UICorner20 = Instance.new("UICorner",Frame19)
+	----UICorner20----
+	--TextButton21--
+	local TextButton21 = Instance.new("TextButton",Frame19)
+	TextButton21["TextColor3"] = Color3.new(0, 0, 0)
+	TextButton21["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton21["Text"] = "Swagmode"
+	TextButton21["TextSize"] = 20
+	TextButton21["Font"] = Enum.Font.SourceSansBold
+	TextButton21["BackgroundTransparency"] = 1
+	TextButton21["Position"] = UDim2.new(0, 0, -0.0120079042, 0)
+	TextButton21["Name"] = "Swagmode"
+	TextButton21["Size"] = UDim2.new(0, 390, 0, 40)
+	TextButton21["BorderSizePixel"] = 0
+	TextButton21["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton21----
+	--UICorner22--
+	local UICorner22 = Instance.new("UICorner",TextButton21)
+	----UICorner22----
+	--Frame23--
+	local Frame23 = Instance.new("Frame",ScrollingFrame17)
+	Frame23["Name"] = "Faded"
+	Frame23["Position"] = UDim2.new(0.525065958, 0, 1.0629921, 0)
+	Frame23["BorderColor3"] = Color3.new(0, 0, 0)
+	Frame23["Size"] = UDim2.new(0, 180, 0, 40)
+	Frame23["BorderSizePixel"] = 0
+	Frame23["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----Frame23----
+	--UICorner24--
+	local UICorner24 = Instance.new("UICorner",Frame23)
+	----UICorner24----
+	--TextButton25--
+	local TextButton25 = Instance.new("TextButton",Frame23)
+	TextButton25["TextColor3"] = Color3.new(0, 0, 0)
+	TextButton25["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton25["Text"] = "Faded"
+	TextButton25["TextSize"] = 20
+	TextButton25["Font"] = Enum.Font.SourceSansBold
+	TextButton25["BackgroundTransparency"] = 1
+	TextButton25["Position"] = UDim2.new(0, 0, -0.0120079042, 0)
+	TextButton25["Name"] = "Faded"
+	TextButton25["Size"] = UDim2.new(0, 390, 0, 40)
+	TextButton25["BorderSizePixel"] = 0
+	TextButton25["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton25----
+	--UICorner26--
+	local UICorner26 = Instance.new("UICorner",TextButton25)
+	----UICorner26----
+	--Frame27--
+	local Frame27 = Instance.new("Frame",ScrollingFrame17)
+	Frame27["Name"] = "Pluto"
+	Frame27["Position"] = UDim2.new(0.525065958, 0, 1.0629921, 0)
+	Frame27["BorderColor3"] = Color3.new(0, 0, 0)
+	Frame27["Size"] = UDim2.new(0, 180, 0, 40)
+	Frame27["BorderSizePixel"] = 0
+	Frame27["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----Frame27----
+	--UICorner28--
+	local UICorner28 = Instance.new("UICorner",Frame27)
+	----UICorner28----
+	--TextButton29--
+	local TextButton29 = Instance.new("TextButton",Frame27)
+	TextButton29["TextColor3"] = Color3.new(0, 0, 0)
+	TextButton29["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton29["Text"] = "Pluto"
+	TextButton29["TextSize"] = 20
+	TextButton29["Font"] = Enum.Font.SourceSansBold
+	TextButton29["BackgroundTransparency"] = 1
+	TextButton29["Position"] = UDim2.new(-0.0076923077, 0, -0.0370079055, 0)
+	TextButton29["Name"] = "Pluto"
+	TextButton29["Size"] = UDim2.new(0, 390, 0, 40)
+	TextButton29["BorderSizePixel"] = 0
+	TextButton29["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton29----
+	--UICorner30--
+	local UICorner30 = Instance.new("UICorner",TextButton29)
+	----UICorner30----
+	--Frame31--
+	local Frame31 = Instance.new("Frame",ScrollingFrame17)
+	Frame31["Name"] = "Nova"
+	Frame31["Position"] = UDim2.new(0.525065958, 0, 1.0629921, 0)
+	Frame31["BorderColor3"] = Color3.new(0, 0, 0)
+	Frame31["Size"] = UDim2.new(0, 180, 0, 40)
+	Frame31["BorderSizePixel"] = 0
+	Frame31["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----Frame31----
+	--UICorner32--
+	local UICorner32 = Instance.new("UICorner",Frame31)
+	----UICorner32----
+	--TextButton33--
+	local TextButton33 = Instance.new("TextButton",Frame31)
+	TextButton33["TextColor3"] = Color3.new(0, 0, 0)
+	TextButton33["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton33["Text"] = "Nova"
+	TextButton33["TextSize"] = 20
+	TextButton33["Font"] = Enum.Font.SourceSansBold
+	TextButton33["BackgroundTransparency"] = 1
+	TextButton33["Position"] = UDim2.new(0, 0, -0.0120079042, 0)
+	TextButton33["Name"] = "Nova"
+	TextButton33["Size"] = UDim2.new(0, 390, 0, 40)
+	TextButton33["BorderSizePixel"] = 0
+	TextButton33["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton33----
+	--UICorner34--
+	local UICorner34 = Instance.new("UICorner",TextButton33)
+	----UICorner34----
+	--Frame35--
+	local Frame35 = Instance.new("Frame",ScrollingFrame17)
+	Frame35["Name"] = "Nyula"
+	Frame35["Position"] = UDim2.new(0.525065958, 0, 1.0629921, 0)
+	Frame35["BorderColor3"] = Color3.new(0, 0, 0)
+	Frame35["Size"] = UDim2.new(0, 180, 0, 40)
+	Frame35["BorderSizePixel"] = 0
+	Frame35["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----Frame35----
+	--UICorner36--
+	local UICorner36 = Instance.new("UICorner",Frame35)
+	----UICorner36----
+	--TextButton37--
+	local TextButton37 = Instance.new("TextButton",Frame35)
+	TextButton37["TextColor3"] = Color3.new(0, 0, 0)
+	TextButton37["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton37["Text"] = "Nyula"
+	TextButton37["TextSize"] = 20
+	TextButton37["Font"] = Enum.Font.SourceSansBold
+	TextButton37["BackgroundTransparency"] = 1
+	TextButton37["Position"] = UDim2.new(0, 0, -0.0120079042, 0)
+	TextButton37["Name"] = "Nyula"
+	TextButton37["Size"] = UDim2.new(0, 390, 0, 40)
+	TextButton37["BorderSizePixel"] = 0
+	TextButton37["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton37----
+	--UICorner38--
+	local UICorner38 = Instance.new("UICorner",TextButton37)
+	----UICorner38----
+	--Frame39--
+	local Frame39 = Instance.new("Frame",ScrollingFrame17)
+	Frame39["Name"] = "Ray x"
+	Frame39["Position"] = UDim2.new(0.525065958, 0, 1.0629921, 0)
+	Frame39["BorderColor3"] = Color3.new(0, 0, 0)
+	Frame39["Size"] = UDim2.new(0, 180, 0, 40)
+	Frame39["BorderSizePixel"] = 0
+	Frame39["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----Frame39----
+	--UICorner40--
+	local UICorner40 = Instance.new("UICorner",Frame39)
+	----UICorner40----
+	--TextButton41--
+	local TextButton41 = Instance.new("TextButton",Frame39)
+	TextButton41["TextColor3"] = Color3.new(0, 0, 0)
+	TextButton41["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton41["Text"] = "Ray x"
+	TextButton41["TextSize"] = 20
+	TextButton41["Font"] = Enum.Font.SourceSansBold
+	TextButton41["BackgroundTransparency"] = 1
+	TextButton41["Position"] = UDim2.new(0, 0, -0.0120079042, 0)
+	TextButton41["Name"] = "Ray x"
+	TextButton41["Size"] = UDim2.new(0, 390, 0, 40)
+	TextButton41["BorderSizePixel"] = 0
+	TextButton41["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton41----
+	--UICorner42--
+	local UICorner42 = Instance.new("UICorner",TextButton41)
+	----UICorner42----
+	--Frame43--
+	local Frame43 = Instance.new("Frame",ScrollingFrame17)
+	Frame43["Name"] = "Agent"
+	Frame43["Position"] = UDim2.new(0.525065958, 0, 1.0629921, 0)
+	Frame43["BorderColor3"] = Color3.new(0, 0, 0)
+	Frame43["Size"] = UDim2.new(0, 180, 0, 40)
+	Frame43["BorderSizePixel"] = 0
+	Frame43["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----Frame43----
+	--UICorner44--
+	local UICorner44 = Instance.new("UICorner",Frame43)
+	----UICorner44----
+	--TextButton45--
+	local TextButton45 = Instance.new("TextButton",Frame43)
+	TextButton45["TextColor3"] = Color3.new(0, 0, 0)
+	TextButton45["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton45["Text"] = "Agent"
+	TextButton45["TextSize"] = 20
+	TextButton45["Font"] = Enum.Font.SourceSansBold
+	TextButton45["BackgroundTransparency"] = 1
+	TextButton45["Position"] = UDim2.new(0, 0, -0.0120079042, 0)
+	TextButton45["Name"] = "Agent"
+	TextButton45["Size"] = UDim2.new(0, 390, 0, 40)
+	TextButton45["BorderSizePixel"] = 0
+	TextButton45["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton45----
+	--UICorner46--
+	local UICorner46 = Instance.new("UICorner",TextButton45)
+	----UICorner46----
+	--Frame47--
+	local Frame47 = Instance.new("Frame",ScrollingFrame17)
+	Frame47["Name"] = "Purple Bubble Lock"
+	Frame47["Position"] = UDim2.new(0.525065958, 0, 1.0629921, 0)
+	Frame47["BorderColor3"] = Color3.new(0, 0, 0)
+	Frame47["Size"] = UDim2.new(0, 180, 0, 40)
+	Frame47["BorderSizePixel"] = 0
+	Frame47["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----Frame47----
+	--UICorner48--
+	local UICorner48 = Instance.new("UICorner",Frame47)
+	----UICorner48----
+	--TextButton49--
+	local TextButton49 = Instance.new("TextButton",Frame47)
+	TextButton49["TextColor3"] = Color3.new(0, 0, 0)
+	TextButton49["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton49["Text"] = "Purple Bubble Lock"
+	TextButton49["TextSize"] = 20
+	TextButton49["Font"] = Enum.Font.SourceSansBold
+	TextButton49["BackgroundTransparency"] = 1
+	TextButton49["Position"] = UDim2.new(0, 0, -0.0120079042, 0)
+	TextButton49["Name"] = "Purple Bubble Lock"
+	TextButton49["Size"] = UDim2.new(0, 390, 0, 40)
+	TextButton49["BorderSizePixel"] = 0
+	TextButton49["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton49----
+	--UICorner50--
+	local UICorner50 = Instance.new("UICorner",TextButton49)
+	----UICorner50----
+	--Frame51--
+	local Frame51 = Instance.new("Frame",ScrollingFrame17)
+	Frame51["Name"] = "Blue Bubble Lock"
+	Frame51["Position"] = UDim2.new(0.525065958, 0, 1.0629921, 0)
+	Frame51["BorderColor3"] = Color3.new(0, 0, 0)
+	Frame51["Size"] = UDim2.new(0, 180, 0, 40)
+	Frame51["BorderSizePixel"] = 0
+	Frame51["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----Frame51----
+	--UICorner52--
+	local UICorner52 = Instance.new("UICorner",Frame51)
+	----UICorner52----
+	--TextButton53--
+	local TextButton53 = Instance.new("TextButton",Frame51)
+	TextButton53["TextColor3"] = Color3.new(0, 0, 0)
+	TextButton53["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton53["Text"] = "Blue Bubble Lock"
+	TextButton53["TextSize"] = 20
+	TextButton53["Font"] = Enum.Font.SourceSansBold
+	TextButton53["BackgroundTransparency"] = 1
+	TextButton53["Position"] = UDim2.new(0, 0, -0.0120079042, 0)
+	TextButton53["Name"] = "Blue Bubble Lock"
+	TextButton53["Size"] = UDim2.new(0, 390, 0, 40)
+	TextButton53["BorderSizePixel"] = 0
+	TextButton53["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton53----
+	--UICorner54--
+	local UICorner54 = Instance.new("UICorner",TextButton53)
+	----UICorner54----
+	--Frame55--
+	local Frame55 = Instance.new("Frame",ScrollingFrame17)
+	Frame55["Name"] = "Camlock"
+	Frame55["Position"] = UDim2.new(0.525065958, 0, 1.0629921, 0)
+	Frame55["BorderColor3"] = Color3.new(0, 0, 0)
+	Frame55["Size"] = UDim2.new(0, 180, 0, 40)
+	Frame55["BorderSizePixel"] = 0
+	Frame55["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----Frame55----
+	--UICorner56--
+	local UICorner56 = Instance.new("UICorner",Frame55)
+	----UICorner56----
+	--TextButton57--
+	local TextButton57 = Instance.new("TextButton",Frame55)
+	TextButton57["TextColor3"] = Color3.new(0, 0, 0)
+	TextButton57["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton57["Text"] = "Camlock"
+	TextButton57["TextSize"] = 20
+	TextButton57["Font"] = Enum.Font.SourceSansBold
+	TextButton57["BackgroundTransparency"] = 1
+	TextButton57["Position"] = UDim2.new(0, 0, -0.0120079042, 0)
+	TextButton57["Name"] = "Camlock"
+	TextButton57["Size"] = UDim2.new(0, 390, 0, 40)
+	TextButton57["BorderSizePixel"] = 0
+	TextButton57["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton57----
+	--UICorner58--
+	local UICorner58 = Instance.new("UICorner",TextButton57)
+	----UICorner58----
+	--Frame59--
+	local Frame59 = Instance.new("Frame",ScrollingFrame17)
+	Frame59["Name"] = "Anti-Lock"
+	Frame59["Position"] = UDim2.new(0.525065958, 0, 1.0629921, 0)
+	Frame59["BorderColor3"] = Color3.new(0, 0, 0)
+	Frame59["Size"] = UDim2.new(0, 180, 0, 40)
+	Frame59["BorderSizePixel"] = 0
+	Frame59["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----Frame59----
+	--UICorner60--
+	local UICorner60 = Instance.new("UICorner",Frame59)
+	----UICorner60----
+	--TextButton61--
+	local TextButton61 = Instance.new("TextButton",Frame59)
+	TextButton61["TextColor3"] = Color3.new(0, 0, 0)
+	TextButton61["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton61["Text"] = "Anti-Lock"
+	TextButton61["TextSize"] = 20
+	TextButton61["Font"] = Enum.Font.SourceSansBold
+	TextButton61["BackgroundTransparency"] = 1
+	TextButton61["Position"] = UDim2.new(-0.0076923077, 0, -0.0370079055, 0)
+	TextButton61["Name"] = "Anti-Lock"
+	TextButton61["Size"] = UDim2.new(0, 390, 0, 40)
+	TextButton61["BorderSizePixel"] = 0
+	TextButton61["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton61----
+	--UICorner62--
+	local UICorner62 = Instance.new("UICorner",TextButton61)
+	----UICorner62----
+	--Frame63--
+	local Frame63 = Instance.new("Frame",ScrollingFrame17)
+	Frame63["Name"] = "Slient Aim"
+	Frame63["Position"] = UDim2.new(0.525065958, 0, 1.0629921, 0)
+	Frame63["BorderColor3"] = Color3.new(0, 0, 0)
+	Frame63["Size"] = UDim2.new(0, 180, 0, 40)
+	Frame63["BorderSizePixel"] = 0
+	Frame63["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----Frame63----
+	--UICorner64--
+	local UICorner64 = Instance.new("UICorner",Frame63)
+	----UICorner64----
+	--TextButton65--
+	local TextButton65 = Instance.new("TextButton",Frame63)
+	TextButton65["TextColor3"] = Color3.new(0, 0, 0)
+	TextButton65["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton65["Text"] = "Slient Aim"
+	TextButton65["TextSize"] = 20
+	TextButton65["Font"] = Enum.Font.SourceSansBold
+	TextButton65["BackgroundTransparency"] = 1
+	TextButton65["Position"] = UDim2.new(0, 0, -0.0120079042, 0)
+	TextButton65["Name"] = "Slient Aim"
+	TextButton65["Size"] = UDim2.new(0, 390, 0, 40)
+	TextButton65["BorderSizePixel"] = 0
+	TextButton65["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton65----
+	--UICorner66--
+	local UICorner66 = Instance.new("UICorner",TextButton65)
+	----UICorner66----
+	--Frame67--
+	local Frame67 = Instance.new("Frame",Frame2)
+	Frame67["Size"] = UDim2.new(0, 404, 0, 300)
+	Frame67["BackgroundTransparency"] = 0.949999988079071
+	Frame67["Position"] = UDim2.new(0.191665769, 0, 0, 0)
+	Frame67["BorderColor3"] = Color3.new(0, 0, 0)
+	Frame67["Name"] = "HomeFrame"
+	Frame67["BorderSizePixel"] = 0
+	Frame67["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----Frame67----
+	--Frame68--
+	local Frame68 = Instance.new("Frame",Frame67)
+	Frame68["Name"] = "button hover"
+	Frame68["Position"] = UDim2.new(-0.237623766, 0, 0.0799999982, 0)
+	Frame68["BorderColor3"] = Color3.new(0, 0, 0)
+	Frame68["Size"] = UDim2.new(0, 95, 0, 30)
+	Frame68["BorderSizePixel"] = 0
+	Frame68["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----Frame68----
+	--TextLabel69--
+	local TextLabel69 = Instance.new("TextLabel",Frame68)
+	TextLabel69["TextColor3"] = Color3.new(0, 0, 0)
+	TextLabel69["BorderColor3"] = Color3.new(0, 0, 0)
+	TextLabel69["Text"] = "Home"
+	TextLabel69["Font"] = Enum.Font.SourceSansBold
+	TextLabel69["BackgroundTransparency"] = 1
+	TextLabel69["Position"] = UDim2.new(-0.0105259949, 0, 0, 0)
+	TextLabel69["TextSize"] = 29
+	TextLabel69["Size"] = UDim2.new(0, 95, 0, 30)
+	TextLabel69["BorderSizePixel"] = 0
+	TextLabel69["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextLabel69----
+	--Frame70--
+	local Frame70 = Instance.new("Frame",Frame67)
+	Frame70["Name"] = "Changelog"
+	Frame70["Position"] = UDim2.new(0.0396039225, 0, 0.0933333337, 0)
+	Frame70["BorderColor3"] = Color3.new(0, 0, 0)
+	Frame70["Size"] = UDim2.new(0, 378, 0, 203)
+	Frame70["BorderSizePixel"] = 0
+	Frame70["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----Frame70----
+	--UICorner71--
+	local UICorner71 = Instance.new("UICorner",Frame70)
+	----UICorner71----
+	--TextLabel72--
+	local TextLabel72 = Instance.new("TextLabel",Frame70)
+	TextLabel72["TextColor3"] = Color3.new(0, 0, 0)
+	TextLabel72["BorderColor3"] = Color3.new(0, 0, 0)
+	TextLabel72["Text"] = " Welcome to Astra Hub!"
+	TextLabel72["Size"] = UDim2.new(0, 379, 0, 172)
+	TextLabel72["TextXAlignment"] = Enum.TextXAlignment.Left
+	TextLabel72["TextSize"] = 16
+	TextLabel72["Font"] = Enum.Font.SourceSansBold
+	TextLabel72["BackgroundTransparency"] = 1
+	TextLabel72["Position"] = UDim2.new(0, 0, 0.149606332, 0)
+	TextLabel72["Name"] = "logs"
+	TextLabel72["TextYAlignment"] = Enum.TextYAlignment.Top
+	TextLabel72["BorderSizePixel"] = 0
+	TextLabel72["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextLabel72----
+	--Frame73--
+	local Frame73 = Instance.new("Frame",Frame70)
+	Frame73["Name"] = "Discord"
+	Frame73["Position"] = UDim2.new(0, 0, 1.0629921, 0)
+	Frame73["BorderColor3"] = Color3.new(0, 0, 0)
+	Frame73["Size"] = UDim2.new(0, 180, 0, 40)
+	Frame73["BorderSizePixel"] = 0
+	Frame73["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----Frame73----
+	--UICorner74--
+	local UICorner74 = Instance.new("UICorner",Frame73)
+	----UICorner74----
+	--TextButton75--
+	local TextButton75 = Instance.new("TextButton",Frame73)
+	TextButton75["TextColor3"] = Color3.new(0, 0, 0)
+	TextButton75["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton75["Text"] = "Discord Invite"
+	TextButton75["TextSize"] = 20
+	TextButton75["Font"] = Enum.Font.SourceSansBold
+	TextButton75["BackgroundTransparency"] = 1
+	TextButton75["Position"] = UDim2.new(0, 0, -0.0120079042, 0)
+	TextButton75["Name"] = "Discord Button"
+	TextButton75["Size"] = UDim2.new(0, 180, 0, 40)
+	TextButton75["BorderSizePixel"] = 0
+	TextButton75["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton75----
+	--UICorner76--
+	local UICorner76 = Instance.new("UICorner",TextButton75)
+	----UICorner76----
+	--Frame77--
+	local Frame77 = Instance.new("Frame",Frame70)
+	Frame77["Name"] = "Website"
+	Frame77["Position"] = UDim2.new(0.525065958, 0, 1.0629921, 0)
+	Frame77["BorderColor3"] = Color3.new(0, 0, 0)
+	Frame77["Size"] = UDim2.new(0, 180, 0, 40)
+	Frame77["BorderSizePixel"] = 0
+	Frame77["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----Frame77----
+	--UICorner78--
+	local UICorner78 = Instance.new("UICorner",Frame77)
+	----UICorner78----
+	--TextButton79--
+	local TextButton79 = Instance.new("TextButton",Frame77)
+	TextButton79["TextColor3"] = Color3.new(0, 0, 0)
+	TextButton79["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton79["Text"] = "Website URL"
+	TextButton79["TextSize"] = 20
+	TextButton79["Font"] = Enum.Font.SourceSansBold
+	TextButton79["BackgroundTransparency"] = 1
+	TextButton79["Position"] = UDim2.new(0, 0, -0.0120079042, 0)
+	TextButton79["Name"] = "Website Button"
+	TextButton79["Size"] = UDim2.new(0, 180, 0, 40)
+	TextButton79["BorderSizePixel"] = 0
+	TextButton79["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton79----
+	--UICorner80--
+	local UICorner80 = Instance.new("UICorner",TextButton79)
+	----UICorner80----
+	--TextLabel81--
+	local TextLabel81 = Instance.new("TextLabel",Frame70)
+	TextLabel81["TextWrapped"] = true
+	TextLabel81["TextColor3"] = Color3.new(0, 0, 0)
+	TextLabel81["BorderColor3"] = Color3.new(0, 0, 0)
+	TextLabel81["Text"] = "Changelogs"
+	TextLabel81["Font"] = Enum.Font.SourceSansBold
+	TextLabel81["TextSize"] = 14
+	TextLabel81["Position"] = UDim2.new(0.377308697, 0, 0.0157480314, 0)
+	TextLabel81["TextScaled"] = true
+	TextLabel81["Size"] = UDim2.new(0, 93, 0, 18)
+	TextLabel81["BorderSizePixel"] = 0
+	TextLabel81["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextLabel81----
+	--TextLabel82--
+	local TextLabel82 = Instance.new("TextLabel",Frame67)
+	TextLabel82["TextWrapped"] = true
+	TextLabel82["TextColor3"] = Color3.new(1, 1, 1)
+	TextLabel82["BorderColor3"] = Color3.new(0, 0, 0)
+	TextLabel82["Text"] = "Astra Hub"
+	TextLabel82["TextStrokeColor3"] = Color3.new(1, 1, 1)
+	TextLabel82["TextSize"] = 14
+	TextLabel82["TextScaled"] = true
+	TextLabel82["Font"] = Enum.Font.SourceSansBold
+	TextLabel82["BackgroundTransparency"] = 1
+	TextLabel82["Position"] = UDim2.new(0.339108974, 0, 0, 0)
+	TextLabel82["Name"] = "name"
+	TextLabel82["Size"] = UDim2.new(0, 129, 0, 28)
+	TextLabel82["BorderSizePixel"] = 0
+	TextLabel82["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextLabel82----
+	--Frame83--
+	local Frame83 = Instance.new("Frame",Frame2)
+	Frame83["Visible"] = false
+	Frame83["Size"] = UDim2.new(0, 404, 0, 300)
+	Frame83["BackgroundTransparency"] = 1
+	Frame83["Position"] = UDim2.new(0.191665769, 0, 0, 0)
+	Frame83["BorderColor3"] = Color3.new(0, 0, 0)
+	Frame83["Name"] = "ScriptsFrame"
+	Frame83["BorderSizePixel"] = 0
+	Frame83["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----Frame83----
+	--Frame84--
+	local Frame84 = Instance.new("Frame",Frame83)
+	Frame84["Position"] = UDim2.new(-0.237623766, 0, 0.180000007, 0)
+	Frame84["BorderColor3"] = Color3.new(0, 0, 0)
+	Frame84["Size"] = UDim2.new(0, 95, 0, 30)
+	Frame84["BorderSizePixel"] = 0
+	Frame84["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----Frame84----
+	--TextLabel85--
+	local TextLabel85 = Instance.new("TextLabel",Frame84)
+	TextLabel85["TextColor3"] = Color3.new(0, 0, 0)
+	TextLabel85["BorderColor3"] = Color3.new(0, 0, 0)
+	TextLabel85["Text"] = "Scripts"
+	TextLabel85["Font"] = Enum.Font.SourceSansBold
+	TextLabel85["BackgroundTransparency"] = 1
+	TextLabel85["Position"] = UDim2.new(0.0105266366, 0, 0, 0)
+	TextLabel85["TextSize"] = 29
+	TextLabel85["Size"] = UDim2.new(0, 95, 0, 30)
+	TextLabel85["BorderSizePixel"] = 0
+	TextLabel85["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextLabel85----
+	--ScrollingFrame86--
+	local ScrollingFrame86 = Instance.new("ScrollingFrame",Frame83)
+	ScrollingFrame86["ScrollBarImageColor3"] = Color3.new(0, 0, 0)
+	ScrollingFrame86["Active"] = true
+	ScrollingFrame86["BorderColor3"] = Color3.new(0, 0, 0)
+	ScrollingFrame86["ScrollBarThickness"] = 0
+	ScrollingFrame86["BackgroundTransparency"] = 1
+	ScrollingFrame86["Position"] = UDim2.new(0.0247525517, 0, 0.0799999982, 0)
+	ScrollingFrame86["CanvasSize"] = UDim2.new(0, 0, 3, 0)
+	ScrollingFrame86["Size"] = UDim2.new(0, 394, 0, 276)
+	ScrollingFrame86["BorderSizePixel"] = 0
+	ScrollingFrame86["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----ScrollingFrame86----
+	--UIGridLayout87--
+	local UIGridLayout87 = Instance.new("UIGridLayout",ScrollingFrame86)
+	UIGridLayout87["CellSize"] = UDim2.new(0, 390, 0, 40)
+	UIGridLayout87["SortOrder"] = Enum.SortOrder.LayoutOrder
+	----UIGridLayout87----
+	--Frame88--
+	local Frame88 = Instance.new("Frame",ScrollingFrame86)
+	Frame88["Name"] = "My Restaurant"
+	Frame88["Position"] = UDim2.new(0.525065958, 0, 1.0629921, 0)
+	Frame88["BorderColor3"] = Color3.new(0, 0, 0)
+	Frame88["Size"] = UDim2.new(0, 180, 0, 40)
+	Frame88["BorderSizePixel"] = 0
+	Frame88["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----Frame88----
+	--UICorner89--
+	local UICorner89 = Instance.new("UICorner",Frame88)
+	----UICorner89----
+	--TextButton90--
+	local TextButton90 = Instance.new("TextButton",Frame88)
+	TextButton90["TextColor3"] = Color3.new(0, 0, 0)
+	TextButton90["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton90["Text"] = "My Restaurant"
+	TextButton90["TextSize"] = 20
+	TextButton90["Font"] = Enum.Font.SourceSansBold
+	TextButton90["BackgroundTransparency"] = 1
+	TextButton90["Position"] = UDim2.new(0, 0, -0.0120079042, 0)
+	TextButton90["Name"] = "My Restaurant"
+	TextButton90["Size"] = UDim2.new(0, 390, 0, 40)
+	TextButton90["BorderSizePixel"] = 0
+	TextButton90["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton90----
+	--UICorner91--
+	local UICorner91 = Instance.new("UICorner",TextButton90)
+	----UICorner91----
+	--Frame92--
+	local Frame92 = Instance.new("Frame",ScrollingFrame86)
+	Frame92["Name"] = "Pet Simulator 99"
+	Frame92["Position"] = UDim2.new(0.525065958, 0, 1.0629921, 0)
+	Frame92["BorderColor3"] = Color3.new(0, 0, 0)
+	Frame92["Size"] = UDim2.new(0, 180, 0, 40)
+	Frame92["BorderSizePixel"] = 0
+	Frame92["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----Frame92----
+	--UICorner93--
+	local UICorner93 = Instance.new("UICorner",Frame92)
+	----UICorner93----
+	--TextButton94--
+	local TextButton94 = Instance.new("TextButton",Frame92)
+	TextButton94["TextColor3"] = Color3.new(0, 0, 0)
+	TextButton94["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton94["Text"] = "Pet Simulator 99"
+	TextButton94["TextSize"] = 20
+	TextButton94["Font"] = Enum.Font.SourceSansBold
+	TextButton94["BackgroundTransparency"] = 1
+	TextButton94["Position"] = UDim2.new(0, 0, -0.0120079042, 0)
+	TextButton94["Name"] = "Pet Simulator 99"
+	TextButton94["Size"] = UDim2.new(0, 390, 0, 40)
+	TextButton94["BorderSizePixel"] = 0
+	TextButton94["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton94----
+	--UICorner95--
+	local UICorner95 = Instance.new("UICorner",TextButton94)
+	----UICorner95----
+	--Frame96--
+	local Frame96 = Instance.new("Frame",ScrollingFrame86)
+	Frame96["Name"] = "Blade Ball Auto Parry"
+	Frame96["Position"] = UDim2.new(0.525065958, 0, 1.0629921, 0)
+	Frame96["BorderColor3"] = Color3.new(0, 0, 0)
+	Frame96["Size"] = UDim2.new(0, 180, 0, 40)
+	Frame96["BorderSizePixel"] = 0
+	Frame96["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----Frame96----
+	--UICorner97--
+	local UICorner97 = Instance.new("UICorner",Frame96)
+	----UICorner97----
+	--TextButton98--
+	local TextButton98 = Instance.new("TextButton",Frame96)
+	TextButton98["TextColor3"] = Color3.new(0, 0, 0)
+	TextButton98["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton98["Text"] = "Blade Ball Auto Parry"
+	TextButton98["TextSize"] = 20
+	TextButton98["Font"] = Enum.Font.SourceSansBold
+	TextButton98["BackgroundTransparency"] = 1
+	TextButton98["Position"] = UDim2.new(0, 0, -0.0120079042, 0)
+	TextButton98["Name"] = "Blade Ball Auto Parry"
+	TextButton98["Size"] = UDim2.new(0, 390, 0, 40)
+	TextButton98["BorderSizePixel"] = 0
+	TextButton98["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton98----
+	--UICorner99--
+	local UICorner99 = Instance.new("UICorner",TextButton98)
+	----UICorner99----
+	--Frame100--
+	local Frame100 = Instance.new("Frame",ScrollingFrame86)
+	Frame100["Name"] = "Tower Of Hell"
+	Frame100["Position"] = UDim2.new(0.525065958, 0, 1.0629921, 0)
+	Frame100["BorderColor3"] = Color3.new(0, 0, 0)
+	Frame100["Size"] = UDim2.new(0, 180, 0, 40)
+	Frame100["BorderSizePixel"] = 0
+	Frame100["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----Frame100----
+	--UICorner101--
+	local UICorner101 = Instance.new("UICorner",Frame100)
+	----UICorner101----
+	--TextButton102--
+	local TextButton102 = Instance.new("TextButton",Frame100)
+	TextButton102["TextColor3"] = Color3.new(0, 0, 0)
+	TextButton102["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton102["Text"] = "Tower Of Hell"
+	TextButton102["TextSize"] = 20
+	TextButton102["Font"] = Enum.Font.SourceSansBold
+	TextButton102["BackgroundTransparency"] = 1
+	TextButton102["Position"] = UDim2.new(0, 0, -0.0120079042, 0)
+	TextButton102["Name"] = "Tower Of Hell"
+	TextButton102["Size"] = UDim2.new(0, 390, 0, 40)
+	TextButton102["BorderSizePixel"] = 0
+	TextButton102["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton102----
+	--UICorner103--
+	local UICorner103 = Instance.new("UICorner",TextButton102)
+	----UICorner103----
+	--Frame104--
+	local Frame104 = Instance.new("Frame",ScrollingFrame86)
+	Frame104["Name"] = "Drive World"
+	Frame104["Position"] = UDim2.new(0.525065958, 0, 1.0629921, 0)
+	Frame104["BorderColor3"] = Color3.new(0, 0, 0)
+	Frame104["Size"] = UDim2.new(0, 180, 0, 40)
+	Frame104["BorderSizePixel"] = 0
+	Frame104["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----Frame104----
+	--UICorner105--
+	local UICorner105 = Instance.new("UICorner",Frame104)
+	----UICorner105----
+	--TextButton106--
+	local TextButton106 = Instance.new("TextButton",Frame104)
+	TextButton106["TextColor3"] = Color3.new(0, 0, 0)
+	TextButton106["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton106["Text"] = "Drive World"
+	TextButton106["TextSize"] = 20
+	TextButton106["Font"] = Enum.Font.SourceSansBold
+	TextButton106["BackgroundTransparency"] = 1
+	TextButton106["Position"] = UDim2.new(0, 0, -0.0120079042, 0)
+	TextButton106["Name"] = "Drive World"
+	TextButton106["Size"] = UDim2.new(0, 390, 0, 40)
+	TextButton106["BorderSizePixel"] = 0
+	TextButton106["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton106----
+	--UICorner107--
+	local UICorner107 = Instance.new("UICorner",TextButton106)
+	----UICorner107----
+	--Frame108--
+	local Frame108 = Instance.new("Frame",ScrollingFrame86)
+	Frame108["Name"] = "Evade"
+	Frame108["Position"] = UDim2.new(0.525065958, 0, 1.0629921, 0)
+	Frame108["BorderColor3"] = Color3.new(0, 0, 0)
+	Frame108["Size"] = UDim2.new(0, 180, 0, 40)
+	Frame108["BorderSizePixel"] = 0
+	Frame108["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----Frame108----
+	--UICorner109--
+	local UICorner109 = Instance.new("UICorner",Frame108)
+	----UICorner109----
+	--TextButton110--
+	local TextButton110 = Instance.new("TextButton",Frame108)
+	TextButton110["TextColor3"] = Color3.new(0, 0, 0)
+	TextButton110["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton110["Text"] = "Evade"
+	TextButton110["TextSize"] = 20
+	TextButton110["Font"] = Enum.Font.SourceSansBold
+	TextButton110["BackgroundTransparency"] = 1
+	TextButton110["Position"] = UDim2.new(0, 0, -0.0120079042, 0)
+	TextButton110["Name"] = "Evade"
+	TextButton110["Size"] = UDim2.new(0, 390, 0, 40)
+	TextButton110["BorderSizePixel"] = 0
+	TextButton110["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton110----
+	--UICorner111--
+	local UICorner111 = Instance.new("UICorner",TextButton110)
+	----UICorner111----
+	--Frame112--
+	local Frame112 = Instance.new("Frame",ScrollingFrame86)
+	Frame112["Name"] = "Da Hood Modded"
+	Frame112["Position"] = UDim2.new(0.525065958, 0, 1.0629921, 0)
+	Frame112["BorderColor3"] = Color3.new(0, 0, 0)
+	Frame112["Size"] = UDim2.new(0, 180, 0, 40)
+	Frame112["BorderSizePixel"] = 0
+	Frame112["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----Frame112----
+	--UICorner113--
+	local UICorner113 = Instance.new("UICorner",Frame112)
+	----UICorner113----
+	--TextButton114--
+	local TextButton114 = Instance.new("TextButton",Frame112)
+	TextButton114["TextColor3"] = Color3.new(0, 0, 0)
+	TextButton114["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton114["Text"] = "Da Hood Modded"
+	TextButton114["TextSize"] = 20
+	TextButton114["Font"] = Enum.Font.SourceSansBold
+	TextButton114["BackgroundTransparency"] = 1
+	TextButton114["Position"] = UDim2.new(0, 0, -0.0120079042, 0)
+	TextButton114["Name"] = "Da Hood Modded"
+	TextButton114["Size"] = UDim2.new(0, 390, 0, 40)
+	TextButton114["BorderSizePixel"] = 0
+	TextButton114["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton114----
+	--UICorner115--
+	local UICorner115 = Instance.new("UICorner",TextButton114)
+	----UICorner115----
+	--Frame116--
+	local Frame116 = Instance.new("Frame",ScrollingFrame86)
+	Frame116["Name"] = "Murder Mystery 2"
+	Frame116["Position"] = UDim2.new(0.525065958, 0, 1.0629921, 0)
+	Frame116["BorderColor3"] = Color3.new(0, 0, 0)
+	Frame116["Size"] = UDim2.new(0, 180, 0, 40)
+	Frame116["BorderSizePixel"] = 0
+	Frame116["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----Frame116----
+	--UICorner117--
+	local UICorner117 = Instance.new("UICorner",Frame116)
+	----UICorner117----
+	--TextButton118--
+	local TextButton118 = Instance.new("TextButton",Frame116)
+	TextButton118["TextColor3"] = Color3.new(0, 0, 0)
+	TextButton118["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton118["Text"] = "Murder Mystery 2"
+	TextButton118["TextSize"] = 20
+	TextButton118["Font"] = Enum.Font.SourceSansBold
+	TextButton118["BackgroundTransparency"] = 1
+	TextButton118["Position"] = UDim2.new(0, 0, -0.0120079042, 0)
+	TextButton118["Name"] = "Murder Mystery 2"
+	TextButton118["Size"] = UDim2.new(0, 390, 0, 40)
+	TextButton118["BorderSizePixel"] = 0
+	TextButton118["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton118----
+	--UICorner119--
+	local UICorner119 = Instance.new("UICorner",TextButton118)
+	----UICorner119----
+	--Frame120--
+	local Frame120 = Instance.new("Frame",ScrollingFrame86)
+	Frame120["Name"] = "Big PaintBall 2"
+	Frame120["Position"] = UDim2.new(0.525065958, 0, 1.0629921, 0)
+	Frame120["BorderColor3"] = Color3.new(0, 0, 0)
+	Frame120["Size"] = UDim2.new(0, 180, 0, 40)
+	Frame120["BorderSizePixel"] = 0
+	Frame120["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----Frame120----
+	--UICorner121--
+	local UICorner121 = Instance.new("UICorner",Frame120)
+	----UICorner121----
+	--TextButton122--
+	local TextButton122 = Instance.new("TextButton",Frame120)
+	TextButton122["TextColor3"] = Color3.new(0, 0, 0)
+	TextButton122["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton122["Text"] = "Big PaintBall 2"
+	TextButton122["TextSize"] = 20
+	TextButton122["Font"] = Enum.Font.SourceSansBold
+	TextButton122["BackgroundTransparency"] = 1
+	TextButton122["Position"] = UDim2.new(0, 0, -0.0120079042, 0)
+	TextButton122["Name"] = "Big PaintBall 2"
+	TextButton122["Size"] = UDim2.new(0, 390, 0, 40)
+	TextButton122["BorderSizePixel"] = 0
+	TextButton122["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton122----
+	--UICorner123--
+	local UICorner123 = Instance.new("UICorner",TextButton122)
+	----UICorner123----
+	--Frame124--
+	local Frame124 = Instance.new("Frame",ScrollingFrame86)
+	Frame124["Name"] = "Arsenal"
+	Frame124["Position"] = UDim2.new(0.525065958, 0, 1.0629921, 0)
+	Frame124["BorderColor3"] = Color3.new(0, 0, 0)
+	Frame124["Size"] = UDim2.new(0, 180, 0, 40)
+	Frame124["BorderSizePixel"] = 0
+	Frame124["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----Frame124----
+	--UICorner125--
+	local UICorner125 = Instance.new("UICorner",Frame124)
+	----UICorner125----
+	--TextButton126--
+	local TextButton126 = Instance.new("TextButton",Frame124)
+	TextButton126["TextColor3"] = Color3.new(0, 0, 0)
+	TextButton126["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton126["Text"] = "Arsenal"
+	TextButton126["TextSize"] = 20
+	TextButton126["Font"] = Enum.Font.SourceSansBold
+	TextButton126["BackgroundTransparency"] = 1
+	TextButton126["Position"] = UDim2.new(0, 0, -0.0120079042, 0)
+	TextButton126["Name"] = "Arsenal"
+	TextButton126["Size"] = UDim2.new(0, 390, 0, 40)
+	TextButton126["BorderSizePixel"] = 0
+	TextButton126["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton126----
+	--UICorner127--
+	local UICorner127 = Instance.new("UICorner",TextButton126)
+	----UICorner127----
+	--Frame128--
+	local Frame128 = Instance.new("Frame",ScrollingFrame86)
+	Frame128["Name"] = "Rainbow Friends"
+	Frame128["Position"] = UDim2.new(0.525065958, 0, 1.0629921, 0)
+	Frame128["BorderColor3"] = Color3.new(0, 0, 0)
+	Frame128["Size"] = UDim2.new(0, 180, 0, 40)
+	Frame128["BorderSizePixel"] = 0
+	Frame128["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----Frame128----
+	--UICorner129--
+	local UICorner129 = Instance.new("UICorner",Frame128)
+	----UICorner129----
+	--TextButton130--
+	local TextButton130 = Instance.new("TextButton",Frame128)
+	TextButton130["TextColor3"] = Color3.new(0, 0, 0)
+	TextButton130["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton130["Text"] = "Rainbow Friends"
+	TextButton130["TextSize"] = 20
+	TextButton130["Font"] = Enum.Font.SourceSansBold
+	TextButton130["BackgroundTransparency"] = 1
+	TextButton130["Position"] = UDim2.new(0, 0, -0.0120079042, 0)
+	TextButton130["Name"] = "Rainbow Friends"
+	TextButton130["Size"] = UDim2.new(0, 390, 0, 40)
+	TextButton130["BorderSizePixel"] = 0
+	TextButton130["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton130----
+	--UICorner131--
+	local UICorner131 = Instance.new("UICorner",TextButton130)
+	----UICorner131----
+	--Frame132--
+	local Frame132 = Instance.new("Frame",ScrollingFrame86)
+	Frame132["Name"] = "Anime Adventures"
+	Frame132["Position"] = UDim2.new(0.525065958, 0, 1.0629921, 0)
+	Frame132["BorderColor3"] = Color3.new(0, 0, 0)
+	Frame132["Size"] = UDim2.new(0, 180, 0, 40)
+	Frame132["BorderSizePixel"] = 0
+	Frame132["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----Frame132----
+	--UICorner133--
+	local UICorner133 = Instance.new("UICorner",Frame132)
+	----UICorner133----
+	--TextButton134--
+	local TextButton134 = Instance.new("TextButton",Frame132)
+	TextButton134["TextColor3"] = Color3.new(0, 0, 0)
+	TextButton134["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton134["Text"] = "Anime Adventures"
+	TextButton134["TextSize"] = 20
+	TextButton134["Font"] = Enum.Font.SourceSansBold
+	TextButton134["BackgroundTransparency"] = 1
+	TextButton134["Position"] = UDim2.new(0, 0, -0.0120079042, 0)
+	TextButton134["Name"] = "Anime Adventures"
+	TextButton134["Size"] = UDim2.new(0, 390, 0, 40)
+	TextButton134["BorderSizePixel"] = 0
+	TextButton134["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton134----
+	--UICorner135--
+	local UICorner135 = Instance.new("UICorner",TextButton134)
+	----UICorner135----
+	--Frame136--
+	local Frame136 = Instance.new("Frame",ScrollingFrame86)
+	Frame136["Name"] = "BloxFruits"
+	Frame136["Position"] = UDim2.new(0.525065958, 0, 1.0629921, 0)
+	Frame136["BorderColor3"] = Color3.new(0, 0, 0)
+	Frame136["Size"] = UDim2.new(0, 180, 0, 40)
+	Frame136["BorderSizePixel"] = 0
+	Frame136["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----Frame136----
+	--UICorner137--
+	local UICorner137 = Instance.new("UICorner",Frame136)
+	----UICorner137----
+	--TextButton138--
+	local TextButton138 = Instance.new("TextButton",Frame136)
+	TextButton138["TextColor3"] = Color3.new(0, 0, 0)
+	TextButton138["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton138["Text"] = "BloxFruits"
+	TextButton138["TextSize"] = 20
+	TextButton138["Font"] = Enum.Font.SourceSansBold
+	TextButton138["BackgroundTransparency"] = 1
+	TextButton138["Position"] = UDim2.new(0, 0, -0.0120079042, 0)
+	TextButton138["Name"] = "BloxFruits"
+	TextButton138["Size"] = UDim2.new(0, 390, 0, 40)
+	TextButton138["BorderSizePixel"] = 0
+	TextButton138["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton138----
+	--UICorner139--
+	local UICorner139 = Instance.new("UICorner",TextButton138)
+	----UICorner139----
+	--Frame140--
+	local Frame140 = Instance.new("Frame",ScrollingFrame86)
+	Frame140["Name"] = "Adopt Me"
+	Frame140["Position"] = UDim2.new(0.525065958, 0, 1.0629921, 0)
+	Frame140["BorderColor3"] = Color3.new(0, 0, 0)
+	Frame140["Size"] = UDim2.new(0, 180, 0, 40)
+	Frame140["BorderSizePixel"] = 0
+	Frame140["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----Frame140----
+	--UICorner141--
+	local UICorner141 = Instance.new("UICorner",Frame140)
+	----UICorner141----
+	--TextButton142--
+	local TextButton142 = Instance.new("TextButton",Frame140)
+	TextButton142["TextColor3"] = Color3.new(0, 0, 0)
+	TextButton142["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton142["Text"] = "Adopt Me"
+	TextButton142["TextSize"] = 20
+	TextButton142["Font"] = Enum.Font.SourceSansBold
+	TextButton142["BackgroundTransparency"] = 1
+	TextButton142["Position"] = UDim2.new(0, 0, -0.0120079042, 0)
+	TextButton142["Name"] = "Adopt Me"
+	TextButton142["Size"] = UDim2.new(0, 390, 0, 40)
+	TextButton142["BorderSizePixel"] = 0
+	TextButton142["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton142----
+	--UICorner143--
+	local UICorner143 = Instance.new("UICorner",TextButton142)
+	----UICorner143----
+	--Frame144--
+	local Frame144 = Instance.new("Frame",ScrollingFrame86)
+	Frame144["Name"] = "Funky Friday"
+	Frame144["Position"] = UDim2.new(0.525065958, 0, 1.0629921, 0)
+	Frame144["BorderColor3"] = Color3.new(0, 0, 0)
+	Frame144["Size"] = UDim2.new(0, 180, 0, 40)
+	Frame144["BorderSizePixel"] = 0
+	Frame144["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----Frame144----
+	--UICorner145--
+	local UICorner145 = Instance.new("UICorner",Frame144)
+	----UICorner145----
+	--TextButton146--
+	local TextButton146 = Instance.new("TextButton",Frame144)
+	TextButton146["TextColor3"] = Color3.new(0, 0, 0)
+	TextButton146["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton146["Text"] = "Funky Friday"
+	TextButton146["TextSize"] = 20
+	TextButton146["Font"] = Enum.Font.SourceSansBold
+	TextButton146["BackgroundTransparency"] = 1
+	TextButton146["Position"] = UDim2.new(0, 0, -0.0120079042, 0)
+	TextButton146["Name"] = "Funky Friday"
+	TextButton146["Size"] = UDim2.new(0, 390, 0, 40)
+	TextButton146["BorderSizePixel"] = 0
+	TextButton146["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton146----
+	--UICorner147--
+	local UICorner147 = Instance.new("UICorner",TextButton146)
+	----UICorner147----
+	--Frame148--
+	local Frame148 = Instance.new("Frame",ScrollingFrame86)
+	Frame148["Name"] = "Anime Soul Simulator"
+	Frame148["Position"] = UDim2.new(0.525065958, 0, 1.0629921, 0)
+	Frame148["BorderColor3"] = Color3.new(0, 0, 0)
+	Frame148["Size"] = UDim2.new(0, 180, 0, 40)
+	Frame148["BorderSizePixel"] = 0
+	Frame148["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----Frame148----
+	--UICorner149--
+	local UICorner149 = Instance.new("UICorner",Frame148)
+	----UICorner149----
+	--TextButton150--
+	local TextButton150 = Instance.new("TextButton",Frame148)
+	TextButton150["TextColor3"] = Color3.new(0, 0, 0)
+	TextButton150["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton150["Text"] = "Anime Soul Simulator"
+	TextButton150["TextSize"] = 20
+	TextButton150["Font"] = Enum.Font.SourceSansBold
+	TextButton150["BackgroundTransparency"] = 1
+	TextButton150["Position"] = UDim2.new(0, 0, -0.0120079042, 0)
+	TextButton150["Name"] = "Anime Soul Simulator"
+	TextButton150["Size"] = UDim2.new(0, 390, 0, 40)
+	TextButton150["BorderSizePixel"] = 0
+	TextButton150["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton150----
+	--UICorner151--
+	local UICorner151 = Instance.new("UICorner",TextButton150)
+	----UICorner151----
+	--Frame152--
+	local Frame152 = Instance.new("Frame",ScrollingFrame86)
+	Frame152["Name"] = "Death Ball"
+	Frame152["Position"] = UDim2.new(0.525065958, 0, 1.0629921, 0)
+	Frame152["BorderColor3"] = Color3.new(0, 0, 0)
+	Frame152["Size"] = UDim2.new(0, 180, 0, 40)
+	Frame152["BorderSizePixel"] = 0
+	Frame152["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----Frame152----
+	--UICorner153--
+	local UICorner153 = Instance.new("UICorner",Frame152)
+	----UICorner153----
+	--TextButton154--
+	local TextButton154 = Instance.new("TextButton",Frame152)
+	TextButton154["TextColor3"] = Color3.new(0, 0, 0)
+	TextButton154["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton154["Text"] = "Death Ball"
+	TextButton154["TextSize"] = 20
+	TextButton154["Font"] = Enum.Font.SourceSansBold
+	TextButton154["BackgroundTransparency"] = 1
+	TextButton154["Position"] = UDim2.new(0, 0, -0.0120079042, 0)
+	TextButton154["Name"] = "Death Ball"
+	TextButton154["Size"] = UDim2.new(0, 390, 0, 40)
+	TextButton154["BorderSizePixel"] = 0
+	TextButton154["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton154----
+	--UICorner155--
+	local UICorner155 = Instance.new("UICorner",TextButton154)
+	----UICorner155----
+	--Frame156--
+	local Frame156 = Instance.new("Frame",ScrollingFrame86)
+	Frame156["Name"] = "Bedwars"
+	Frame156["Position"] = UDim2.new(0.525065958, 0, 1.0629921, 0)
+	Frame156["BorderColor3"] = Color3.new(0, 0, 0)
+	Frame156["Size"] = UDim2.new(0, 180, 0, 40)
+	Frame156["BorderSizePixel"] = 0
+	Frame156["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----Frame156----
+	--UICorner157--
+	local UICorner157 = Instance.new("UICorner",Frame156)
+	----UICorner157----
+	--TextButton158--
+	local TextButton158 = Instance.new("TextButton",Frame156)
+	TextButton158["TextColor3"] = Color3.new(0, 0, 0)
+	TextButton158["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton158["Text"] = "Bedwars"
+	TextButton158["TextSize"] = 20
+	TextButton158["Font"] = Enum.Font.SourceSansBold
+	TextButton158["BackgroundTransparency"] = 1
+	TextButton158["Position"] = UDim2.new(0, 0, -0.0120079042, 0)
+	TextButton158["Name"] = "Bedwars"
+	TextButton158["Size"] = UDim2.new(0, 390, 0, 40)
+	TextButton158["BorderSizePixel"] = 0
+	TextButton158["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton158----
+	--UICorner159--
+	local UICorner159 = Instance.new("UICorner",TextButton158)
+	----UICorner159----
+	--Frame160--
+	local Frame160 = Instance.new("Frame",ScrollingFrame86)
+	Frame160["Name"] = "Shindo Life 2"
+	Frame160["Position"] = UDim2.new(0.525065958, 0, 1.0629921, 0)
+	Frame160["BorderColor3"] = Color3.new(0, 0, 0)
+	Frame160["Size"] = UDim2.new(0, 180, 0, 40)
+	Frame160["BorderSizePixel"] = 0
+	Frame160["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----Frame160----
+	--UICorner161--
+	local UICorner161 = Instance.new("UICorner",Frame160)
+	----UICorner161----
+	--TextButton162--
+	local TextButton162 = Instance.new("TextButton",Frame160)
+	TextButton162["TextColor3"] = Color3.new(0, 0, 0)
+	TextButton162["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton162["Text"] = "Shindo Life 2"
+	TextButton162["TextSize"] = 20
+	TextButton162["Font"] = Enum.Font.SourceSansBold
+	TextButton162["BackgroundTransparency"] = 1
+	TextButton162["Position"] = UDim2.new(0, 0, -0.0120079042, 0)
+	TextButton162["Name"] = "Shindo Life 2"
+	TextButton162["Size"] = UDim2.new(0, 390, 0, 40)
+	TextButton162["BorderSizePixel"] = 0
+	TextButton162["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton162----
+	--UICorner163--
+	local UICorner163 = Instance.new("UICorner",TextButton162)
+	----UICorner163----
+	--Frame164--
+	local Frame164 = Instance.new("Frame",ScrollingFrame86)
+	Frame164["Name"] = "Prison Life"
+	Frame164["Position"] = UDim2.new(0.525065958, 0, 1.0629921, 0)
+	Frame164["BorderColor3"] = Color3.new(0, 0, 0)
+	Frame164["Size"] = UDim2.new(0, 180, 0, 40)
+	Frame164["BorderSizePixel"] = 0
+	Frame164["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----Frame164----
+	--UICorner165--
+	local UICorner165 = Instance.new("UICorner",Frame164)
+	----UICorner165----
+	--TextButton166--
+	local TextButton166 = Instance.new("TextButton",Frame164)
+	TextButton166["TextColor3"] = Color3.new(0, 0, 0)
+	TextButton166["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton166["Text"] = "Prison Life"
+	TextButton166["TextSize"] = 20
+	TextButton166["Font"] = Enum.Font.SourceSansBold
+	TextButton166["BackgroundTransparency"] = 1
+	TextButton166["Position"] = UDim2.new(0, 0, -0.0120079042, 0)
+	TextButton166["Name"] = "Prison Life"
+	TextButton166["Size"] = UDim2.new(0, 390, 0, 40)
+	TextButton166["BorderSizePixel"] = 0
+	TextButton166["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton166----
+	--UICorner167--
+	local UICorner167 = Instance.new("UICorner",TextButton166)
+	----UICorner167----
+	--TextLabel168--
+	local TextLabel168 = Instance.new("TextLabel",Frame83)
+	TextLabel168["TextColor3"] = Color3.new(1, 1, 1)
+	TextLabel168["BorderColor3"] = Color3.new(0, 0, 0)
+	TextLabel168["Text"] = "Scripts"
+	TextLabel168["Font"] = Enum.Font.SourceSansBold
+	TextLabel168["BackgroundTransparency"] = 1
+	TextLabel168["Position"] = UDim2.new(7.55385585e-08, 0, 0, 0)
+	TextLabel168["TextSize"] = 25
+	TextLabel168["Size"] = UDim2.new(0, 404, 0, 17)
+	TextLabel168["BorderSizePixel"] = 0
+	TextLabel168["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextLabel168----
+	--Frame169--
+	local Frame169 = Instance.new("Frame",Frame2)
+	Frame169["Position"] = UDim2.new(0.186000183, 0, 0, 0)
+	Frame169["BorderColor3"] = Color3.new(0, 0, 0)
+	Frame169["Size"] = UDim2.new(0, 2, 0, 300)
+	Frame169["BorderSizePixel"] = 0
+	Frame169["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----Frame169----
+	--TextButton170--
+	local TextButton170 = Instance.new("TextButton",Frame2)
+	TextButton170["TextWrapped"] = true
+	TextButton170["TextColor3"] = Color3.new(1, 1, 1)
+	TextButton170["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton170["Text"] = "Misc"
+	TextButton170["TextSize"] = 29
+	TextButton170["Font"] = Enum.Font.SourceSansBold
+	TextButton170["BackgroundTransparency"] = 1
+	TextButton170["Position"] = UDim2.new(0, 0, 0.375362337, 0)
+	TextButton170["Name"] = "Misc"
+	TextButton170["Size"] = UDim2.new(0, 95, 0, 30)
+	TextButton170["BorderSizePixel"] = 0
+	TextButton170["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton170----
+	--Script171--
+	local Script171 = Instance.new("Script",TextButton170)
+	----Script171----
+	--Frame172--
+	local Frame172 = Instance.new("Frame",Frame2)
+	Frame172["Visible"] = false
+	Frame172["Size"] = UDim2.new(0, 404, 0, 300)
+	Frame172["BackgroundTransparency"] = 1
+	Frame172["Position"] = UDim2.new(0.191665769, 0, 0, 0)
+	Frame172["BorderColor3"] = Color3.new(0, 0, 0)
+	Frame172["Name"] = "MiscFrame"
+	Frame172["BorderSizePixel"] = 0
+	Frame172["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----Frame172----
+	--Frame173--
+	local Frame173 = Instance.new("Frame",Frame172)
+	Frame173["Name"] = "Background"
+	Frame173["Position"] = UDim2.new(-0.237623766, 0, 0.379999995, 0)
+	Frame173["BorderColor3"] = Color3.new(0, 0, 0)
+	Frame173["Size"] = UDim2.new(0, 95, 0, 30)
+	Frame173["BorderSizePixel"] = 0
+	Frame173["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----Frame173----
+	--TextLabel174--
+	local TextLabel174 = Instance.new("TextLabel",Frame173)
+	TextLabel174["TextColor3"] = Color3.new(0, 0, 0)
+	TextLabel174["BorderColor3"] = Color3.new(0, 0, 0)
+	TextLabel174["Text"] = "Misc"
+	TextLabel174["Font"] = Enum.Font.SourceSansBold
+	TextLabel174["BackgroundTransparency"] = 1
+	TextLabel174["Position"] = UDim2.new(0.0105266366, 0, 0, 0)
+	TextLabel174["TextSize"] = 29
+	TextLabel174["Size"] = UDim2.new(0, 95, 0, 30)
+	TextLabel174["BorderSizePixel"] = 0
+	TextLabel174["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextLabel174----
+	--ScrollingFrame175--
+	local ScrollingFrame175 = Instance.new("ScrollingFrame",Frame172)
+	ScrollingFrame175["ScrollBarImageColor3"] = Color3.new(0, 0, 0)
+	ScrollingFrame175["Active"] = true
+	ScrollingFrame175["BorderColor3"] = Color3.new(0, 0, 0)
+	ScrollingFrame175["ScrollBarThickness"] = 0
+	ScrollingFrame175["BackgroundTransparency"] = 1
+	ScrollingFrame175["Position"] = UDim2.new(0.0247525517, 0, 0.0799999982, 0)
+	ScrollingFrame175["CanvasSize"] = UDim2.new(0, 0, 1.35000002, 0)
+	ScrollingFrame175["Size"] = UDim2.new(0, 394, 0, 276)
+	ScrollingFrame175["BorderSizePixel"] = 0
+	ScrollingFrame175["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----ScrollingFrame175----
+	--UIGridLayout176--
+	local UIGridLayout176 = Instance.new("UIGridLayout",ScrollingFrame175)
+	UIGridLayout176["CellSize"] = UDim2.new(0, 390, 0, 40)
+	UIGridLayout176["SortOrder"] = Enum.SortOrder.LayoutOrder
+	----UIGridLayout176----
+	--Frame177--
+	local Frame177 = Instance.new("Frame",ScrollingFrame175)
+	Frame177["Name"] = "Infinite Yield"
+	Frame177["Position"] = UDim2.new(0.525065958, 0, 1.0629921, 0)
+	Frame177["BorderColor3"] = Color3.new(0, 0, 0)
+	Frame177["Size"] = UDim2.new(0, 180, 0, 40)
+	Frame177["BorderSizePixel"] = 0
+	Frame177["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----Frame177----
+	--UICorner178--
+	local UICorner178 = Instance.new("UICorner",Frame177)
+	----UICorner178----
+	--TextButton179--
+	local TextButton179 = Instance.new("TextButton",Frame177)
+	TextButton179["TextColor3"] = Color3.new(0, 0, 0)
+	TextButton179["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton179["Text"] = "Infinite Yield"
+	TextButton179["TextSize"] = 20
+	TextButton179["Font"] = Enum.Font.SourceSansBold
+	TextButton179["BackgroundTransparency"] = 1
+	TextButton179["Position"] = UDim2.new(0, 0, -0.0120079042, 0)
+	TextButton179["Name"] = "Infinite Yield"
+	TextButton179["Size"] = UDim2.new(0, 390, 0, 40)
+	TextButton179["BorderSizePixel"] = 0
+	TextButton179["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton179----
+	--UICorner180--
+	local UICorner180 = Instance.new("UICorner",TextButton179)
+	----UICorner180----
+	--Frame181--
+	local Frame181 = Instance.new("Frame",ScrollingFrame175)
+	Frame181["Name"] = "Anti AFK"
+	Frame181["Position"] = UDim2.new(0.525065958, 0, 1.0629921, 0)
+	Frame181["BorderColor3"] = Color3.new(0, 0, 0)
+	Frame181["Size"] = UDim2.new(0, 180, 0, 40)
+	Frame181["BorderSizePixel"] = 0
+	Frame181["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----Frame181----
+	--UICorner182--
+	local UICorner182 = Instance.new("UICorner",Frame181)
+	----UICorner182----
+	--TextButton183--
+	local TextButton183 = Instance.new("TextButton",Frame181)
+	TextButton183["TextColor3"] = Color3.new(0, 0, 0)
+	TextButton183["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton183["Text"] = "Anti AFK"
+	TextButton183["TextSize"] = 20
+	TextButton183["Font"] = Enum.Font.SourceSansBold
+	TextButton183["BackgroundTransparency"] = 1
+	TextButton183["Position"] = UDim2.new(0, 0, -0.0120079042, 0)
+	TextButton183["Name"] = "Anti AFK"
+	TextButton183["Size"] = UDim2.new(0, 390, 0, 40)
+	TextButton183["BorderSizePixel"] = 0
+	TextButton183["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton183----
+	--UICorner184--
+	local UICorner184 = Instance.new("UICorner",TextButton183)
+	----UICorner184----
+	--Frame185--
+	local Frame185 = Instance.new("Frame",ScrollingFrame175)
+	Frame185["Name"] = "Auto Piano"
+	Frame185["Position"] = UDim2.new(0.525065958, 0, 1.0629921, 0)
+	Frame185["BorderColor3"] = Color3.new(0, 0, 0)
+	Frame185["Size"] = UDim2.new(0, 180, 0, 40)
+	Frame185["BorderSizePixel"] = 0
+	Frame185["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----Frame185----
+	--UICorner186--
+	local UICorner186 = Instance.new("UICorner",Frame185)
+	----UICorner186----
+	--TextButton187--
+	local TextButton187 = Instance.new("TextButton",Frame185)
+	TextButton187["TextColor3"] = Color3.new(0, 0, 0)
+	TextButton187["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton187["Text"] = "Auto Piano"
+	TextButton187["TextSize"] = 20
+	TextButton187["Font"] = Enum.Font.SourceSansBold
+	TextButton187["BackgroundTransparency"] = 1
+	TextButton187["Position"] = UDim2.new(0, 0, -0.0120079042, 0)
+	TextButton187["Name"] = "Auto Piano"
+	TextButton187["Size"] = UDim2.new(0, 390, 0, 40)
+	TextButton187["BorderSizePixel"] = 0
+	TextButton187["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton187----
+	--UICorner188--
+	local UICorner188 = Instance.new("UICorner",TextButton187)
+	----UICorner188----
+	--Frame189--
+	local Frame189 = Instance.new("Frame",ScrollingFrame175)
+	Frame189["Name"] = "Auto Clicker"
+	Frame189["Position"] = UDim2.new(0.525065958, 0, 1.0629921, 0)
+	Frame189["BorderColor3"] = Color3.new(0, 0, 0)
+	Frame189["Size"] = UDim2.new(0, 180, 0, 40)
+	Frame189["BorderSizePixel"] = 0
+	Frame189["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----Frame189----
+	--UICorner190--
+	local UICorner190 = Instance.new("UICorner",Frame189)
+	----UICorner190----
+	--TextButton191--
+	local TextButton191 = Instance.new("TextButton",Frame189)
+	TextButton191["TextColor3"] = Color3.new(0, 0, 0)
+	TextButton191["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton191["Text"] = "Auto Clicker"
+	TextButton191["TextSize"] = 20
+	TextButton191["Font"] = Enum.Font.SourceSansBold
+	TextButton191["BackgroundTransparency"] = 1
+	TextButton191["Position"] = UDim2.new(0, 0, -0.0120079042, 0)
+	TextButton191["Name"] = "Auto Clicker"
+	TextButton191["Size"] = UDim2.new(0, 390, 0, 40)
+	TextButton191["BorderSizePixel"] = 0
+	TextButton191["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton191----
+	--UICorner192--
+	local UICorner192 = Instance.new("UICorner",TextButton191)
+	----UICorner192----
+	--Frame193--
+	local Frame193 = Instance.new("Frame",ScrollingFrame175)
+	Frame193["Name"] = "CFrame"
+	Frame193["Position"] = UDim2.new(0.525065958, 0, 1.0629921, 0)
+	Frame193["BorderColor3"] = Color3.new(0, 0, 0)
+	Frame193["Size"] = UDim2.new(0, 180, 0, 40)
+	Frame193["BorderSizePixel"] = 0
+	Frame193["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----Frame193----
+	--UICorner194--
+	local UICorner194 = Instance.new("UICorner",Frame193)
+	----UICorner194----
+	--TextButton195--
+	local TextButton195 = Instance.new("TextButton",Frame193)
+	TextButton195["TextColor3"] = Color3.new(0, 0, 0)
+	TextButton195["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton195["Text"] = "CFrame"
+	TextButton195["TextSize"] = 20
+	TextButton195["Font"] = Enum.Font.SourceSansBold
+	TextButton195["BackgroundTransparency"] = 1
+	TextButton195["Position"] = UDim2.new(0, 0, -0.0120079042, 0)
+	TextButton195["Name"] = "CFrame"
+	TextButton195["Size"] = UDim2.new(0, 390, 0, 40)
+	TextButton195["BorderSizePixel"] = 0
+	TextButton195["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton195----
+	--UICorner196--
+	local UICorner196 = Instance.new("UICorner",TextButton195)
+	----UICorner196----
+	--Frame197--
+	local Frame197 = Instance.new("Frame",ScrollingFrame175)
+	Frame197["Name"] = "Q Tool"
+	Frame197["Position"] = UDim2.new(0.525065958, 0, 1.0629921, 0)
+	Frame197["BorderColor3"] = Color3.new(0, 0, 0)
+	Frame197["Size"] = UDim2.new(0, 180, 0, 40)
+	Frame197["BorderSizePixel"] = 0
+	Frame197["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----Frame197----
+	--UICorner198--
+	local UICorner198 = Instance.new("UICorner",Frame197)
+	----UICorner198----
+	--TextButton199--
+	local TextButton199 = Instance.new("TextButton",Frame197)
+	TextButton199["TextColor3"] = Color3.new(0, 0, 0)
+	TextButton199["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton199["Text"] = "Q Tool"
+	TextButton199["TextSize"] = 20
+	TextButton199["Font"] = Enum.Font.SourceSansBold
+	TextButton199["BackgroundTransparency"] = 1
+	TextButton199["Position"] = UDim2.new(0, 0, -0.0120079042, 0)
+	TextButton199["Name"] = "Q Tool"
+	TextButton199["Size"] = UDim2.new(0, 390, 0, 40)
+	TextButton199["BorderSizePixel"] = 0
+	TextButton199["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton199----
+	--UICorner200--
+	local UICorner200 = Instance.new("UICorner",TextButton199)
+	----UICorner200----
+	--Frame201--
+	local Frame201 = Instance.new("Frame",ScrollingFrame175)
+	Frame201["Name"] = "Keyboard"
+	Frame201["Position"] = UDim2.new(0.525065958, 0, 1.0629921, 0)
+	Frame201["BorderColor3"] = Color3.new(0, 0, 0)
+	Frame201["Size"] = UDim2.new(0, 180, 0, 40)
+	Frame201["BorderSizePixel"] = 0
+	Frame201["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----Frame201----
+	--UICorner202--
+	local UICorner202 = Instance.new("UICorner",Frame201)
+	----UICorner202----
+	--TextButton203--
+	local TextButton203 = Instance.new("TextButton",Frame201)
+	TextButton203["TextColor3"] = Color3.new(0, 0, 0)
+	TextButton203["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton203["Text"] = "Keyboard"
+	TextButton203["TextSize"] = 20
+	TextButton203["Font"] = Enum.Font.SourceSansBold
+	TextButton203["BackgroundTransparency"] = 1
+	TextButton203["Position"] = UDim2.new(0, 0, -0.0120079042, 0)
+	TextButton203["Name"] = "Keyboard"
+	TextButton203["Size"] = UDim2.new(0, 390, 0, 40)
+	TextButton203["BorderSizePixel"] = 0
+	TextButton203["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton203----
+	--UICorner204--
+	local UICorner204 = Instance.new("UICorner",TextButton203)
+	----UICorner204----
+	--Frame205--
+	local Frame205 = Instance.new("Frame",ScrollingFrame175)
+	Frame205["Name"] = "Speed Tool"
+	Frame205["Position"] = UDim2.new(0.525065958, 0, 1.0629921, 0)
+	Frame205["BorderColor3"] = Color3.new(0, 0, 0)
+	Frame205["Size"] = UDim2.new(0, 180, 0, 40)
+	Frame205["BorderSizePixel"] = 0
+	Frame205["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----Frame205----
+	--UICorner206--
+	local UICorner206 = Instance.new("UICorner",Frame205)
+	----UICorner206----
+	--TextButton207--
+	local TextButton207 = Instance.new("TextButton",Frame205)
+	TextButton207["TextColor3"] = Color3.new(0, 0, 0)
+	TextButton207["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton207["Text"] = "Speed Tool"
+	TextButton207["TextSize"] = 20
+	TextButton207["Font"] = Enum.Font.SourceSansBold
+	TextButton207["BackgroundTransparency"] = 1
+	TextButton207["Position"] = UDim2.new(0, 0, -0.0120079042, 0)
+	TextButton207["Name"] = "Speed Tool"
+	TextButton207["Size"] = UDim2.new(0, 390, 0, 40)
+	TextButton207["BorderSizePixel"] = 0
+	TextButton207["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton207----
+	--UICorner208--
+	local UICorner208 = Instance.new("UICorner",TextButton207)
+	----UICorner208----
+	--Frame209--
+	local Frame209 = Instance.new("Frame",ScrollingFrame175)
+	Frame209["Name"] = "Fly"
+	Frame209["Position"] = UDim2.new(0.525065958, 0, 1.0629921, 0)
+	Frame209["BorderColor3"] = Color3.new(0, 0, 0)
+	Frame209["Size"] = UDim2.new(0, 180, 0, 40)
+	Frame209["BorderSizePixel"] = 0
+	Frame209["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----Frame209----
+	--UICorner210--
+	local UICorner210 = Instance.new("UICorner",Frame209)
+	----UICorner210----
+	--TextButton211--
+	local TextButton211 = Instance.new("TextButton",Frame209)
+	TextButton211["TextColor3"] = Color3.new(0, 0, 0)
+	TextButton211["BorderColor3"] = Color3.new(0, 0, 0)
+	TextButton211["Text"] = "Fly"
+	TextButton211["TextSize"] = 20
+	TextButton211["Font"] = Enum.Font.SourceSansBold
+	TextButton211["BackgroundTransparency"] = 1
+	TextButton211["Position"] = UDim2.new(0, 0, -0.0120079042, 0)
+	TextButton211["Name"] = "Fly"
+	TextButton211["Size"] = UDim2.new(0, 390, 0, 40)
+	TextButton211["BorderSizePixel"] = 0
+	TextButton211["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextButton211----
+	--UICorner212--
+	local UICorner212 = Instance.new("UICorner",TextButton211)
+	----UICorner212----
+	--TextLabel213--
+	local TextLabel213 = Instance.new("TextLabel",Frame172)
+	TextLabel213["TextColor3"] = Color3.new(1, 1, 1)
+	TextLabel213["BorderColor3"] = Color3.new(0, 0, 0)
+	TextLabel213["Text"] = "Misc"
+	TextLabel213["Font"] = Enum.Font.SourceSansBold
+	TextLabel213["BackgroundTransparency"] = 1
+	TextLabel213["Position"] = UDim2.new(7.55385585e-08, 0, 0, 0)
+	TextLabel213["TextSize"] = 25
+	TextLabel213["Size"] = UDim2.new(0, 404, 0, 17)
+	TextLabel213["BorderSizePixel"] = 0
+	TextLabel213["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----TextLabel213----
+	--ImageButton214--
+	local ImageButton214 = Instance.new("ImageButton",ScreenGui1)
+	ImageButton214["Image"] = "http://www.roblox.com/asset/?id=16001410208"
+	ImageButton214["Position"] = UDim2.new(0.0185139291, 0, 0.360134959, 0)
+	ImageButton214["BorderColor3"] = Color3.new(0, 0, 0)
+	ImageButton214["Size"] = UDim2.new(0, 70, 0, 70)
+	ImageButton214["BorderSizePixel"] = 0
+	ImageButton214["BackgroundColor3"] = Color3.new(1, 1, 1)
+	----ImageButton214----
+	--UICorner215--
+	local UICorner215 = Instance.new("UICorner",ImageButton214)
+	----UICorner215----
+	--Script216--
+	local Script216 = Instance.new("Script",ImageButton214)
+	----Script216----
+	--Script217--
+	local Script217 = Instance.new("Script",ScreenGui1)
+	----Script217----
+	spawn(function() --Source for Script6
+		local script = Script6
+		local UIS = game:GetService('UserInputService')
+		local frame = script.Parent
+		local dragToggle = nil
+		local dragSpeed = 0.25
+		local dragStart = nil
+		local startPos = nil
+		
+		local function updateInput(input)
+			local delta = input.Position - dragStart
+			local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+				startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+			game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+		end
+		
+		frame.InputBegan:Connect(function(input)
+			if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+				dragToggle = true
+				dragStart = input.Position
+				startPos = frame.Position
+				input.Changed:Connect(function()
+					if input.UserInputState == Enum.UserInputState.End then
+						dragToggle = false
+					end
+				end)
+			end
+		end)
+		
+		UIS.InputChanged:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+				if dragToggle then
+					updateInput(input)
+				end
+			end
+		end)
+	end)
+	spawn(function() --Source for Script8
+		local script = Script8
+		script.Parent.MouseButton1Click:Connect(function()
+			script.Parent.Parent.HomeFrame.Visible = false
+			script.Parent.Parent.ScriptsFrame.Visible = false
+			script.Parent.Parent.DahoodFrame.Visible = true
+			script.Parent.Parent.MiscFrame.Visible = false
+		end)
+		
+	end)
+	spawn(function() --Source for Script10
+		local script = Script10
+		script.Parent.MouseButton1Click:Connect(function()
+			script.Parent.Parent.HomeFrame.Visible = true
+			script.Parent.Parent.ScriptsFrame.Visible = false
+			script.Parent.Parent.DahoodFrame.Visible = false
+			script.Parent.Parent.MiscFrame.Visible = false
+		end)
+		
+	end)
+	spawn(function() --Source for Script12
+		local script = Script12
+		script.Parent.MouseButton1Click:Connect(function()
+			script.Parent.Parent.HomeFrame.Visible = false
+			script.Parent.Parent.ScriptsFrame.Visible = true
+			script.Parent.Parent.DahoodFrame.Visible = false
+			script.Parent.Parent.MiscFrame.Visible = false
+		end)
+		
+		
+		
+	end)
+	spawn(function() --Source for Script171
+		local script = Script171
+		script.Parent.MouseButton1Click:Connect(function()
+			script.Parent.Parent.HomeFrame.Visible = false
+			script.Parent.Parent.ScriptsFrame.Visible = false
+			script.Parent.Parent.DahoodFrame.Visible = false
+			script.Parent.Parent.MiscFrame.Visible = true
+		end)
+		
+		
+	end)
+	spawn(function() --Source for Script216
+		local script = Script216
+		local UIS = game:GetService('UserInputService')
+		local frame = script.Parent
+		local dragToggle = nil
+		local dragSpeed = 0.25
+		local dragStart = nil
+		local startPos = nil
+		
+		local function updateInput(input)
+			local delta = input.Position - dragStart
+			local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+				startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+			game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+		end
+		
+		frame.InputBegan:Connect(function(input)
+			if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+				dragToggle = true
+				dragStart = input.Position
+				startPos = frame.Position
+				input.Changed:Connect(function()
+					if input.UserInputState == Enum.UserInputState.End then
+						dragToggle = false
+					end
+				end)
+			end
+		end)
+		
+		UIS.InputChanged:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+				if dragToggle then
+					updateInput(input)
+				end
+			end
+		end)
+	end)
+	spawn(function() --Source for Script217
+		local script = Script217
+		local SGui = script.Parent
+		local Frame = SGui:WaitForChild("MainFram")
+		local ImageButton = SGui:WaitForChild("ImageButton") -- Assuming you have an ImageButton named "ImageButton"
+		
+		-- Connect a function to the MouseButton1Up event of the image button
+		ImageButton.MouseButton1Up:Connect(function()
+			-- Toggle the visibility of the frame
+			Frame.Visible = not Frame.Visible
+		end)
+		
+		
+	end)
+end
+createGui(game.CoreGui) --coregui by default you should but change it
