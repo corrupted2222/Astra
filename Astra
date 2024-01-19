@@ -1,1643 +1,1658 @@
-local ScreenGui = Instance.new("ScreenGui")
-local MainFram = Instance.new("Frame")
-local UICorner = Instance.new("UICorner")
-local TextLabel = Instance.new("TextLabel")
-local Dahood = Instance.new("TextButton")
-local Home = Instance.new("TextButton")
-local Scripts = Instance.new("TextButton")
-local DahoodFrame = Instance.new("Frame")
-local Frame = Instance.new("Frame")
-local TextLabel_2 = Instance.new("TextLabel")
-local TextLabel_3 = Instance.new("TextLabel")
-local ScrollingFrame = Instance.new("ScrollingFrame")
-local UIGridLayout = Instance.new("UIGridLayout")
-local Swagmode = Instance.new("Frame")
-local UICorner_2 = Instance.new("UICorner")
-local Swagmode_2 = Instance.new("TextButton")
-local UICorner_3 = Instance.new("UICorner")
-local Faded = Instance.new("Frame")
-local UICorner_4 = Instance.new("UICorner")
-local Faded_2 = Instance.new("TextButton")
-local UICorner_5 = Instance.new("UICorner")
-local Pluto = Instance.new("Frame")
-local UICorner_6 = Instance.new("UICorner")
-local Pluto_2 = Instance.new("TextButton")
-local UICorner_7 = Instance.new("UICorner")
-local Nova = Instance.new("Frame")
-local UICorner_8 = Instance.new("UICorner")
-local Nova_2 = Instance.new("TextButton")
-local UICorner_9 = Instance.new("UICorner")
-local Nyula = Instance.new("Frame")
-local UICorner_10 = Instance.new("UICorner")
-local Nyula_2 = Instance.new("TextButton")
-local UICorner_11 = Instance.new("UICorner")
-local Rayx = Instance.new("Frame")
-local UICorner_12 = Instance.new("UICorner")
-local Rayx_2 = Instance.new("TextButton")
-local UICorner_13 = Instance.new("UICorner")
-local Agent = Instance.new("Frame")
-local UICorner_14 = Instance.new("UICorner")
-local Agent_2 = Instance.new("TextButton")
-local UICorner_15 = Instance.new("UICorner")
-local PurpleBubbleLock = Instance.new("Frame")
-local UICorner_16 = Instance.new("UICorner")
-local PurpleBubbleLock_2 = Instance.new("TextButton")
-local UICorner_17 = Instance.new("UICorner")
-local BlueBubbleLock = Instance.new("Frame")
-local UICorner_18 = Instance.new("UICorner")
-local BlueBubbleLock_2 = Instance.new("TextButton")
-local UICorner_19 = Instance.new("UICorner")
-local Camlock = Instance.new("Frame")
-local UICorner_20 = Instance.new("UICorner")
-local Camlock_2 = Instance.new("TextButton")
-local UICorner_21 = Instance.new("UICorner")
-local AntiLock = Instance.new("Frame")
-local UICorner_22 = Instance.new("UICorner")
-local AntiLock_2 = Instance.new("TextButton")
-local UICorner_23 = Instance.new("UICorner")
-local SlientAim = Instance.new("Frame")
-local UICorner_24 = Instance.new("UICorner")
-local SlientAim_2 = Instance.new("TextButton")
-local UICorner_25 = Instance.new("UICorner")
-local HomeFrame = Instance.new("Frame")
-local buttonhover = Instance.new("Frame")
-local TextLabel_4 = Instance.new("TextLabel")
-local Changelog = Instance.new("Frame")
-local UICorner_26 = Instance.new("UICorner")
-local logs = Instance.new("TextLabel")
-local Discord = Instance.new("Frame")
-local UICorner_27 = Instance.new("UICorner")
-local DiscordButton = Instance.new("TextButton")
-local UICorner_28 = Instance.new("UICorner")
-local Website = Instance.new("Frame")
-local UICorner_29 = Instance.new("UICorner")
-local WebsiteButton = Instance.new("TextButton")
-local UICorner_30 = Instance.new("UICorner")
-local TextLabel_5 = Instance.new("TextLabel")
-local name = Instance.new("TextLabel")
-local ScriptsFrame = Instance.new("Frame")
-local Frame_2 = Instance.new("Frame")
-local TextLabel_6 = Instance.new("TextLabel")
-local ScrollingFrame_2 = Instance.new("ScrollingFrame")
-local UIGridLayout_2 = Instance.new("UIGridLayout")
-local MyRestaurant = Instance.new("Frame")
-local UICorner_31 = Instance.new("UICorner")
-local MyRestaurant_2 = Instance.new("TextButton")
-local UICorner_32 = Instance.new("UICorner")
-local PetSimulator99 = Instance.new("Frame")
-local UICorner_33 = Instance.new("UICorner")
-local PetSimulator99_2 = Instance.new("TextButton")
-local UICorner_34 = Instance.new("UICorner")
-local BladeBallAutoParry = Instance.new("Frame")
-local UICorner_35 = Instance.new("UICorner")
-local BladeBallAutoParry_2 = Instance.new("TextButton")
-local UICorner_36 = Instance.new("UICorner")
-local TowerOfHell = Instance.new("Frame")
-local UICorner_37 = Instance.new("UICorner")
-local TowerOfHell_2 = Instance.new("TextButton")
-local UICorner_38 = Instance.new("UICorner")
-local DriveWorld = Instance.new("Frame")
-local UICorner_39 = Instance.new("UICorner")
-local DriveWorld_2 = Instance.new("TextButton")
-local UICorner_40 = Instance.new("UICorner")
-local Evade = Instance.new("Frame")
-local UICorner_41 = Instance.new("UICorner")
-local Evade_2 = Instance.new("TextButton")
-local UICorner_42 = Instance.new("UICorner")
-local DaHoodModded = Instance.new("Frame")
-local UICorner_43 = Instance.new("UICorner")
-local DaHoodModded_2 = Instance.new("TextButton")
-local UICorner_44 = Instance.new("UICorner")
-local MurderMystery2 = Instance.new("Frame")
-local UICorner_45 = Instance.new("UICorner")
-local MurderMystery2_2 = Instance.new("TextButton")
-local UICorner_46 = Instance.new("UICorner")
-local BigPaintBall2 = Instance.new("Frame")
-local UICorner_47 = Instance.new("UICorner")
-local BigPaintBall2_2 = Instance.new("TextButton")
-local UICorner_48 = Instance.new("UICorner")
-local Arsenal = Instance.new("Frame")
-local UICorner_49 = Instance.new("UICorner")
-local Arsenal_2 = Instance.new("TextButton")
-local UICorner_50 = Instance.new("UICorner")
-local RainbowFriends = Instance.new("Frame")
-local UICorner_51 = Instance.new("UICorner")
-local RainbowFriends_2 = Instance.new("TextButton")
-local UICorner_52 = Instance.new("UICorner")
-local AnimeAdventures = Instance.new("Frame")
-local UICorner_53 = Instance.new("UICorner")
-local AnimeAdventures_2 = Instance.new("TextButton")
-local UICorner_54 = Instance.new("UICorner")
-local BloxFruits = Instance.new("Frame")
-local UICorner_55 = Instance.new("UICorner")
-local BloxFruits_2 = Instance.new("TextButton")
-local UICorner_56 = Instance.new("UICorner")
-local AdoptMe = Instance.new("Frame")
-local UICorner_57 = Instance.new("UICorner")
-local AdoptMe_2 = Instance.new("TextButton")
-local UICorner_58 = Instance.new("UICorner")
-local FunkyFriday = Instance.new("Frame")
-local UICorner_59 = Instance.new("UICorner")
-local FunkyFriday_2 = Instance.new("TextButton")
-local UICorner_60 = Instance.new("UICorner")
-local AnimeSoulSimulator = Instance.new("Frame")
-local UICorner_61 = Instance.new("UICorner")
-local AnimeSoulSimulator_2 = Instance.new("TextButton")
-local UICorner_62 = Instance.new("UICorner")
-local DeathBall = Instance.new("Frame")
-local UICorner_63 = Instance.new("UICorner")
-local DeathBall_2 = Instance.new("TextButton")
-local UICorner_64 = Instance.new("UICorner")
-local Bedwars = Instance.new("Frame")
-local UICorner_65 = Instance.new("UICorner")
-local Bedwars_2 = Instance.new("TextButton")
-local UICorner_66 = Instance.new("UICorner")
-local ShindoLife2 = Instance.new("Frame")
-local UICorner_67 = Instance.new("UICorner")
-local ShindoLife2_2 = Instance.new("TextButton")
-local UICorner_68 = Instance.new("UICorner")
-local PrisonLife = Instance.new("Frame")
-local UICorner_69 = Instance.new("UICorner")
-local PrisonLife_2 = Instance.new("TextButton")
-local UICorner_70 = Instance.new("UICorner")
-local TextLabel_7 = Instance.new("TextLabel")
-local Frame_3 = Instance.new("Frame")
-local Misc = Instance.new("TextButton")
-local MiscFrame = Instance.new("Frame")
-local Background = Instance.new("Frame")
-local TextLabel_8 = Instance.new("TextLabel")
-local ScrollingFrame_3 = Instance.new("ScrollingFrame")
-local UIGridLayout_3 = Instance.new("UIGridLayout")
-local InfiniteYield = Instance.new("Frame")
-local UICorner_71 = Instance.new("UICorner")
-local InfiniteYield_2 = Instance.new("TextButton")
-local UICorner_72 = Instance.new("UICorner")
-local AntiAFK = Instance.new("Frame")
-local UICorner_73 = Instance.new("UICorner")
-local AntiAFK_2 = Instance.new("TextButton")
-local UICorner_74 = Instance.new("UICorner")
-local AutoPiano = Instance.new("Frame")
-local UICorner_75 = Instance.new("UICorner")
-local AutoPiano_2 = Instance.new("TextButton")
-local UICorner_76 = Instance.new("UICorner")
-local AutoClicker = Instance.new("Frame")
-local UICorner_77 = Instance.new("UICorner")
-local AutoClicker_2 = Instance.new("TextButton")
-local UICorner_78 = Instance.new("UICorner")
-local CFrame = Instance.new("Frame")
-local UICorner_79 = Instance.new("UICorner")
-local CFrame_2 = Instance.new("TextButton")
-local UICorner_80 = Instance.new("UICorner")
-local QTool = Instance.new("Frame")
-local UICorner_81 = Instance.new("UICorner")
-local QTool_2 = Instance.new("TextButton")
-local UICorner_82 = Instance.new("UICorner")
-local Keyboard = Instance.new("Frame")
-local UICorner_83 = Instance.new("UICorner")
-local Keyboard_2 = Instance.new("TextButton")
-local UICorner_84 = Instance.new("UICorner")
-local SpeedTool = Instance.new("Frame")
-local UICorner_85 = Instance.new("UICorner")
-local SpeedTool_2 = Instance.new("TextButton")
-local UICorner_86 = Instance.new("UICorner")
-local Fly = Instance.new("Frame")
-local UICorner_87 = Instance.new("UICorner")
-local Fly_2 = Instance.new("TextButton")
-local UICorner_88 = Instance.new("UICorner")
-local TextLabel_9 = Instance.new("TextLabel")
-local ImageButton = Instance.new("ImageButton")
-local UICorner_89 = Instance.new("UICorner")
-
--- Properties
-
-ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-
-MainFram.Name = "MainFram"
-MainFram.Parent = ScreenGui
-MainFram.BackgroundColor3 = Color3.new(0, 0, 0)
-MainFram.BorderColor3 = Color3.new(0, 0, 0)
-MainFram.BorderSizePixel = 0
-MainFram.Position = UDim2.new(0.167577013, 0, 0.0981028751, 0)
-MainFram.Size = UDim2.new(0, 500, 0, 300)
-
-UICorner.Parent = MainFram
-
-TextLabel.Parent = MainFram
-TextLabel.BackgroundColor3 = Color3.new(1, 1, 1)
-TextLabel.BackgroundTransparency = 1
-TextLabel.BorderColor3 = Color3.new(0, 0, 0)
-TextLabel.BorderSizePixel = 0
-TextLabel.Size = UDim2.new(0, 95, 0, 24)
-TextLabel.Font = Enum.Font.SourceSansBold
-TextLabel.Text = "Astra"
-TextLabel.TextColor3 = Color3.new(1, 1, 1)
-TextLabel.TextSize = 25
-
-Dahood.Name = "Dahood"
-Dahood.Parent = MainFram
-Dahood.BackgroundColor3 = Color3.new(1, 1, 1)
-Dahood.BackgroundTransparency = 1
-Dahood.BorderColor3 = Color3.new(0, 0, 0)
-Dahood.BorderSizePixel = 0
-Dahood.Position = UDim2.new(-0.00400000019, 0, 0.280724585, 0)
-Dahood.Size = UDim2.new(0, 95, 0, 30)
-Dahood.Font = Enum.Font.SourceSansBold
-Dahood.Text = "Dahood"
-Dahood.TextColor3 = Color3.new(1, 1, 1)
-Dahood.TextSize = 29
-Dahood.TextWrapped = true
-
-Home.Name = "Home"
-Home.Parent = MainFram
-Home.BackgroundColor3 = Color3.new(1, 1, 1)
-Home.BackgroundTransparency = 1
-Home.BorderColor3 = Color3.new(0, 0, 0)
-Home.BorderSizePixel = 0
-Home.Position = UDim2.new(-0.00400000019, 0, 0.0799999982, 0)
-Home.Size = UDim2.new(0, 95, 0, 30)
-Home.Font = Enum.Font.SourceSansBold
-Home.Text = "Home"
-Home.TextColor3 = Color3.new(1, 1, 1)
-Home.TextSize = 29
-Home.TextWrapped = true
-
-Scripts.Name = "Scripts"
-Scripts.Parent = MainFram
-Scripts.BackgroundColor3 = Color3.new(1, 1, 1)
-Scripts.BackgroundTransparency = 1
-Scripts.BorderColor3 = Color3.new(0, 0, 0)
-Scripts.BorderSizePixel = 0
-Scripts.Position = UDim2.new(0, 0, 0.178695679, 0)
-Scripts.Size = UDim2.new(0, 95, 0, 30)
-Scripts.Font = Enum.Font.SourceSansBold
-Scripts.Text = "Scripts"
-Scripts.TextColor3 = Color3.new(1, 1, 1)
-Scripts.TextSize = 29
-Scripts.TextWrapped = true
-
-DahoodFrame.Name = "DahoodFrame"
-DahoodFrame.Parent = MainFram
-DahoodFrame.BackgroundColor3 = Color3.new(1, 1, 1)
-DahoodFrame.BackgroundTransparency = 1
-DahoodFrame.BorderColor3 = Color3.new(0, 0, 0)
-DahoodFrame.BorderSizePixel = 0
-DahoodFrame.Position = UDim2.new(0.193665773, 0, 0, 0)
-DahoodFrame.Size = UDim2.new(0, 403, 0, 300)
-DahoodFrame.Visible = false
-
-Frame.Parent = DahoodFrame
-Frame.BackgroundColor3 = Color3.new(1, 1, 1)
-Frame.BorderColor3 = Color3.new(0, 0, 0)
-Frame.BorderSizePixel = 0
-Frame.Position = UDim2.new(-0.240105152, 0, 0.276666671, 0)
-Frame.Size = UDim2.new(0, 94, 0, 30)
-
-TextLabel_2.Parent = Frame
-TextLabel_2.BackgroundColor3 = Color3.new(1, 1, 1)
-TextLabel_2.BackgroundTransparency = 1
-TextLabel_2.BorderColor3 = Color3.new(0, 0, 0)
-TextLabel_2.BorderSizePixel = 0
-TextLabel_2.Position = UDim2.new(-0.010525967, 0, 0, 0)
-TextLabel_2.Size = UDim2.new(0, 96, 0, 30)
-TextLabel_2.Font = Enum.Font.SourceSansBold
-TextLabel_2.Text = "Dahood"
-TextLabel_2.TextColor3 = Color3.new(0, 0, 0)
-TextLabel_2.TextSize = 29
-
-TextLabel_3.Parent = DahoodFrame
-TextLabel_3.BackgroundColor3 = Color3.new(1, 1, 1)
-TextLabel_3.BackgroundTransparency = 1
-TextLabel_3.BorderColor3 = Color3.new(0, 0, 0)
-TextLabel_3.BorderSizePixel = 0
-TextLabel_3.Position = UDim2.new(7.55385585e-08, 0, 0, 0)
-TextLabel_3.Size = UDim2.new(0, 404, 0, 17)
-TextLabel_3.Font = Enum.Font.SourceSansBold
-TextLabel_3.Text = "Dahood"
-TextLabel_3.TextColor3 = Color3.new(1, 1, 1)
-TextLabel_3.TextSize = 25
-
-ScrollingFrame.Parent = DahoodFrame
-ScrollingFrame.Active = true
-ScrollingFrame.BackgroundColor3 = Color3.new(1, 1, 1)
-ScrollingFrame.BackgroundTransparency = 1
-ScrollingFrame.BorderColor3 = Color3.new(0, 0, 0)
-ScrollingFrame.BorderSizePixel = 0
-ScrollingFrame.Position = UDim2.new(0.0247525517, 0, 0.0799999982, 0)
-ScrollingFrame.Size = UDim2.new(0, 394, 0, 276)
-ScrollingFrame.CanvasSize = UDim2.new(0, 0, 1.79999995, 0)
-ScrollingFrame.ScrollBarThickness = 0
-
-UIGridLayout.Parent = ScrollingFrame
-UIGridLayout.SortOrder = Enum.SortOrder.LayoutOrder
-UIGridLayout.CellSize = UDim2.new(0, 390, 0, 40)
-
-Swagmode.Name = "Swagmode"
-Swagmode.Parent = ScrollingFrame
-Swagmode.BackgroundColor3 = Color3.new(1, 1, 1)
-Swagmode.BorderColor3 = Color3.new(0, 0, 0)
-Swagmode.BorderSizePixel = 0
-Swagmode.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
-Swagmode.Size = UDim2.new(0, 180, 0, 40)
-
-UICorner_2.Parent = Swagmode
-
-Swagmode_2.Name = "Swagmode"
-Swagmode_2.Parent = Swagmode
-Swagmode_2.BackgroundColor3 = Color3.new(1, 1, 1)
-Swagmode_2.BackgroundTransparency = 1
-Swagmode_2.BorderColor3 = Color3.new(0, 0, 0)
-Swagmode_2.BorderSizePixel = 0
-Swagmode_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
-Swagmode_2.Size = UDim2.new(0, 390, 0, 40)
-Swagmode_2.Font = Enum.Font.SourceSansBold
-Swagmode_2.Text = "Swagmode"
-Swagmode_2.TextColor3 = Color3.new(0, 0, 0)
-Swagmode_2.TextSize = 20
-
-UICorner_3.Parent = Swagmode_2
-
-Faded.Name = "Faded"
-Faded.Parent = ScrollingFrame
-Faded.BackgroundColor3 = Color3.new(1, 1, 1)
-Faded.BorderColor3 = Color3.new(0, 0, 0)
-Faded.BorderSizePixel = 0
-Faded.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
-Faded.Size = UDim2.new(0, 180, 0, 40)
-
-UICorner_4.Parent = Faded
-
-Faded_2.Name = "Faded"
-Faded_2.Parent = Faded
-Faded_2.BackgroundColor3 = Color3.new(1, 1, 1)
-Faded_2.BackgroundTransparency = 1
-Faded_2.BorderColor3 = Color3.new(0, 0, 0)
-Faded_2.BorderSizePixel = 0
-Faded_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
-Faded_2.Size = UDim2.new(0, 390, 0, 40)
-Faded_2.Font = Enum.Font.SourceSansBold
-Faded_2.Text = "Faded"
-Faded_2.TextColor3 = Color3.new(0, 0, 0)
-Faded_2.TextSize = 20
-
-UICorner_5.Parent = Faded_2
-
-Pluto.Name = "Pluto"
-Pluto.Parent = ScrollingFrame
-Pluto.BackgroundColor3 = Color3.new(1, 1, 1)
-Pluto.BorderColor3 = Color3.new(0, 0, 0)
-Pluto.BorderSizePixel = 0
-Pluto.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
-Pluto.Size = UDim2.new(0, 180, 0, 40)
-
-UICorner_6.Parent = Pluto
-
-Pluto_2.Name = "Pluto"
-Pluto_2.Parent = Pluto
-Pluto_2.BackgroundColor3 = Color3.new(1, 1, 1)
-Pluto_2.BackgroundTransparency = 1
-Pluto_2.BorderColor3 = Color3.new(0, 0, 0)
-Pluto_2.BorderSizePixel = 0
-Pluto_2.Position = UDim2.new(-0.0076923077, 0, -0.0370079055, 0)
-Pluto_2.Size = UDim2.new(0, 390, 0, 40)
-Pluto_2.Font = Enum.Font.SourceSansBold
-Pluto_2.Text = "Pluto"
-Pluto_2.TextColor3 = Color3.new(0, 0, 0)
-Pluto_2.TextSize = 20
-
-UICorner_7.Parent = Pluto_2
-
-Nova.Name = "Nova"
-Nova.Parent = ScrollingFrame
-Nova.BackgroundColor3 = Color3.new(1, 1, 1)
-Nova.BorderColor3 = Color3.new(0, 0, 0)
-Nova.BorderSizePixel = 0
-Nova.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
-Nova.Size = UDim2.new(0, 180, 0, 40)
-
-UICorner_8.Parent = Nova
-
-Nova_2.Name = "Nova"
-Nova_2.Parent = Nova
-Nova_2.BackgroundColor3 = Color3.new(1, 1, 1)
-Nova_2.BackgroundTransparency = 1
-Nova_2.BorderColor3 = Color3.new(0, 0, 0)
-Nova_2.BorderSizePixel = 0
-Nova_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
-Nova_2.Size = UDim2.new(0, 390, 0, 40)
-Nova_2.Font = Enum.Font.SourceSansBold
-Nova_2.Text = "Nova"
-Nova_2.TextColor3 = Color3.new(0, 0, 0)
-Nova_2.TextSize = 20
-
-UICorner_9.Parent = Nova_2
-
-Nyula.Name = "Nyula"
-Nyula.Parent = ScrollingFrame
-Nyula.BackgroundColor3 = Color3.new(1, 1, 1)
-Nyula.BorderColor3 = Color3.new(0, 0, 0)
-Nyula.BorderSizePixel = 0
-Nyula.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
-Nyula.Size = UDim2.new(0, 180, 0, 40)
-
-UICorner_10.Parent = Nyula
-
-Nyula_2.Name = "Nyula"
-Nyula_2.Parent = Nyula
-Nyula_2.BackgroundColor3 = Color3.new(1, 1, 1)
-Nyula_2.BackgroundTransparency = 1
-Nyula_2.BorderColor3 = Color3.new(0, 0, 0)
-Nyula_2.BorderSizePixel = 0
-Nyula_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
-Nyula_2.Size = UDim2.new(0, 390, 0, 40)
-Nyula_2.Font = Enum.Font.SourceSansBold
-Nyula_2.Text = "Nyula"
-Nyula_2.TextColor3 = Color3.new(0, 0, 0)
-Nyula_2.TextSize = 20
-
-UICorner_11.Parent = Nyula_2
-
-Rayx.Name = "Ray x"
-Rayx.Parent = ScrollingFrame
-Rayx.BackgroundColor3 = Color3.new(1, 1, 1)
-Rayx.BorderColor3 = Color3.new(0, 0, 0)
-Rayx.BorderSizePixel = 0
-Rayx.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
-Rayx.Size = UDim2.new(0, 180, 0, 40)
-
-UICorner_12.Parent = Rayx
-
-Rayx_2.Name = "Ray x"
-Rayx_2.Parent = Rayx
-Rayx_2.BackgroundColor3 = Color3.new(1, 1, 1)
-Rayx_2.BackgroundTransparency = 1
-Rayx_2.BorderColor3 = Color3.new(0, 0, 0)
-Rayx_2.BorderSizePixel = 0
-Rayx_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
-Rayx_2.Size = UDim2.new(0, 390, 0, 40)
-Rayx_2.Font = Enum.Font.SourceSansBold
-Rayx_2.Text = "Ray x"
-Rayx_2.TextColor3 = Color3.new(0, 0, 0)
-Rayx_2.TextSize = 20
-
-UICorner_13.Parent = Rayx_2
-
-Agent.Name = "Agent"
-Agent.Parent = ScrollingFrame
-Agent.BackgroundColor3 = Color3.new(1, 1, 1)
-Agent.BorderColor3 = Color3.new(0, 0, 0)
-Agent.BorderSizePixel = 0
-Agent.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
-Agent.Size = UDim2.new(0, 180, 0, 40)
-
-UICorner_14.Parent = Agent
-
-Agent_2.Name = "Agent"
-Agent_2.Parent = Agent
-Agent_2.BackgroundColor3 = Color3.new(1, 1, 1)
-Agent_2.BackgroundTransparency = 1
-Agent_2.BorderColor3 = Color3.new(0, 0, 0)
-Agent_2.BorderSizePixel = 0
-Agent_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
-Agent_2.Size = UDim2.new(0, 390, 0, 40)
-Agent_2.Font = Enum.Font.SourceSansBold
-Agent_2.Text = "Agent"
-Agent_2.TextColor3 = Color3.new(0, 0, 0)
-Agent_2.TextSize = 20
-
-UICorner_15.Parent = Agent_2
-
-PurpleBubbleLock.Name = "Purple Bubble Lock"
-PurpleBubbleLock.Parent = ScrollingFrame
-PurpleBubbleLock.BackgroundColor3 = Color3.new(1, 1, 1)
-PurpleBubbleLock.BorderColor3 = Color3.new(0, 0, 0)
-PurpleBubbleLock.BorderSizePixel = 0
-PurpleBubbleLock.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
-PurpleBubbleLock.Size = UDim2.new(0, 180, 0, 40)
-
-UICorner_16.Parent = PurpleBubbleLock
-
-PurpleBubbleLock_2.Name = "Purple Bubble Lock"
-PurpleBubbleLock_2.Parent = PurpleBubbleLock
-PurpleBubbleLock_2.BackgroundColor3 = Color3.new(1, 1, 1)
-PurpleBubbleLock_2.BackgroundTransparency = 1
-PurpleBubbleLock_2.BorderColor3 = Color3.new(0, 0, 0)
-PurpleBubbleLock_2.BorderSizePixel = 0
-PurpleBubbleLock_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
-PurpleBubbleLock_2.Size = UDim2.new(0, 390, 0, 40)
-PurpleBubbleLock_2.Font = Enum.Font.SourceSansBold
-PurpleBubbleLock_2.Text = "Purple Bubble Lock"
-PurpleBubbleLock_2.TextColor3 = Color3.new(0, 0, 0)
-PurpleBubbleLock_2.TextSize = 20
-
-UICorner_17.Parent = PurpleBubbleLock_2
-
-BlueBubbleLock.Name = "Blue Bubble Lock"
-BlueBubbleLock.Parent = ScrollingFrame
-BlueBubbleLock.BackgroundColor3 = Color3.new(1, 1, 1)
-BlueBubbleLock.BorderColor3 = Color3.new(0, 0, 0)
-BlueBubbleLock.BorderSizePixel = 0
-BlueBubbleLock.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
-BlueBubbleLock.Size = UDim2.new(0, 180, 0, 40)
-
-UICorner_18.Parent = BlueBubbleLock
-
-BlueBubbleLock_2.Name = "Blue Bubble Lock"
-BlueBubbleLock_2.Parent = BlueBubbleLock
-BlueBubbleLock_2.BackgroundColor3 = Color3.new(1, 1, 1)
-BlueBubbleLock_2.BackgroundTransparency = 1
-BlueBubbleLock_2.BorderColor3 = Color3.new(0, 0, 0)
-BlueBubbleLock_2.BorderSizePixel = 0
-BlueBubbleLock_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
-BlueBubbleLock_2.Size = UDim2.new(0, 390, 0, 40)
-BlueBubbleLock_2.Font = Enum.Font.SourceSansBold
-BlueBubbleLock_2.Text = "Blue Bubble Lock"
-BlueBubbleLock_2.TextColor3 = Color3.new(0, 0, 0)
-BlueBubbleLock_2.TextSize = 20
-
-UICorner_19.Parent = BlueBubbleLock_2
-
-Camlock.Name = "Camlock"
-Camlock.Parent = ScrollingFrame
-Camlock.BackgroundColor3 = Color3.new(1, 1, 1)
-Camlock.BorderColor3 = Color3.new(0, 0, 0)
-Camlock.BorderSizePixel = 0
-Camlock.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
-Camlock.Size = UDim2.new(0, 180, 0, 40)
-
-UICorner_20.Parent = Camlock
-
-Camlock_2.Name = "Camlock"
-Camlock_2.Parent = Camlock
-Camlock_2.BackgroundColor3 = Color3.new(1, 1, 1)
-Camlock_2.BackgroundTransparency = 1
-Camlock_2.BorderColor3 = Color3.new(0, 0, 0)
-Camlock_2.BorderSizePixel = 0
-Camlock_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
-Camlock_2.Size = UDim2.new(0, 390, 0, 40)
-Camlock_2.Font = Enum.Font.SourceSansBold
-Camlock_2.Text = "Camlock"
-Camlock_2.TextColor3 = Color3.new(0, 0, 0)
-Camlock_2.TextSize = 20
-
-UICorner_21.Parent = Camlock_2
-
-AntiLock.Name = "Anti-Lock"
-AntiLock.Parent = ScrollingFrame
-AntiLock.BackgroundColor3 = Color3.new(1, 1, 1)
-AntiLock.BorderColor3 = Color3.new(0, 0, 0)
-AntiLock.BorderSizePixel = 0
-AntiLock.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
-AntiLock.Size = UDim2.new(0, 180, 0, 40)
-
-UICorner_22.Parent = AntiLock
-
-AntiLock_2.Name = "Anti-Lock"
-AntiLock_2.Parent = AntiLock
-AntiLock_2.BackgroundColor3 = Color3.new(1, 1, 1)
-AntiLock_2.BackgroundTransparency = 1
-AntiLock_2.BorderColor3 = Color3.new(0, 0, 0)
-AntiLock_2.BorderSizePixel = 0
-AntiLock_2.Position = UDim2.new(-0.0076923077, 0, -0.0370079055, 0)
-AntiLock_2.Size = UDim2.new(0, 390, 0, 40)
-AntiLock_2.Font = Enum.Font.SourceSansBold
-AntiLock_2.Text = "Anti-Lock"
-AntiLock_2.TextColor3 = Color3.new(0, 0, 0)
-AntiLock_2.TextSize = 20
-
-UICorner_23.Parent = AntiLock_2
-
-SlientAim.Name = "Slient Aim"
-SlientAim.Parent = ScrollingFrame
-SlientAim.BackgroundColor3 = Color3.new(1, 1, 1)
-SlientAim.BorderColor3 = Color3.new(0, 0, 0)
-SlientAim.BorderSizePixel = 0
-SlientAim.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
-SlientAim.Size = UDim2.new(0, 180, 0, 40)
-
-UICorner_24.Parent = SlientAim
-
-SlientAim_2.Name = "Slient Aim"
-SlientAim_2.Parent = SlientAim
-SlientAim_2.BackgroundColor3 = Color3.new(1, 1, 1)
-SlientAim_2.BackgroundTransparency = 1
-SlientAim_2.BorderColor3 = Color3.new(0, 0, 0)
-SlientAim_2.BorderSizePixel = 0
-SlientAim_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
-SlientAim_2.Size = UDim2.new(0, 390, 0, 40)
-SlientAim_2.Font = Enum.Font.SourceSansBold
-SlientAim_2.Text = "Slient Aim"
-SlientAim_2.TextColor3 = Color3.new(0, 0, 0)
-SlientAim_2.TextSize = 20
-
-UICorner_25.Parent = SlientAim_2
-
-HomeFrame.Name = "HomeFrame"
-HomeFrame.Parent = MainFram
-HomeFrame.BackgroundColor3 = Color3.new(1, 1, 1)
-HomeFrame.BackgroundTransparency = 0.949999988079071
-HomeFrame.BorderColor3 = Color3.new(0, 0, 0)
-HomeFrame.BorderSizePixel = 0
-HomeFrame.Position = UDim2.new(0.191665769, 0, 0, 0)
-HomeFrame.Size = UDim2.new(0, 404, 0, 300)
-
-buttonhover.Name = "button hover"
-buttonhover.Parent = HomeFrame
-buttonhover.BackgroundColor3 = Color3.new(1, 1, 1)
-buttonhover.BorderColor3 = Color3.new(0, 0, 0)
-buttonhover.BorderSizePixel = 0
-buttonhover.Position = UDim2.new(-0.237623766, 0, 0.0799999982, 0)
-buttonhover.Size = UDim2.new(0, 95, 0, 30)
-
-TextLabel_4.Parent = buttonhover
-TextLabel_4.BackgroundColor3 = Color3.new(1, 1, 1)
-TextLabel_4.BackgroundTransparency = 1
-TextLabel_4.BorderColor3 = Color3.new(0, 0, 0)
-TextLabel_4.BorderSizePixel = 0
-TextLabel_4.Position = UDim2.new(-0.0105259949, 0, 0, 0)
-TextLabel_4.Size = UDim2.new(0, 95, 0, 30)
-TextLabel_4.Font = Enum.Font.SourceSansBold
-TextLabel_4.Text = "Home"
-TextLabel_4.TextColor3 = Color3.new(0, 0, 0)
-TextLabel_4.TextSize = 29
-
-Changelog.Name = "Changelog"
-Changelog.Parent = HomeFrame
-Changelog.BackgroundColor3 = Color3.new(1, 1, 1)
-Changelog.BorderColor3 = Color3.new(0, 0, 0)
-Changelog.BorderSizePixel = 0
-Changelog.Position = UDim2.new(0.0396039225, 0, 0.0933333337, 0)
-Changelog.Size = UDim2.new(0, 378, 0, 203)
-
-UICorner_26.Parent = Changelog
-
-logs.Name = "logs"
-logs.Parent = Changelog
-logs.BackgroundColor3 = Color3.new(1, 1, 1)
-logs.BackgroundTransparency = 1
-logs.BorderColor3 = Color3.new(0, 0, 0)
-logs.BorderSizePixel = 0
-logs.Position = UDim2.new(0, 0, 0.149606332, 0)
-logs.Size = UDim2.new(0, 379, 0, 172)
-logs.Font = Enum.Font.SourceSansBold
-logs.Text = " Welcome to Astra Hub!"
-logs.TextColor3 = Color3.new(0, 0, 0)
-logs.TextSize = 16
-logs.TextXAlignment = Enum.TextXAlignment.Left
-logs.TextYAlignment = Enum.TextYAlignment.Top
-
-Discord.Name = "Discord"
-Discord.Parent = Changelog
-Discord.BackgroundColor3 = Color3.new(1, 1, 1)
-Discord.BorderColor3 = Color3.new(0, 0, 0)
-Discord.BorderSizePixel = 0
-Discord.Position = UDim2.new(0, 0, 1.0629921, 0)
-Discord.Size = UDim2.new(0, 180, 0, 40)
-
-UICorner_27.Parent = Discord
-
-DiscordButton.Name = "Discord Button"
-DiscordButton.Parent = Discord
-DiscordButton.BackgroundColor3 = Color3.new(1, 1, 1)
-DiscordButton.BackgroundTransparency = 1
-DiscordButton.BorderColor3 = Color3.new(0, 0, 0)
-DiscordButton.BorderSizePixel = 0
-DiscordButton.Position = UDim2.new(0, 0, -0.0120079042, 0)
-DiscordButton.Size = UDim2.new(0, 180, 0, 40)
-DiscordButton.Font = Enum.Font.SourceSansBold
-DiscordButton.Text = "Discord Invite"
-DiscordButton.TextColor3 = Color3.new(0, 0, 0)
-DiscordButton.TextSize = 20
-
-UICorner_28.Parent = DiscordButton
-
-Website.Name = "Website"
-Website.Parent = Changelog
-Website.BackgroundColor3 = Color3.new(1, 1, 1)
-Website.BorderColor3 = Color3.new(0, 0, 0)
-Website.BorderSizePixel = 0
-Website.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
-Website.Size = UDim2.new(0, 180, 0, 40)
-
-UICorner_29.Parent = Website
-
-WebsiteButton.Name = "Website Button"
-WebsiteButton.Parent = Website
-WebsiteButton.BackgroundColor3 = Color3.new(1, 1, 1)
-WebsiteButton.BackgroundTransparency = 1
-WebsiteButton.BorderColor3 = Color3.new(0, 0, 0)
-WebsiteButton.BorderSizePixel = 0
-WebsiteButton.Position = UDim2.new(0, 0, -0.0120079042, 0)
-WebsiteButton.Size = UDim2.new(0, 180, 0, 40)
-WebsiteButton.Font = Enum.Font.SourceSansBold
-WebsiteButton.Text = "Website URL"
-WebsiteButton.TextColor3 = Color3.new(0, 0, 0)
-WebsiteButton.TextSize = 20
-
-UICorner_30.Parent = WebsiteButton
-
-TextLabel_5.Parent = Changelog
-TextLabel_5.BackgroundColor3 = Color3.new(1, 1, 1)
-TextLabel_5.BorderColor3 = Color3.new(0, 0, 0)
-TextLabel_5.BorderSizePixel = 0
-TextLabel_5.Position = UDim2.new(0.377308697, 0, 0.0157480314, 0)
-TextLabel_5.Size = UDim2.new(0, 93, 0, 18)
-TextLabel_5.Font = Enum.Font.SourceSansBold
-TextLabel_5.Text = "Changelogs"
-TextLabel_5.TextColor3 = Color3.new(0, 0, 0)
-TextLabel_5.TextScaled = true
-TextLabel_5.TextSize = 14
-TextLabel_5.TextWrapped = true
-
-name.Name = "name"
-name.Parent = HomeFrame
-name.BackgroundColor3 = Color3.new(1, 1, 1)
-name.BackgroundTransparency = 1
-name.BorderColor3 = Color3.new(0, 0, 0)
-name.BorderSizePixel = 0
-name.Position = UDim2.new(0.339108974, 0, 0, 0)
-name.Size = UDim2.new(0, 129, 0, 28)
-name.Font = Enum.Font.SourceSansBold
-name.Text = "Astra Hub"
-name.TextColor3 = Color3.new(1, 1, 1)
-name.TextScaled = true
-name.TextSize = 14
-name.TextStrokeColor3 = Color3.new(1, 1, 1)
-name.TextWrapped = true
-
-ScriptsFrame.Name = "ScriptsFrame"
-ScriptsFrame.Parent = MainFram
-ScriptsFrame.BackgroundColor3 = Color3.new(1, 1, 1)
-ScriptsFrame.BackgroundTransparency = 1
-ScriptsFrame.BorderColor3 = Color3.new(0, 0, 0)
-ScriptsFrame.BorderSizePixel = 0
-ScriptsFrame.Position = UDim2.new(0.191665769, 0, 0, 0)
-ScriptsFrame.Size = UDim2.new(0, 404, 0, 300)
-ScriptsFrame.Visible = false
-
-Frame_2.Parent = ScriptsFrame
-Frame_2.BackgroundColor3 = Color3.new(1, 1, 1)
-Frame_2.BorderColor3 = Color3.new(0, 0, 0)
-Frame_2.BorderSizePixel = 0
-Frame_2.Position = UDim2.new(-0.237623766, 0, 0.180000007, 0)
-Frame_2.Size = UDim2.new(0, 95, 0, 30)
-
-TextLabel_6.Parent = Frame_2
-TextLabel_6.BackgroundColor3 = Color3.new(1, 1, 1)
-TextLabel_6.BackgroundTransparency = 1
-TextLabel_6.BorderColor3 = Color3.new(0, 0, 0)
-TextLabel_6.BorderSizePixel = 0
-TextLabel_6.Position = UDim2.new(0.0105266366, 0, 0, 0)
-TextLabel_6.Size = UDim2.new(0, 95, 0, 30)
-TextLabel_6.Font = Enum.Font.SourceSansBold
-TextLabel_6.Text = "Scripts"
-TextLabel_6.TextColor3 = Color3.new(0, 0, 0)
-TextLabel_6.TextSize = 29
-
-ScrollingFrame_2.Parent = ScriptsFrame
-ScrollingFrame_2.Active = true
-ScrollingFrame_2.BackgroundColor3 = Color3.new(1, 1, 1)
-ScrollingFrame_2.BackgroundTransparency = 1
-ScrollingFrame_2.BorderColor3 = Color3.new(0, 0, 0)
-ScrollingFrame_2.BorderSizePixel = 0
-ScrollingFrame_2.Position = UDim2.new(0.0247525517, 0, 0.0799999982, 0)
-ScrollingFrame_2.Size = UDim2.new(0, 394, 0, 276)
-ScrollingFrame_2.CanvasSize = UDim2.new(0, 0, 3, 0)
-ScrollingFrame_2.ScrollBarThickness = 0
-
-UIGridLayout_2.Parent = ScrollingFrame_2
-UIGridLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
-UIGridLayout_2.CellSize = UDim2.new(0, 390, 0, 40)
-
-MyRestaurant.Name = "My Restaurant"
-MyRestaurant.Parent = ScrollingFrame_2
-MyRestaurant.BackgroundColor3 = Color3.new(1, 1, 1)
-MyRestaurant.BorderColor3 = Color3.new(0, 0, 0)
-MyRestaurant.BorderSizePixel = 0
-MyRestaurant.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
-MyRestaurant.Size = UDim2.new(0, 180, 0, 40)
-
-UICorner_31.Parent = MyRestaurant
-
-MyRestaurant_2.Name = "My Restaurant"
-MyRestaurant_2.Parent = MyRestaurant
-MyRestaurant_2.BackgroundColor3 = Color3.new(1, 1, 1)
-MyRestaurant_2.BackgroundTransparency = 1
-MyRestaurant_2.BorderColor3 = Color3.new(0, 0, 0)
-MyRestaurant_2.BorderSizePixel = 0
-MyRestaurant_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
-MyRestaurant_2.Size = UDim2.new(0, 390, 0, 40)
-MyRestaurant_2.Font = Enum.Font.SourceSansBold
-MyRestaurant_2.Text = "My Restaurant"
-MyRestaurant_2.TextColor3 = Color3.new(0, 0, 0)
-MyRestaurant_2.TextSize = 20
-
-UICorner_32.Parent = MyRestaurant_2
-
-PetSimulator99.Name = "Pet Simulator 99"
-PetSimulator99.Parent = ScrollingFrame_2
-PetSimulator99.BackgroundColor3 = Color3.new(1, 1, 1)
-PetSimulator99.BorderColor3 = Color3.new(0, 0, 0)
-PetSimulator99.BorderSizePixel = 0
-PetSimulator99.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
-PetSimulator99.Size = UDim2.new(0, 180, 0, 40)
-
-UICorner_33.Parent = PetSimulator99
-
-PetSimulator99_2.Name = "Pet Simulator 99"
-PetSimulator99_2.Parent = PetSimulator99
-PetSimulator99_2.BackgroundColor3 = Color3.new(1, 1, 1)
-PetSimulator99_2.BackgroundTransparency = 1
-PetSimulator99_2.BorderColor3 = Color3.new(0, 0, 0)
-PetSimulator99_2.BorderSizePixel = 0
-PetSimulator99_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
-PetSimulator99_2.Size = UDim2.new(0, 390, 0, 40)
-PetSimulator99_2.Font = Enum.Font.SourceSansBold
-PetSimulator99_2.Text = "Pet Simulator 99"
-PetSimulator99_2.TextColor3 = Color3.new(0, 0, 0)
-PetSimulator99_2.TextSize = 20
-
-UICorner_34.Parent = PetSimulator99_2
-
-BladeBallAutoParry.Name = "Blade Ball Auto Parry"
-BladeBallAutoParry.Parent = ScrollingFrame_2
-BladeBallAutoParry.BackgroundColor3 = Color3.new(1, 1, 1)
-BladeBallAutoParry.BorderColor3 = Color3.new(0, 0, 0)
-BladeBallAutoParry.BorderSizePixel = 0
-BladeBallAutoParry.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
-BladeBallAutoParry.Size = UDim2.new(0, 180, 0, 40)
-
-UICorner_35.Parent = BladeBallAutoParry
-
-BladeBallAutoParry_2.Name = "Blade Ball Auto Parry"
-BladeBallAutoParry_2.Parent = BladeBallAutoParry
-BladeBallAutoParry_2.BackgroundColor3 = Color3.new(1, 1, 1)
-BladeBallAutoParry_2.BackgroundTransparency = 1
-BladeBallAutoParry_2.BorderColor3 = Color3.new(0, 0, 0)
-BladeBallAutoParry_2.BorderSizePixel = 0
-BladeBallAutoParry_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
-BladeBallAutoParry_2.Size = UDim2.new(0, 390, 0, 40)
-BladeBallAutoParry_2.Font = Enum.Font.SourceSansBold
-BladeBallAutoParry_2.Text = "Blade Ball Auto Parry"
-BladeBallAutoParry_2.TextColor3 = Color3.new(0, 0, 0)
-BladeBallAutoParry_2.TextSize = 20
-
-UICorner_36.Parent = BladeBallAutoParry_2
-
-TowerOfHell.Name = "Tower Of Hell"
-TowerOfHell.Parent = ScrollingFrame_2
-TowerOfHell.BackgroundColor3 = Color3.new(1, 1, 1)
-TowerOfHell.BorderColor3 = Color3.new(0, 0, 0)
-TowerOfHell.BorderSizePixel = 0
-TowerOfHell.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
-TowerOfHell.Size = UDim2.new(0, 180, 0, 40)
-
-UICorner_37.Parent = TowerOfHell
-
-TowerOfHell_2.Name = "Tower Of Hell"
-TowerOfHell_2.Parent = TowerOfHell
-TowerOfHell_2.BackgroundColor3 = Color3.new(1, 1, 1)
-TowerOfHell_2.BackgroundTransparency = 1
-TowerOfHell_2.BorderColor3 = Color3.new(0, 0, 0)
-TowerOfHell_2.BorderSizePixel = 0
-TowerOfHell_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
-TowerOfHell_2.Size = UDim2.new(0, 390, 0, 40)
-TowerOfHell_2.Font = Enum.Font.SourceSansBold
-TowerOfHell_2.Text = "Tower Of Hell"
-TowerOfHell_2.TextColor3 = Color3.new(0, 0, 0)
-TowerOfHell_2.TextSize = 20
-
-UICorner_38.Parent = TowerOfHell_2
-
-DriveWorld.Name = "Drive World"
-DriveWorld.Parent = ScrollingFrame_2
-DriveWorld.BackgroundColor3 = Color3.new(1, 1, 1)
-DriveWorld.BorderColor3 = Color3.new(0, 0, 0)
-DriveWorld.BorderSizePixel = 0
-DriveWorld.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
-DriveWorld.Size = UDim2.new(0, 180, 0, 40)
-
-UICorner_39.Parent = DriveWorld
-
-DriveWorld_2.Name = "Drive World"
-DriveWorld_2.Parent = DriveWorld
-DriveWorld_2.BackgroundColor3 = Color3.new(1, 1, 1)
-DriveWorld_2.BackgroundTransparency = 1
-DriveWorld_2.BorderColor3 = Color3.new(0, 0, 0)
-DriveWorld_2.BorderSizePixel = 0
-DriveWorld_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
-DriveWorld_2.Size = UDim2.new(0, 390, 0, 40)
-DriveWorld_2.Font = Enum.Font.SourceSansBold
-DriveWorld_2.Text = "Drive World"
-DriveWorld_2.TextColor3 = Color3.new(0, 0, 0)
-DriveWorld_2.TextSize = 20
-
-UICorner_40.Parent = DriveWorld_2
-
-Evade.Name = "Evade"
-Evade.Parent = ScrollingFrame_2
-Evade.BackgroundColor3 = Color3.new(1, 1, 1)
-Evade.BorderColor3 = Color3.new(0, 0, 0)
-Evade.BorderSizePixel = 0
-Evade.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
-Evade.Size = UDim2.new(0, 180, 0, 40)
-
-UICorner_41.Parent = Evade
-
-Evade_2.Name = "Evade"
-Evade_2.Parent = Evade
-Evade_2.BackgroundColor3 = Color3.new(1, 1, 1)
-Evade_2.BackgroundTransparency = 1
-Evade_2.BorderColor3 = Color3.new(0, 0, 0)
-Evade_2.BorderSizePixel = 0
-Evade_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
-Evade_2.Size = UDim2.new(0, 390, 0, 40)
-Evade_2.Font = Enum.Font.SourceSansBold
-Evade_2.Text = "Evade"
-Evade_2.TextColor3 = Color3.new(0, 0, 0)
-Evade_2.TextSize = 20
-
-UICorner_42.Parent = Evade_2
-
-DaHoodModded.Name = "Da Hood Modded"
-DaHoodModded.Parent = ScrollingFrame_2
-DaHoodModded.BackgroundColor3 = Color3.new(1, 1, 1)
-DaHoodModded.BorderColor3 = Color3.new(0, 0, 0)
-DaHoodModded.BorderSizePixel = 0
-DaHoodModded.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
-DaHoodModded.Size = UDim2.new(0, 180, 0, 40)
-
-UICorner_43.Parent = DaHoodModded
-
-DaHoodModded_2.Name = "Da Hood Modded"
-DaHoodModded_2.Parent = DaHoodModded
-DaHoodModded_2.BackgroundColor3 = Color3.new(1, 1, 1)
-DaHoodModded_2.BackgroundTransparency = 1
-DaHoodModded_2.BorderColor3 = Color3.new(0, 0, 0)
-DaHoodModded_2.BorderSizePixel = 0
-DaHoodModded_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
-DaHoodModded_2.Size = UDim2.new(0, 390, 0, 40)
-DaHoodModded_2.Font = Enum.Font.SourceSansBold
-DaHoodModded_2.Text = "Da Hood Modded"
-DaHoodModded_2.TextColor3 = Color3.new(0, 0, 0)
-DaHoodModded_2.TextSize = 20
-
-UICorner_44.Parent = DaHoodModded_2
-
-MurderMystery2.Name = "Murder Mystery 2"
-MurderMystery2.Parent = ScrollingFrame_2
-MurderMystery2.BackgroundColor3 = Color3.new(1, 1, 1)
-MurderMystery2.BorderColor3 = Color3.new(0, 0, 0)
-MurderMystery2.BorderSizePixel = 0
-MurderMystery2.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
-MurderMystery2.Size = UDim2.new(0, 180, 0, 40)
-
-UICorner_45.Parent = MurderMystery2
-
-MurderMystery2_2.Name = "Murder Mystery 2"
-MurderMystery2_2.Parent = MurderMystery2
-MurderMystery2_2.BackgroundColor3 = Color3.new(1, 1, 1)
-MurderMystery2_2.BackgroundTransparency = 1
-MurderMystery2_2.BorderColor3 = Color3.new(0, 0, 0)
-MurderMystery2_2.BorderSizePixel = 0
-MurderMystery2_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
-MurderMystery2_2.Size = UDim2.new(0, 390, 0, 40)
-MurderMystery2_2.Font = Enum.Font.SourceSansBold
-MurderMystery2_2.Text = "Murder Mystery 2"
-MurderMystery2_2.TextColor3 = Color3.new(0, 0, 0)
-MurderMystery2_2.TextSize = 20
-
-UICorner_46.Parent = MurderMystery2_2
-
-BigPaintBall2.Name = "Big PaintBall 2"
-BigPaintBall2.Parent = ScrollingFrame_2
-BigPaintBall2.BackgroundColor3 = Color3.new(1, 1, 1)
-BigPaintBall2.BorderColor3 = Color3.new(0, 0, 0)
-BigPaintBall2.BorderSizePixel = 0
-BigPaintBall2.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
-BigPaintBall2.Size = UDim2.new(0, 180, 0, 40)
-
-UICorner_47.Parent = BigPaintBall2
-
-BigPaintBall2_2.Name = "Big PaintBall 2"
-BigPaintBall2_2.Parent = BigPaintBall2
-BigPaintBall2_2.BackgroundColor3 = Color3.new(1, 1, 1)
-BigPaintBall2_2.BackgroundTransparency = 1
-BigPaintBall2_2.BorderColor3 = Color3.new(0, 0, 0)
-BigPaintBall2_2.BorderSizePixel = 0
-BigPaintBall2_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
-BigPaintBall2_2.Size = UDim2.new(0, 390, 0, 40)
-BigPaintBall2_2.Font = Enum.Font.SourceSansBold
-BigPaintBall2_2.Text = "Big PaintBall 2"
-BigPaintBall2_2.TextColor3 = Color3.new(0, 0, 0)
-BigPaintBall2_2.TextSize = 20
-
-UICorner_48.Parent = BigPaintBall2_2
-
-Arsenal.Name = "Arsenal"
-Arsenal.Parent = ScrollingFrame_2
-Arsenal.BackgroundColor3 = Color3.new(1, 1, 1)
-Arsenal.BorderColor3 = Color3.new(0, 0, 0)
-Arsenal.BorderSizePixel = 0
-Arsenal.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
-Arsenal.Size = UDim2.new(0, 180, 0, 40)
-
-UICorner_49.Parent = Arsenal
-
-Arsenal_2.Name = "Arsenal"
-Arsenal_2.Parent = Arsenal
-Arsenal_2.BackgroundColor3 = Color3.new(1, 1, 1)
-Arsenal_2.BackgroundTransparency = 1
-Arsenal_2.BorderColor3 = Color3.new(0, 0, 0)
-Arsenal_2.BorderSizePixel = 0
-Arsenal_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
-Arsenal_2.Size = UDim2.new(0, 390, 0, 40)
-Arsenal_2.Font = Enum.Font.SourceSansBold
-Arsenal_2.Text = "Arsenal"
-Arsenal_2.TextColor3 = Color3.new(0, 0, 0)
-Arsenal_2.TextSize = 20
-
-UICorner_50.Parent = Arsenal_2
-
-RainbowFriends.Name = "Rainbow Friends"
-RainbowFriends.Parent = ScrollingFrame_2
-RainbowFriends.BackgroundColor3 = Color3.new(1, 1, 1)
-RainbowFriends.BorderColor3 = Color3.new(0, 0, 0)
-RainbowFriends.BorderSizePixel = 0
-RainbowFriends.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
-RainbowFriends.Size = UDim2.new(0, 180, 0, 40)
-
-UICorner_51.Parent = RainbowFriends
-
-RainbowFriends_2.Name = "Rainbow Friends"
-RainbowFriends_2.Parent = RainbowFriends
-RainbowFriends_2.BackgroundColor3 = Color3.new(1, 1, 1)
-RainbowFriends_2.BackgroundTransparency = 1
-RainbowFriends_2.BorderColor3 = Color3.new(0, 0, 0)
-RainbowFriends_2.BorderSizePixel = 0
-RainbowFriends_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
-RainbowFriends_2.Size = UDim2.new(0, 390, 0, 40)
-RainbowFriends_2.Font = Enum.Font.SourceSansBold
-RainbowFriends_2.Text = "Rainbow Friends"
-RainbowFriends_2.TextColor3 = Color3.new(0, 0, 0)
-RainbowFriends_2.TextSize = 20
-
-UICorner_52.Parent = RainbowFriends_2
-
-AnimeAdventures.Name = "Anime Adventures"
-AnimeAdventures.Parent = ScrollingFrame_2
-AnimeAdventures.BackgroundColor3 = Color3.new(1, 1, 1)
-AnimeAdventures.BorderColor3 = Color3.new(0, 0, 0)
-AnimeAdventures.BorderSizePixel = 0
-AnimeAdventures.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
-AnimeAdventures.Size = UDim2.new(0, 180, 0, 40)
-
-UICorner_53.Parent = AnimeAdventures
-
-AnimeAdventures_2.Name = "Anime Adventures"
-AnimeAdventures_2.Parent = AnimeAdventures
-AnimeAdventures_2.BackgroundColor3 = Color3.new(1, 1, 1)
-AnimeAdventures_2.BackgroundTransparency = 1
-AnimeAdventures_2.BorderColor3 = Color3.new(0, 0, 0)
-AnimeAdventures_2.BorderSizePixel = 0
-AnimeAdventures_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
-AnimeAdventures_2.Size = UDim2.new(0, 390, 0, 40)
-AnimeAdventures_2.Font = Enum.Font.SourceSansBold
-AnimeAdventures_2.Text = "Anime Adventures"
-AnimeAdventures_2.TextColor3 = Color3.new(0, 0, 0)
-AnimeAdventures_2.TextSize = 20
-
-UICorner_54.Parent = AnimeAdventures_2
-
-BloxFruits.Name = "BloxFruits"
-BloxFruits.Parent = ScrollingFrame_2
-BloxFruits.BackgroundColor3 = Color3.new(1, 1, 1)
-BloxFruits.BorderColor3 = Color3.new(0, 0, 0)
-BloxFruits.BorderSizePixel = 0
-BloxFruits.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
-BloxFruits.Size = UDim2.new(0, 180, 0, 40)
-
-UICorner_55.Parent = BloxFruits
-
-BloxFruits_2.Name = "BloxFruits"
-BloxFruits_2.Parent = BloxFruits
-BloxFruits_2.BackgroundColor3 = Color3.new(1, 1, 1)
-BloxFruits_2.BackgroundTransparency = 1
-BloxFruits_2.BorderColor3 = Color3.new(0, 0, 0)
-BloxFruits_2.BorderSizePixel = 0
-BloxFruits_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
-BloxFruits_2.Size = UDim2.new(0, 390, 0, 40)
-BloxFruits_2.Font = Enum.Font.SourceSansBold
-BloxFruits_2.Text = "BloxFruits"
-BloxFruits_2.TextColor3 = Color3.new(0, 0, 0)
-BloxFruits_2.TextSize = 20
-
-UICorner_56.Parent = BloxFruits_2
-
-AdoptMe.Name = "Adopt Me"
-AdoptMe.Parent = ScrollingFrame_2
-AdoptMe.BackgroundColor3 = Color3.new(1, 1, 1)
-AdoptMe.BorderColor3 = Color3.new(0, 0, 0)
-AdoptMe.BorderSizePixel = 0
-AdoptMe.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
-AdoptMe.Size = UDim2.new(0, 180, 0, 40)
-
-UICorner_57.Parent = AdoptMe
-
-AdoptMe_2.Name = "Adopt Me"
-AdoptMe_2.Parent = AdoptMe
-AdoptMe_2.BackgroundColor3 = Color3.new(1, 1, 1)
-AdoptMe_2.BackgroundTransparency = 1
-AdoptMe_2.BorderColor3 = Color3.new(0, 0, 0)
-AdoptMe_2.BorderSizePixel = 0
-AdoptMe_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
-AdoptMe_2.Size = UDim2.new(0, 390, 0, 40)
-AdoptMe_2.Font = Enum.Font.SourceSansBold
-AdoptMe_2.Text = "Adopt Me"
-AdoptMe_2.TextColor3 = Color3.new(0, 0, 0)
-AdoptMe_2.TextSize = 20
-
-UICorner_58.Parent = AdoptMe_2
-
-FunkyFriday.Name = "Funky Friday"
-FunkyFriday.Parent = ScrollingFrame_2
-FunkyFriday.BackgroundColor3 = Color3.new(1, 1, 1)
-FunkyFriday.BorderColor3 = Color3.new(0, 0, 0)
-FunkyFriday.BorderSizePixel = 0
-FunkyFriday.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
-FunkyFriday.Size = UDim2.new(0, 180, 0, 40)
-
-UICorner_59.Parent = FunkyFriday
-
-FunkyFriday_2.Name = "Funky Friday"
-FunkyFriday_2.Parent = FunkyFriday
-FunkyFriday_2.BackgroundColor3 = Color3.new(1, 1, 1)
-FunkyFriday_2.BackgroundTransparency = 1
-FunkyFriday_2.BorderColor3 = Color3.new(0, 0, 0)
-FunkyFriday_2.BorderSizePixel = 0
-FunkyFriday_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
-FunkyFriday_2.Size = UDim2.new(0, 390, 0, 40)
-FunkyFriday_2.Font = Enum.Font.SourceSansBold
-FunkyFriday_2.Text = "Funky Friday"
-FunkyFriday_2.TextColor3 = Color3.new(0, 0, 0)
-FunkyFriday_2.TextSize = 20
-
-UICorner_60.Parent = FunkyFriday_2
-
-AnimeSoulSimulator.Name = "Anime Soul Simulator"
-AnimeSoulSimulator.Parent = ScrollingFrame_2
-AnimeSoulSimulator.BackgroundColor3 = Color3.new(1, 1, 1)
-AnimeSoulSimulator.BorderColor3 = Color3.new(0, 0, 0)
-AnimeSoulSimulator.BorderSizePixel = 0
-AnimeSoulSimulator.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
-AnimeSoulSimulator.Size = UDim2.new(0, 180, 0, 40)
-
-UICorner_61.Parent = AnimeSoulSimulator
-
-AnimeSoulSimulator_2.Name = "Anime Soul Simulator"
-AnimeSoulSimulator_2.Parent = AnimeSoulSimulator
-AnimeSoulSimulator_2.BackgroundColor3 = Color3.new(1, 1, 1)
-AnimeSoulSimulator_2.BackgroundTransparency = 1
-AnimeSoulSimulator_2.BorderColor3 = Color3.new(0, 0, 0)
-AnimeSoulSimulator_2.BorderSizePixel = 0
-AnimeSoulSimulator_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
-AnimeSoulSimulator_2.Size = UDim2.new(0, 390, 0, 40)
-AnimeSoulSimulator_2.Font = Enum.Font.SourceSansBold
-AnimeSoulSimulator_2.Text = "Anime Soul Simulator"
-AnimeSoulSimulator_2.TextColor3 = Color3.new(0, 0, 0)
-AnimeSoulSimulator_2.TextSize = 20
-
-UICorner_62.Parent = AnimeSoulSimulator_2
-
-DeathBall.Name = "Death Ball"
-DeathBall.Parent = ScrollingFrame_2
-DeathBall.BackgroundColor3 = Color3.new(1, 1, 1)
-DeathBall.BorderColor3 = Color3.new(0, 0, 0)
-DeathBall.BorderSizePixel = 0
-DeathBall.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
-DeathBall.Size = UDim2.new(0, 180, 0, 40)
-
-UICorner_63.Parent = DeathBall
-
-DeathBall_2.Name = "Death Ball"
-DeathBall_2.Parent = DeathBall
-DeathBall_2.BackgroundColor3 = Color3.new(1, 1, 1)
-DeathBall_2.BackgroundTransparency = 1
-DeathBall_2.BorderColor3 = Color3.new(0, 0, 0)
-DeathBall_2.BorderSizePixel = 0
-DeathBall_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
-DeathBall_2.Size = UDim2.new(0, 390, 0, 40)
-DeathBall_2.Font = Enum.Font.SourceSansBold
-DeathBall_2.Text = "Death Ball"
-DeathBall_2.TextColor3 = Color3.new(0, 0, 0)
-DeathBall_2.TextSize = 20
-
-UICorner_64.Parent = DeathBall_2
-
-Bedwars.Name = "Bedwars"
-Bedwars.Parent = ScrollingFrame_2
-Bedwars.BackgroundColor3 = Color3.new(1, 1, 1)
-Bedwars.BorderColor3 = Color3.new(0, 0, 0)
-Bedwars.BorderSizePixel = 0
-Bedwars.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
-Bedwars.Size = UDim2.new(0, 180, 0, 40)
-
-UICorner_65.Parent = Bedwars
-
-Bedwars_2.Name = "Bedwars"
-Bedwars_2.Parent = Bedwars
-Bedwars_2.BackgroundColor3 = Color3.new(1, 1, 1)
-Bedwars_2.BackgroundTransparency = 1
-Bedwars_2.BorderColor3 = Color3.new(0, 0, 0)
-Bedwars_2.BorderSizePixel = 0
-Bedwars_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
-Bedwars_2.Size = UDim2.new(0, 390, 0, 40)
-Bedwars_2.Font = Enum.Font.SourceSansBold
-Bedwars_2.Text = "Bedwars"
-Bedwars_2.TextColor3 = Color3.new(0, 0, 0)
-Bedwars_2.TextSize = 20
-
-UICorner_66.Parent = Bedwars_2
-
-ShindoLife2.Name = "Shindo Life 2"
-ShindoLife2.Parent = ScrollingFrame_2
-ShindoLife2.BackgroundColor3 = Color3.new(1, 1, 1)
-ShindoLife2.BorderColor3 = Color3.new(0, 0, 0)
-ShindoLife2.BorderSizePixel = 0
-ShindoLife2.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
-ShindoLife2.Size = UDim2.new(0, 180, 0, 40)
-
-UICorner_67.Parent = ShindoLife2
-
-ShindoLife2_2.Name = "Shindo Life 2"
-ShindoLife2_2.Parent = ShindoLife2
-ShindoLife2_2.BackgroundColor3 = Color3.new(1, 1, 1)
-ShindoLife2_2.BackgroundTransparency = 1
-ShindoLife2_2.BorderColor3 = Color3.new(0, 0, 0)
-ShindoLife2_2.BorderSizePixel = 0
-ShindoLife2_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
-ShindoLife2_2.Size = UDim2.new(0, 390, 0, 40)
-ShindoLife2_2.Font = Enum.Font.SourceSansBold
-ShindoLife2_2.Text = "Shindo Life 2"
-ShindoLife2_2.TextColor3 = Color3.new(0, 0, 0)
-ShindoLife2_2.TextSize = 20
-
-UICorner_68.Parent = ShindoLife2_2
-
-PrisonLife.Name = "Prison Life"
-PrisonLife.Parent = ScrollingFrame_2
-PrisonLife.BackgroundColor3 = Color3.new(1, 1, 1)
-PrisonLife.BorderColor3 = Color3.new(0, 0, 0)
-PrisonLife.BorderSizePixel = 0
-PrisonLife.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
-PrisonLife.Size = UDim2.new(0, 180, 0, 40)
-
-UICorner_69.Parent = PrisonLife
-
-PrisonLife_2.Name = "Prison Life"
-PrisonLife_2.Parent = PrisonLife
-PrisonLife_2.BackgroundColor3 = Color3.new(1, 1, 1)
-PrisonLife_2.BackgroundTransparency = 1
-PrisonLife_2.BorderColor3 = Color3.new(0, 0, 0)
-PrisonLife_2.BorderSizePixel = 0
-PrisonLife_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
-PrisonLife_2.Size = UDim2.new(0, 390, 0, 40)
-PrisonLife_2.Font = Enum.Font.SourceSansBold
-PrisonLife_2.Text = "Prison Life"
-PrisonLife_2.TextColor3 = Color3.new(0, 0, 0)
-PrisonLife_2.TextSize = 20
-
-UICorner_70.Parent = PrisonLife_2
-
-TextLabel_7.Parent = ScriptsFrame
-TextLabel_7.BackgroundColor3 = Color3.new(1, 1, 1)
-TextLabel_7.BackgroundTransparency = 1
-TextLabel_7.BorderColor3 = Color3.new(0, 0, 0)
-TextLabel_7.BorderSizePixel = 0
-TextLabel_7.Position = UDim2.new(7.55385585e-08, 0, 0, 0)
-TextLabel_7.Size = UDim2.new(0, 404, 0, 17)
-TextLabel_7.Font = Enum.Font.SourceSansBold
-TextLabel_7.Text = "Scripts"
-TextLabel_7.TextColor3 = Color3.new(1, 1, 1)
-TextLabel_7.TextSize = 25
-
-Frame_3.Parent = MainFram
-Frame_3.BackgroundColor3 = Color3.new(1, 1, 1)
-Frame_3.BorderColor3 = Color3.new(0, 0, 0)
-Frame_3.BorderSizePixel = 0
-Frame_3.Position = UDim2.new(0.186000183, 0, 0, 0)
-Frame_3.Size = UDim2.new(0, 2, 0, 300)
-
-Misc.Name = "Misc"
-Misc.Parent = MainFram
-Misc.BackgroundColor3 = Color3.new(1, 1, 1)
-Misc.BackgroundTransparency = 1
-Misc.BorderColor3 = Color3.new(0, 0, 0)
-Misc.BorderSizePixel = 0
-Misc.Position = UDim2.new(0, 0, 0.375362337, 0)
-Misc.Size = UDim2.new(0, 95, 0, 30)
-Misc.Font = Enum.Font.SourceSansBold
-Misc.Text = "Misc"
-Misc.TextColor3 = Color3.new(1, 1, 1)
-Misc.TextSize = 29
-Misc.TextWrapped = true
-
-MiscFrame.Name = "MiscFrame"
-MiscFrame.Parent = MainFram
-MiscFrame.BackgroundColor3 = Color3.new(1, 1, 1)
-MiscFrame.BackgroundTransparency = 1
-MiscFrame.BorderColor3 = Color3.new(0, 0, 0)
-MiscFrame.BorderSizePixel = 0
-MiscFrame.Position = UDim2.new(0.191665769, 0, 0, 0)
-MiscFrame.Size = UDim2.new(0, 404, 0, 300)
-MiscFrame.Visible = false
-
-Background.Name = "Background"
-Background.Parent = MiscFrame
-Background.BackgroundColor3 = Color3.new(1, 1, 1)
-Background.BorderColor3 = Color3.new(0, 0, 0)
-Background.BorderSizePixel = 0
-Background.Position = UDim2.new(-0.237623766, 0, 0.379999995, 0)
-Background.Size = UDim2.new(0, 95, 0, 30)
-
-TextLabel_8.Parent = Background
-TextLabel_8.BackgroundColor3 = Color3.new(1, 1, 1)
-TextLabel_8.BackgroundTransparency = 1
-TextLabel_8.BorderColor3 = Color3.new(0, 0, 0)
-TextLabel_8.BorderSizePixel = 0
-TextLabel_8.Position = UDim2.new(0.0105266366, 0, 0, 0)
-TextLabel_8.Size = UDim2.new(0, 95, 0, 30)
-TextLabel_8.Font = Enum.Font.SourceSansBold
-TextLabel_8.Text = "Misc"
-TextLabel_8.TextColor3 = Color3.new(0, 0, 0)
-TextLabel_8.TextSize = 29
-
-ScrollingFrame_3.Parent = MiscFrame
-ScrollingFrame_3.Active = true
-ScrollingFrame_3.BackgroundColor3 = Color3.new(1, 1, 1)
-ScrollingFrame_3.BackgroundTransparency = 1
-ScrollingFrame_3.BorderColor3 = Color3.new(0, 0, 0)
-ScrollingFrame_3.BorderSizePixel = 0
-ScrollingFrame_3.Position = UDim2.new(0.0247525517, 0, 0.0799999982, 0)
-ScrollingFrame_3.Size = UDim2.new(0, 394, 0, 276)
-ScrollingFrame_3.CanvasSize = UDim2.new(0, 0, 1.35000002, 0)
-ScrollingFrame_3.ScrollBarThickness = 0
-
-UIGridLayout_3.Parent = ScrollingFrame_3
-UIGridLayout_3.SortOrder = Enum.SortOrder.LayoutOrder
-UIGridLayout_3.CellSize = UDim2.new(0, 390, 0, 40)
-
-InfiniteYield.Name = "Infinite Yield"
-InfiniteYield.Parent = ScrollingFrame_3
-InfiniteYield.BackgroundColor3 = Color3.new(1, 1, 1)
-InfiniteYield.BorderColor3 = Color3.new(0, 0, 0)
-InfiniteYield.BorderSizePixel = 0
-InfiniteYield.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
-InfiniteYield.Size = UDim2.new(0, 180, 0, 40)
-
-UICorner_71.Parent = InfiniteYield
-
-InfiniteYield_2.Name = "Infinite Yield"
-InfiniteYield_2.Parent = InfiniteYield
-InfiniteYield_2.BackgroundColor3 = Color3.new(1, 1, 1)
-InfiniteYield_2.BackgroundTransparency = 1
-InfiniteYield_2.BorderColor3 = Color3.new(0, 0, 0)
-InfiniteYield_2.BorderSizePixel = 0
-InfiniteYield_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
-InfiniteYield_2.Size = UDim2.new(0, 390, 0, 40)
-InfiniteYield_2.Font = Enum.Font.SourceSansBold
-InfiniteYield_2.Text = "Infinite Yield"
-InfiniteYield_2.TextColor3 = Color3.new(0, 0, 0)
-InfiniteYield_2.TextSize = 20
-
-UICorner_72.Parent = InfiniteYield_2
-
-AntiAFK.Name = "Anti AFK"
-AntiAFK.Parent = ScrollingFrame_3
-AntiAFK.BackgroundColor3 = Color3.new(1, 1, 1)
-AntiAFK.BorderColor3 = Color3.new(0, 0, 0)
-AntiAFK.BorderSizePixel = 0
-AntiAFK.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
-AntiAFK.Size = UDim2.new(0, 180, 0, 40)
-
-UICorner_73.Parent = AntiAFK
-
-AntiAFK_2.Name = "Anti AFK"
-AntiAFK_2.Parent = AntiAFK
-AntiAFK_2.BackgroundColor3 = Color3.new(1, 1, 1)
-AntiAFK_2.BackgroundTransparency = 1
-AntiAFK_2.BorderColor3 = Color3.new(0, 0, 0)
-AntiAFK_2.BorderSizePixel = 0
-AntiAFK_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
-AntiAFK_2.Size = UDim2.new(0, 390, 0, 40)
-AntiAFK_2.Font = Enum.Font.SourceSansBold
-AntiAFK_2.Text = "Anti AFK"
-AntiAFK_2.TextColor3 = Color3.new(0, 0, 0)
-AntiAFK_2.TextSize = 20
-
-UICorner_74.Parent = AntiAFK_2
-
-AutoPiano.Name = "Auto Piano"
-AutoPiano.Parent = ScrollingFrame_3
-AutoPiano.BackgroundColor3 = Color3.new(1, 1, 1)
-AutoPiano.BorderColor3 = Color3.new(0, 0, 0)
-AutoPiano.BorderSizePixel = 0
-AutoPiano.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
-AutoPiano.Size = UDim2.new(0, 180, 0, 40)
-
-UICorner_75.Parent = AutoPiano
-
-AutoPiano_2.Name = "Auto Piano"
-AutoPiano_2.Parent = AutoPiano
-AutoPiano_2.BackgroundColor3 = Color3.new(1, 1, 1)
-AutoPiano_2.BackgroundTransparency = 1
-AutoPiano_2.BorderColor3 = Color3.new(0, 0, 0)
-AutoPiano_2.BorderSizePixel = 0
-AutoPiano_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
-AutoPiano_2.Size = UDim2.new(0, 390, 0, 40)
-AutoPiano_2.Font = Enum.Font.SourceSansBold
-AutoPiano_2.Text = "Auto Piano"
-AutoPiano_2.TextColor3 = Color3.new(0, 0, 0)
-AutoPiano_2.TextSize = 20
-
-UICorner_76.Parent = AutoPiano_2
-
-AutoClicker.Name = "Auto Clicker"
-AutoClicker.Parent = ScrollingFrame_3
-AutoClicker.BackgroundColor3 = Color3.new(1, 1, 1)
-AutoClicker.BorderColor3 = Color3.new(0, 0, 0)
-AutoClicker.BorderSizePixel = 0
-AutoClicker.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
-AutoClicker.Size = UDim2.new(0, 180, 0, 40)
-
-UICorner_77.Parent = AutoClicker
-
-AutoClicker_2.Name = "Auto Clicker"
-AutoClicker_2.Parent = AutoClicker
-AutoClicker_2.BackgroundColor3 = Color3.new(1, 1, 1)
-AutoClicker_2.BackgroundTransparency = 1
-AutoClicker_2.BorderColor3 = Color3.new(0, 0, 0)
-AutoClicker_2.BorderSizePixel = 0
-AutoClicker_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
-AutoClicker_2.Size = UDim2.new(0, 390, 0, 40)
-AutoClicker_2.Font = Enum.Font.SourceSansBold
-AutoClicker_2.Text = "Auto Clicker"
-AutoClicker_2.TextColor3 = Color3.new(0, 0, 0)
-AutoClicker_2.TextSize = 20
-
-UICorner_78.Parent = AutoClicker_2
-
-CFrame.Name = "CFrame"
-CFrame.Parent = ScrollingFrame_3
-CFrame.BackgroundColor3 = Color3.new(1, 1, 1)
-CFrame.BorderColor3 = Color3.new(0, 0, 0)
-CFrame.BorderSizePixel = 0
-CFrame.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
-CFrame.Size = UDim2.new(0, 180, 0, 40)
-
-UICorner_79.Parent = CFrame
-
-CFrame_2.Name = "CFrame"
-CFrame_2.Parent = CFrame
-CFrame_2.BackgroundColor3 = Color3.new(1, 1, 1)
-CFrame_2.BackgroundTransparency = 1
-CFrame_2.BorderColor3 = Color3.new(0, 0, 0)
-CFrame_2.BorderSizePixel = 0
-CFrame_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
-CFrame_2.Size = UDim2.new(0, 390, 0, 40)
-CFrame_2.Font = Enum.Font.SourceSansBold
-CFrame_2.Text = "CFrame"
-CFrame_2.TextColor3 = Color3.new(0, 0, 0)
-CFrame_2.TextSize = 20
-
-UICorner_80.Parent = CFrame_2
-
-QTool.Name = "Q Tool"
-QTool.Parent = ScrollingFrame_3
-QTool.BackgroundColor3 = Color3.new(1, 1, 1)
-QTool.BorderColor3 = Color3.new(0, 0, 0)
-QTool.BorderSizePixel = 0
-QTool.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
-QTool.Size = UDim2.new(0, 180, 0, 40)
-
-UICorner_81.Parent = QTool
-
-QTool_2.Name = "Q Tool"
-QTool_2.Parent = QTool
-QTool_2.BackgroundColor3 = Color3.new(1, 1, 1)
-QTool_2.BackgroundTransparency = 1
-QTool_2.BorderColor3 = Color3.new(0, 0, 0)
-QTool_2.BorderSizePixel = 0
-QTool_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
-QTool_2.Size = UDim2.new(0, 390, 0, 40)
-QTool_2.Font = Enum.Font.SourceSansBold
-QTool_2.Text = "Q Tool"
-QTool_2.TextColor3 = Color3.new(0, 0, 0)
-QTool_2.TextSize = 20
-
-UICorner_82.Parent = QTool_2
-
-Keyboard.Name = "Keyboard"
-Keyboard.Parent = ScrollingFrame_3
-Keyboard.BackgroundColor3 = Color3.new(1, 1, 1)
-Keyboard.BorderColor3 = Color3.new(0, 0, 0)
-Keyboard.BorderSizePixel = 0
-Keyboard.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
-Keyboard.Size = UDim2.new(0, 180, 0, 40)
-
-UICorner_83.Parent = Keyboard
-
-Keyboard_2.Name = "Keyboard"
-Keyboard_2.Parent = Keyboard
-Keyboard_2.BackgroundColor3 = Color3.new(1, 1, 1)
-Keyboard_2.BackgroundTransparency = 1
-Keyboard_2.BorderColor3 = Color3.new(0, 0, 0)
-Keyboard_2.BorderSizePixel = 0
-Keyboard_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
-Keyboard_2.Size = UDim2.new(0, 390, 0, 40)
-Keyboard_2.Font = Enum.Font.SourceSansBold
-Keyboard_2.Text = "Keyboard"
-Keyboard_2.TextColor3 = Color3.new(0, 0, 0)
-Keyboard_2.TextSize = 20
-
-UICorner_84.Parent = Keyboard_2
-
-SpeedTool.Name = "Speed Tool"
-SpeedTool.Parent = ScrollingFrame_3
-SpeedTool.BackgroundColor3 = Color3.new(1, 1, 1)
-SpeedTool.BorderColor3 = Color3.new(0, 0, 0)
-SpeedTool.BorderSizePixel = 0
-SpeedTool.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
-SpeedTool.Size = UDim2.new(0, 180, 0, 40)
-
-UICorner_85.Parent = SpeedTool
-
-SpeedTool_2.Name = "Speed Tool"
-SpeedTool_2.Parent = SpeedTool
-SpeedTool_2.BackgroundColor3 = Color3.new(1, 1, 1)
-SpeedTool_2.BackgroundTransparency = 1
-SpeedTool_2.BorderColor3 = Color3.new(0, 0, 0)
-SpeedTool_2.BorderSizePixel = 0
-SpeedTool_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
-SpeedTool_2.Size = UDim2.new(0, 390, 0, 40)
-SpeedTool_2.Font = Enum.Font.SourceSansBold
-SpeedTool_2.Text = "Speed Tool"
-SpeedTool_2.TextColor3 = Color3.new(0, 0, 0)
-SpeedTool_2.TextSize = 20
-
-UICorner_86.Parent = SpeedTool_2
-
-Fly.Name = "Fly"
-Fly.Parent = ScrollingFrame_3
-Fly.BackgroundColor3 = Color3.new(1, 1, 1)
-Fly.BorderColor3 = Color3.new(0, 0, 0)
-Fly.BorderSizePixel = 0
-Fly.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
-Fly.Size = UDim2.new(0, 180, 0, 40)
-
-UICorner_87.Parent = Fly
-
-Fly_2.Name = "Fly"
-Fly_2.Parent = Fly
-Fly_2.BackgroundColor3 = Color3.new(1, 1, 1)
-Fly_2.BackgroundTransparency = 1
-Fly_2.BorderColor3 = Color3.new(0, 0, 0)
-Fly_2.BorderSizePixel = 0
-Fly_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
-Fly_2.Size = UDim2.new(0, 390, 0, 40)
-Fly_2.Font = Enum.Font.SourceSansBold
-Fly_2.Text = "Fly"
-Fly_2.TextColor3 = Color3.new(0, 0, 0)
-Fly_2.TextSize = 20
-
-UICorner_88.Parent = Fly_2
-
-TextLabel_9.Parent = MiscFrame
-TextLabel_9.BackgroundColor3 = Color3.new(1, 1, 1)
-TextLabel_9.BackgroundTransparency = 1
-TextLabel_9.BorderColor3 = Color3.new(0, 0, 0)
-TextLabel_9.BorderSizePixel = 0
-TextLabel_9.Position = UDim2.new(7.55385585e-08, 0, 0, 0)
-TextLabel_9.Size = UDim2.new(0, 404, 0, 17)
-TextLabel_9.Font = Enum.Font.SourceSansBold
-TextLabel_9.Text = "Misc"
-TextLabel_9.TextColor3 = Color3.new(1, 1, 1)
-TextLabel_9.TextSize = 25
-
-ImageButton.Parent = ScreenGui
-ImageButton.BackgroundColor3 = Color3.new(1, 1, 1)
-ImageButton.BorderColor3 = Color3.new(0, 0, 0)
-ImageButton.BorderSizePixel = 0
-ImageButton.Position = UDim2.new(0.0185139291, 0, 0.360134959, 0)
-ImageButton.Size = UDim2.new(0, 70, 0, 70)
-ImageButton.Image = "http://www.roblox.com/asset/?id=16001410208"
-
-UICorner_89.Parent = ImageButton
-
--- Scripts
-
-local function JIFWVE_fake_script() -- MainFram.Dragify 
-	local script = Instance.new('LocalScript', MainFram)
+-- Gui to Lua
+-- Version: 3.6
+
+-- Instances:
+
+local ScreenGui = {
+	ScreenGui = Instance.new("ScreenGui"),
+	MainFram = Instance.new("Frame"),
+	UICorner = Instance.new("UICorner"),
+	TextLabel = Instance.new("TextLabel"),
+	UIStroke = Instance.new("UIStroke"),
+	Dahood = Instance.new("TextButton"),
+	Home = Instance.new("TextButton"),
+	Scripts = Instance.new("TextButton"),
+	DahoodFrame = Instance.new("Frame"),
+	Frame = Instance.new("Frame"),
+	TextLabel_2 = Instance.new("TextLabel"),
+	TextLabel_3 = Instance.new("TextLabel"),
+	ScrollingFrame = Instance.new("ScrollingFrame"),
+	UIGridLayout = Instance.new("UIGridLayout"),
+	Swagmode = Instance.new("Frame"),
+	UICorner_2 = Instance.new("UICorner"),
+	Swagmode_2 = Instance.new("TextButton"),
+	UICorner_3 = Instance.new("UICorner"),
+	Faded = Instance.new("Frame"),
+	UICorner_4 = Instance.new("UICorner"),
+	Faded_2 = Instance.new("TextButton"),
+	UICorner_5 = Instance.new("UICorner"),
+	Pluto = Instance.new("Frame"),
+	UICorner_6 = Instance.new("UICorner"),
+	Pluto_2 = Instance.new("TextButton"),
+	UICorner_7 = Instance.new("UICorner"),
+	Nova = Instance.new("Frame"),
+	UICorner_8 = Instance.new("UICorner"),
+	Nova_2 = Instance.new("TextButton"),
+	UICorner_9 = Instance.new("UICorner"),
+	Nyula = Instance.new("Frame"),
+	UICorner_10 = Instance.new("UICorner"),
+	Nyula_2 = Instance.new("TextButton"),
+	UICorner_11 = Instance.new("UICorner"),
+	Rayx = Instance.new("Frame"),
+	UICorner_12 = Instance.new("UICorner"),
+	Rayx_2 = Instance.new("TextButton"),
+	UICorner_13 = Instance.new("UICorner"),
+	Agent = Instance.new("Frame"),
+	UICorner_14 = Instance.new("UICorner"),
+	Agent_2 = Instance.new("TextButton"),
+	UICorner_15 = Instance.new("UICorner"),
+	PurpleBubbleLock = Instance.new("Frame"),
+	UICorner_16 = Instance.new("UICorner"),
+	PurpleBubbleLock_2 = Instance.new("TextButton"),
+	UICorner_17 = Instance.new("UICorner"),
+	BlueBubbleLock = Instance.new("Frame"),
+	UICorner_18 = Instance.new("UICorner"),
+	BlueBubbleLock_2 = Instance.new("TextButton"),
+	UICorner_19 = Instance.new("UICorner"),
+	Camlock = Instance.new("Frame"),
+	UICorner_20 = Instance.new("UICorner"),
+	Camlock_2 = Instance.new("TextButton"),
+	UICorner_21 = Instance.new("UICorner"),
+	AntiLock = Instance.new("Frame"),
+	UICorner_22 = Instance.new("UICorner"),
+	AntiLock_2 = Instance.new("TextButton"),
+	UICorner_23 = Instance.new("UICorner"),
+	SlientAim = Instance.new("Frame"),
+	UICorner_24 = Instance.new("UICorner"),
+	SlientAim_2 = Instance.new("TextButton"),
+	UICorner_25 = Instance.new("UICorner"),
+	HomeFrame = Instance.new("Frame"),
+	buttonhover = Instance.new("Frame"),
+	TextLabel_4 = Instance.new("TextLabel"),
+	Changelog = Instance.new("Frame"),
+	UICorner_26 = Instance.new("UICorner"),
+	logs = Instance.new("TextLabel"),
+	Discord = Instance.new("Frame"),
+	UICorner_27 = Instance.new("UICorner"),
+	DiscordButton = Instance.new("TextButton"),
+	UICorner_28 = Instance.new("UICorner"),
+	Website = Instance.new("Frame"),
+	UICorner_29 = Instance.new("UICorner"),
+	WebsiteButton = Instance.new("TextButton"),
+	UICorner_30 = Instance.new("UICorner"),
+	TextLabel_5 = Instance.new("TextLabel"),
+	name = Instance.new("TextLabel"),
+	ScriptsFrame = Instance.new("Frame"),
+	Frame_2 = Instance.new("Frame"),
+	TextLabel_6 = Instance.new("TextLabel"),
+	ScrollingFrame_2 = Instance.new("ScrollingFrame"),
+	UIGridLayout_2 = Instance.new("UIGridLayout"),
+	MyRestaurant = Instance.new("Frame"),
+	UICorner_31 = Instance.new("UICorner"),
+	MyRestaurant_2 = Instance.new("TextButton"),
+	UICorner_32 = Instance.new("UICorner"),
+	PetSimulator99 = Instance.new("Frame"),
+	UICorner_33 = Instance.new("UICorner"),
+	PetSimulator99_2 = Instance.new("TextButton"),
+	UICorner_34 = Instance.new("UICorner"),
+	BladeBallAutoParry = Instance.new("Frame"),
+	UICorner_35 = Instance.new("UICorner"),
+	BladeBallAutoParry_2 = Instance.new("TextButton"),
+	UICorner_36 = Instance.new("UICorner"),
+	TowerOfHell = Instance.new("Frame"),
+	UICorner_37 = Instance.new("UICorner"),
+	TowerOfHell_2 = Instance.new("TextButton"),
+	UICorner_38 = Instance.new("UICorner"),
+	DriveWorld = Instance.new("Frame"),
+	UICorner_39 = Instance.new("UICorner"),
+	DriveWorld_2 = Instance.new("TextButton"),
+	UICorner_40 = Instance.new("UICorner"),
+	Evade = Instance.new("Frame"),
+	UICorner_41 = Instance.new("UICorner"),
+	Evade_2 = Instance.new("TextButton"),
+	UICorner_42 = Instance.new("UICorner"),
+	DaHoodModded = Instance.new("Frame"),
+	UICorner_43 = Instance.new("UICorner"),
+	DaHoodModded_2 = Instance.new("TextButton"),
+	UICorner_44 = Instance.new("UICorner"),
+	MurderMystery2 = Instance.new("Frame"),
+	UICorner_45 = Instance.new("UICorner"),
+	MurderMystery2_2 = Instance.new("TextButton"),
+	UICorner_46 = Instance.new("UICorner"),
+	BigPaintBall2 = Instance.new("Frame"),
+	UICorner_47 = Instance.new("UICorner"),
+	BigPaintBall2_2 = Instance.new("TextButton"),
+	UICorner_48 = Instance.new("UICorner"),
+	Arsenal = Instance.new("Frame"),
+	UICorner_49 = Instance.new("UICorner"),
+	Arsenal_2 = Instance.new("TextButton"),
+	UICorner_50 = Instance.new("UICorner"),
+	RainbowFriends = Instance.new("Frame"),
+	UICorner_51 = Instance.new("UICorner"),
+	RainbowFriends_2 = Instance.new("TextButton"),
+	UICorner_52 = Instance.new("UICorner"),
+	AnimeAdventures = Instance.new("Frame"),
+	UICorner_53 = Instance.new("UICorner"),
+	AnimeAdventures_2 = Instance.new("TextButton"),
+	UICorner_54 = Instance.new("UICorner"),
+	BloxFruits = Instance.new("Frame"),
+	UICorner_55 = Instance.new("UICorner"),
+	BloxFruits_2 = Instance.new("TextButton"),
+	UICorner_56 = Instance.new("UICorner"),
+	AdoptMe = Instance.new("Frame"),
+	UICorner_57 = Instance.new("UICorner"),
+	AdoptMe_2 = Instance.new("TextButton"),
+	UICorner_58 = Instance.new("UICorner"),
+	FunkyFriday = Instance.new("Frame"),
+	UICorner_59 = Instance.new("UICorner"),
+	FunkyFriday_2 = Instance.new("TextButton"),
+	UICorner_60 = Instance.new("UICorner"),
+	AnimeSoulSimulator = Instance.new("Frame"),
+	UICorner_61 = Instance.new("UICorner"),
+	AnimeSoulSimulator_2 = Instance.new("TextButton"),
+	UICorner_62 = Instance.new("UICorner"),
+	DeathBall = Instance.new("Frame"),
+	UICorner_63 = Instance.new("UICorner"),
+	DeathBall_2 = Instance.new("TextButton"),
+	UICorner_64 = Instance.new("UICorner"),
+	Bedwars = Instance.new("Frame"),
+	UICorner_65 = Instance.new("UICorner"),
+	Bedwars_2 = Instance.new("TextButton"),
+	UICorner_66 = Instance.new("UICorner"),
+	ShindoLife2 = Instance.new("Frame"),
+	UICorner_67 = Instance.new("UICorner"),
+	ShindoLife2_2 = Instance.new("TextButton"),
+	UICorner_68 = Instance.new("UICorner"),
+	PrisonLife = Instance.new("Frame"),
+	UICorner_69 = Instance.new("UICorner"),
+	PrisonLife_2 = Instance.new("TextButton"),
+	UICorner_70 = Instance.new("UICorner"),
+	TextLabel_7 = Instance.new("TextLabel"),
+	Frame_3 = Instance.new("Frame"),
+	Misc = Instance.new("TextButton"),
+	MiscFrame = Instance.new("Frame"),
+	Background = Instance.new("Frame"),
+	TextLabel_8 = Instance.new("TextLabel"),
+	ScrollingFrame_3 = Instance.new("ScrollingFrame"),
+	UIGridLayout_3 = Instance.new("UIGridLayout"),
+	InfiniteYield = Instance.new("Frame"),
+	UICorner_71 = Instance.new("UICorner"),
+	InfiniteYield_2 = Instance.new("TextButton"),
+	UICorner_72 = Instance.new("UICorner"),
+	AntiAFK = Instance.new("Frame"),
+	UICorner_73 = Instance.new("UICorner"),
+	AntiAFK_2 = Instance.new("TextButton"),
+	UICorner_74 = Instance.new("UICorner"),
+	AutoPiano = Instance.new("Frame"),
+	UICorner_75 = Instance.new("UICorner"),
+	AutoPiano_2 = Instance.new("TextButton"),
+	UICorner_76 = Instance.new("UICorner"),
+	AutoClicker = Instance.new("Frame"),
+	UICorner_77 = Instance.new("UICorner"),
+	AutoClicker_2 = Instance.new("TextButton"),
+	UICorner_78 = Instance.new("UICorner"),
+	CFrame = Instance.new("Frame"),
+	UICorner_79 = Instance.new("UICorner"),
+	CFrame_2 = Instance.new("TextButton"),
+	UICorner_80 = Instance.new("UICorner"),
+	QTool = Instance.new("Frame"),
+	UICorner_81 = Instance.new("UICorner"),
+	QTool_2 = Instance.new("TextButton"),
+	UICorner_82 = Instance.new("UICorner"),
+	Keyboard = Instance.new("Frame"),
+	UICorner_83 = Instance.new("UICorner"),
+	Keyboard_2 = Instance.new("TextButton"),
+	UICorner_84 = Instance.new("UICorner"),
+	SpeedTool = Instance.new("Frame"),
+	UICorner_85 = Instance.new("UICorner"),
+	SpeedTool_2 = Instance.new("TextButton"),
+	UICorner_86 = Instance.new("UICorner"),
+	Fly = Instance.new("Frame"),
+	UICorner_87 = Instance.new("UICorner"),
+	Fly_2 = Instance.new("TextButton"),
+	UICorner_88 = Instance.new("UICorner"),
+	TextLabel_9 = Instance.new("TextLabel"),
+	ImageButton = Instance.new("ImageButton"),
+	UICorner_89 = Instance.new("UICorner"),
+}
+
+-- Properties:
+
+ScreenGui.ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+ScreenGui.MainFram.Name = "MainFram"
+ScreenGui.MainFram.Parent = ScreenGui.ScreenGui
+ScreenGui.MainFram.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.MainFram.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.MainFram.BorderSizePixel = 0
+ScreenGui.MainFram.Position = UDim2.new(0.167577013, 0, 0.0981028751, 0)
+ScreenGui.MainFram.Size = UDim2.new(0, 500, 0, 300)
+
+ScreenGui.UICorner.Parent = ScreenGui.MainFram
+
+ScreenGui.TextLabel.Parent = ScreenGui.MainFram
+ScreenGui.TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel.BackgroundTransparency = 1.000
+ScreenGui.TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextLabel.BorderSizePixel = 0
+ScreenGui.TextLabel.Size = UDim2.new(0, 95, 0, 24)
+ScreenGui.TextLabel.Font = Enum.Font.SourceSansBold
+ScreenGui.TextLabel.Text = "Astra"
+ScreenGui.TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel.TextSize = 25.000
+
+ScreenGui.UIStroke.Color = Color3.fromRGB(255, 255, 255)
+ScreenGui.UIStroke.Thickness = 5
+ScreenGui.UIStroke.Parent = ScreenGui.MainFram
+
+ScreenGui.Dahood.Name = "Dahood"
+ScreenGui.Dahood.Parent = ScreenGui.MainFram
+ScreenGui.Dahood.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Dahood.BackgroundTransparency = 1.000
+ScreenGui.Dahood.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Dahood.BorderSizePixel = 0
+ScreenGui.Dahood.Position = UDim2.new(-0.00400000019, 0, 0.280724585, 0)
+ScreenGui.Dahood.Size = UDim2.new(0, 95, 0, 30)
+ScreenGui.Dahood.Font = Enum.Font.SourceSansBold
+ScreenGui.Dahood.Text = "Dahood"
+ScreenGui.Dahood.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Dahood.TextSize = 29.000
+ScreenGui.Dahood.TextWrapped = true
+
+ScreenGui.Home.Name = "Home"
+ScreenGui.Home.Parent = ScreenGui.MainFram
+ScreenGui.Home.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Home.BackgroundTransparency = 1.000
+ScreenGui.Home.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Home.BorderSizePixel = 0
+ScreenGui.Home.Position = UDim2.new(-0.00400000019, 0, 0.0799999982, 0)
+ScreenGui.Home.Size = UDim2.new(0, 95, 0, 30)
+ScreenGui.Home.Font = Enum.Font.SourceSansBold
+ScreenGui.Home.Text = "Home"
+ScreenGui.Home.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Home.TextSize = 29.000
+ScreenGui.Home.TextWrapped = true
+
+ScreenGui.Scripts.Name = "Scripts"
+ScreenGui.Scripts.Parent = ScreenGui.MainFram
+ScreenGui.Scripts.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Scripts.BackgroundTransparency = 1.000
+ScreenGui.Scripts.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Scripts.BorderSizePixel = 0
+ScreenGui.Scripts.Position = UDim2.new(0, 0, 0.178695679, 0)
+ScreenGui.Scripts.Size = UDim2.new(0, 95, 0, 30)
+ScreenGui.Scripts.Font = Enum.Font.SourceSansBold
+ScreenGui.Scripts.Text = "Scripts"
+ScreenGui.Scripts.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Scripts.TextSize = 29.000
+ScreenGui.Scripts.TextWrapped = true
+
+ScreenGui.DahoodFrame.Name = "DahoodFrame"
+ScreenGui.DahoodFrame.Parent = ScreenGui.MainFram
+ScreenGui.DahoodFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.DahoodFrame.BackgroundTransparency = 1.000
+ScreenGui.DahoodFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.DahoodFrame.BorderSizePixel = 0
+ScreenGui.DahoodFrame.Position = UDim2.new(0.193665773, 0, 0, 0)
+ScreenGui.DahoodFrame.Size = UDim2.new(0, 403, 0, 300)
+ScreenGui.DahoodFrame.Visible = false
+
+ScreenGui.Frame.Parent = ScreenGui.DahoodFrame
+ScreenGui.Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Frame.BorderSizePixel = 0
+ScreenGui.Frame.Position = UDim2.new(-0.240105152, 0, 0.276666671, 0)
+ScreenGui.Frame.Size = UDim2.new(0, 94, 0, 30)
+
+ScreenGui.TextLabel_2.Parent = ScreenGui.Frame
+ScreenGui.TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_2.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextLabel_2.BorderSizePixel = 0
+ScreenGui.TextLabel_2.Position = UDim2.new(-0.010525967, 0, 0, 0)
+ScreenGui.TextLabel_2.Size = UDim2.new(0, 96, 0, 30)
+ScreenGui.TextLabel_2.Font = Enum.Font.SourceSansBold
+ScreenGui.TextLabel_2.Text = "Dahood"
+ScreenGui.TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextLabel_2.TextSize = 29.000
+
+ScreenGui.TextLabel_3.Parent = ScreenGui.DahoodFrame
+ScreenGui.TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_3.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextLabel_3.BorderSizePixel = 0
+ScreenGui.TextLabel_3.Position = UDim2.new(7.55385585e-08, 0, 0, 0)
+ScreenGui.TextLabel_3.Size = UDim2.new(0, 404, 0, 17)
+ScreenGui.TextLabel_3.Font = Enum.Font.SourceSansBold
+ScreenGui.TextLabel_3.Text = "Dahood"
+ScreenGui.TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_3.TextSize = 25.000
+
+ScreenGui.ScrollingFrame.Parent = ScreenGui.DahoodFrame
+ScreenGui.ScrollingFrame.Active = true
+ScreenGui.ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.ScrollingFrame.BackgroundTransparency = 1.000
+ScreenGui.ScrollingFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.ScrollingFrame.BorderSizePixel = 0
+ScreenGui.ScrollingFrame.Position = UDim2.new(0.0247525517, 0, 0.0799999982, 0)
+ScreenGui.ScrollingFrame.Size = UDim2.new(0, 394, 0, 276)
+ScreenGui.ScrollingFrame.CanvasSize = UDim2.new(0, 0, 1.79999995, 0)
+ScreenGui.ScrollingFrame.ScrollBarImageColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.ScrollingFrame.ScrollBarThickness = 0
+
+ScreenGui.UIGridLayout.Parent = ScreenGui.ScrollingFrame
+ScreenGui.UIGridLayout.SortOrder = Enum.SortOrder.LayoutOrder
+ScreenGui.UIGridLayout.CellSize = UDim2.new(0, 390, 0, 40)
+
+ScreenGui.Swagmode.Name = "Swagmode"
+ScreenGui.Swagmode.Parent = ScreenGui.ScrollingFrame
+ScreenGui.Swagmode.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Swagmode.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Swagmode.BorderSizePixel = 0
+ScreenGui.Swagmode.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
+ScreenGui.Swagmode.Size = UDim2.new(0, 180, 0, 40)
+
+ScreenGui.UICorner_2.Parent = ScreenGui.Swagmode
+
+ScreenGui.Swagmode_2.Name = "Swagmode"
+ScreenGui.Swagmode_2.Parent = ScreenGui.Swagmode
+ScreenGui.Swagmode_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Swagmode_2.BackgroundTransparency = 1.000
+ScreenGui.Swagmode_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Swagmode_2.BorderSizePixel = 0
+ScreenGui.Swagmode_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
+ScreenGui.Swagmode_2.Size = UDim2.new(0, 390, 0, 40)
+ScreenGui.Swagmode_2.Font = Enum.Font.SourceSansBold
+ScreenGui.Swagmode_2.Text = "Swagmode"
+ScreenGui.Swagmode_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Swagmode_2.TextSize = 20.000
+
+ScreenGui.UICorner_3.Parent = ScreenGui.Swagmode_2
+
+ScreenGui.Faded.Name = "Faded"
+ScreenGui.Faded.Parent = ScreenGui.ScrollingFrame
+ScreenGui.Faded.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Faded.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Faded.BorderSizePixel = 0
+ScreenGui.Faded.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
+ScreenGui.Faded.Size = UDim2.new(0, 180, 0, 40)
+
+ScreenGui.UICorner_4.Parent = ScreenGui.Faded
+
+ScreenGui.Faded_2.Name = "Faded"
+ScreenGui.Faded_2.Parent = ScreenGui.Faded
+ScreenGui.Faded_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Faded_2.BackgroundTransparency = 1.000
+ScreenGui.Faded_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Faded_2.BorderSizePixel = 0
+ScreenGui.Faded_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
+ScreenGui.Faded_2.Size = UDim2.new(0, 390, 0, 40)
+ScreenGui.Faded_2.Font = Enum.Font.SourceSansBold
+ScreenGui.Faded_2.Text = "Faded"
+ScreenGui.Faded_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Faded_2.TextSize = 20.000
+
+ScreenGui.UICorner_5.Parent = ScreenGui.Faded_2
+
+ScreenGui.Pluto.Name = "Pluto"
+ScreenGui.Pluto.Parent = ScreenGui.ScrollingFrame
+ScreenGui.Pluto.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Pluto.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Pluto.BorderSizePixel = 0
+ScreenGui.Pluto.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
+ScreenGui.Pluto.Size = UDim2.new(0, 180, 0, 40)
+
+ScreenGui.UICorner_6.Parent = ScreenGui.Pluto
+
+ScreenGui.Pluto_2.Name = "Pluto"
+ScreenGui.Pluto_2.Parent = ScreenGui.Pluto
+ScreenGui.Pluto_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Pluto_2.BackgroundTransparency = 1.000
+ScreenGui.Pluto_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Pluto_2.BorderSizePixel = 0
+ScreenGui.Pluto_2.Position = UDim2.new(-0.0076923077, 0, -0.0370079055, 0)
+ScreenGui.Pluto_2.Size = UDim2.new(0, 390, 0, 40)
+ScreenGui.Pluto_2.Font = Enum.Font.SourceSansBold
+ScreenGui.Pluto_2.Text = "Pluto"
+ScreenGui.Pluto_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Pluto_2.TextSize = 20.000
+
+ScreenGui.UICorner_7.Parent = ScreenGui.Pluto_2
+
+ScreenGui.Nova.Name = "Nova"
+ScreenGui.Nova.Parent = ScreenGui.ScrollingFrame
+ScreenGui.Nova.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Nova.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Nova.BorderSizePixel = 0
+ScreenGui.Nova.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
+ScreenGui.Nova.Size = UDim2.new(0, 180, 0, 40)
+
+ScreenGui.UICorner_8.Parent = ScreenGui.Nova
+
+ScreenGui.Nova_2.Name = "Nova"
+ScreenGui.Nova_2.Parent = ScreenGui.Nova
+ScreenGui.Nova_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Nova_2.BackgroundTransparency = 1.000
+ScreenGui.Nova_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Nova_2.BorderSizePixel = 0
+ScreenGui.Nova_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
+ScreenGui.Nova_2.Size = UDim2.new(0, 390, 0, 40)
+ScreenGui.Nova_2.Font = Enum.Font.SourceSansBold
+ScreenGui.Nova_2.Text = "Nova"
+ScreenGui.Nova_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Nova_2.TextSize = 20.000
+
+ScreenGui.UICorner_9.Parent = ScreenGui.Nova_2
+
+ScreenGui.Nyula.Name = "Nyula"
+ScreenGui.Nyula.Parent = ScreenGui.ScrollingFrame
+ScreenGui.Nyula.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Nyula.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Nyula.BorderSizePixel = 0
+ScreenGui.Nyula.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
+ScreenGui.Nyula.Size = UDim2.new(0, 180, 0, 40)
+
+ScreenGui.UICorner_10.Parent = ScreenGui.Nyula
+
+ScreenGui.Nyula_2.Name = "Nyula"
+ScreenGui.Nyula_2.Parent = ScreenGui.Nyula
+ScreenGui.Nyula_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Nyula_2.BackgroundTransparency = 1.000
+ScreenGui.Nyula_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Nyula_2.BorderSizePixel = 0
+ScreenGui.Nyula_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
+ScreenGui.Nyula_2.Size = UDim2.new(0, 390, 0, 40)
+ScreenGui.Nyula_2.Font = Enum.Font.SourceSansBold
+ScreenGui.Nyula_2.Text = "Nyula"
+ScreenGui.Nyula_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Nyula_2.TextSize = 20.000
+
+ScreenGui.UICorner_11.Parent = ScreenGui.Nyula_2
+
+ScreenGui.Rayx.Name = "Ray x"
+ScreenGui.Rayx.Parent = ScreenGui.ScrollingFrame
+ScreenGui.Rayx.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Rayx.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Rayx.BorderSizePixel = 0
+ScreenGui.Rayx.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
+ScreenGui.Rayx.Size = UDim2.new(0, 180, 0, 40)
+
+ScreenGui.UICorner_12.Parent = ScreenGui.Rayx
+
+ScreenGui.Rayx_2.Name = "Ray x"
+ScreenGui.Rayx_2.Parent = ScreenGui.Rayx
+ScreenGui.Rayx_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Rayx_2.BackgroundTransparency = 1.000
+ScreenGui.Rayx_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Rayx_2.BorderSizePixel = 0
+ScreenGui.Rayx_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
+ScreenGui.Rayx_2.Size = UDim2.new(0, 390, 0, 40)
+ScreenGui.Rayx_2.Font = Enum.Font.SourceSansBold
+ScreenGui.Rayx_2.Text = "Ray x"
+ScreenGui.Rayx_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Rayx_2.TextSize = 20.000
+
+ScreenGui.UICorner_13.Parent = ScreenGui.Rayx_2
+
+ScreenGui.Agent.Name = "Agent"
+ScreenGui.Agent.Parent = ScreenGui.ScrollingFrame
+ScreenGui.Agent.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Agent.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Agent.BorderSizePixel = 0
+ScreenGui.Agent.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
+ScreenGui.Agent.Size = UDim2.new(0, 180, 0, 40)
+
+ScreenGui.UICorner_14.Parent = ScreenGui.Agent
+
+ScreenGui.Agent_2.Name = "Agent"
+ScreenGui.Agent_2.Parent = ScreenGui.Agent
+ScreenGui.Agent_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Agent_2.BackgroundTransparency = 1.000
+ScreenGui.Agent_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Agent_2.BorderSizePixel = 0
+ScreenGui.Agent_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
+ScreenGui.Agent_2.Size = UDim2.new(0, 390, 0, 40)
+ScreenGui.Agent_2.Font = Enum.Font.SourceSansBold
+ScreenGui.Agent_2.Text = "Agent"
+ScreenGui.Agent_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Agent_2.TextSize = 20.000
+
+ScreenGui.UICorner_15.Parent = ScreenGui.Agent_2
+
+ScreenGui.PurpleBubbleLock.Name = "Purple Bubble Lock"
+ScreenGui.PurpleBubbleLock.Parent = ScreenGui.ScrollingFrame
+ScreenGui.PurpleBubbleLock.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.PurpleBubbleLock.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.PurpleBubbleLock.BorderSizePixel = 0
+ScreenGui.PurpleBubbleLock.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
+ScreenGui.PurpleBubbleLock.Size = UDim2.new(0, 180, 0, 40)
+
+ScreenGui.UICorner_16.Parent = ScreenGui.PurpleBubbleLock
+
+ScreenGui.PurpleBubbleLock_2.Name = "Purple Bubble Lock"
+ScreenGui.PurpleBubbleLock_2.Parent = ScreenGui.PurpleBubbleLock
+ScreenGui.PurpleBubbleLock_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.PurpleBubbleLock_2.BackgroundTransparency = 1.000
+ScreenGui.PurpleBubbleLock_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.PurpleBubbleLock_2.BorderSizePixel = 0
+ScreenGui.PurpleBubbleLock_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
+ScreenGui.PurpleBubbleLock_2.Size = UDim2.new(0, 390, 0, 40)
+ScreenGui.PurpleBubbleLock_2.Font = Enum.Font.SourceSansBold
+ScreenGui.PurpleBubbleLock_2.Text = "Purple Bubble Lock"
+ScreenGui.PurpleBubbleLock_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.PurpleBubbleLock_2.TextSize = 20.000
+
+ScreenGui.UICorner_17.Parent = ScreenGui.PurpleBubbleLock_2
+
+ScreenGui.BlueBubbleLock.Name = "Blue Bubble Lock"
+ScreenGui.BlueBubbleLock.Parent = ScreenGui.ScrollingFrame
+ScreenGui.BlueBubbleLock.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.BlueBubbleLock.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.BlueBubbleLock.BorderSizePixel = 0
+ScreenGui.BlueBubbleLock.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
+ScreenGui.BlueBubbleLock.Size = UDim2.new(0, 180, 0, 40)
+
+ScreenGui.UICorner_18.Parent = ScreenGui.BlueBubbleLock
+
+ScreenGui.BlueBubbleLock_2.Name = "Blue Bubble Lock"
+ScreenGui.BlueBubbleLock_2.Parent = ScreenGui.BlueBubbleLock
+ScreenGui.BlueBubbleLock_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.BlueBubbleLock_2.BackgroundTransparency = 1.000
+ScreenGui.BlueBubbleLock_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.BlueBubbleLock_2.BorderSizePixel = 0
+ScreenGui.BlueBubbleLock_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
+ScreenGui.BlueBubbleLock_2.Size = UDim2.new(0, 390, 0, 40)
+ScreenGui.BlueBubbleLock_2.Font = Enum.Font.SourceSansBold
+ScreenGui.BlueBubbleLock_2.Text = "Blue Bubble Lock"
+ScreenGui.BlueBubbleLock_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.BlueBubbleLock_2.TextSize = 20.000
+
+ScreenGui.UICorner_19.Parent = ScreenGui.BlueBubbleLock_2
+
+ScreenGui.Camlock.Name = "Camlock"
+ScreenGui.Camlock.Parent = ScreenGui.ScrollingFrame
+ScreenGui.Camlock.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Camlock.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Camlock.BorderSizePixel = 0
+ScreenGui.Camlock.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
+ScreenGui.Camlock.Size = UDim2.new(0, 180, 0, 40)
+
+ScreenGui.UICorner_20.Parent = ScreenGui.Camlock
+
+ScreenGui.Camlock_2.Name = "Camlock"
+ScreenGui.Camlock_2.Parent = ScreenGui.Camlock
+ScreenGui.Camlock_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Camlock_2.BackgroundTransparency = 1.000
+ScreenGui.Camlock_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Camlock_2.BorderSizePixel = 0
+ScreenGui.Camlock_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
+ScreenGui.Camlock_2.Size = UDim2.new(0, 390, 0, 40)
+ScreenGui.Camlock_2.Font = Enum.Font.SourceSansBold
+ScreenGui.Camlock_2.Text = "Camlock"
+ScreenGui.Camlock_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Camlock_2.TextSize = 20.000
+
+ScreenGui.UICorner_21.Parent = ScreenGui.Camlock_2
+
+ScreenGui.AntiLock.Name = "Anti-Lock"
+ScreenGui.AntiLock.Parent = ScreenGui.ScrollingFrame
+ScreenGui.AntiLock.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.AntiLock.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.AntiLock.BorderSizePixel = 0
+ScreenGui.AntiLock.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
+ScreenGui.AntiLock.Size = UDim2.new(0, 180, 0, 40)
+
+ScreenGui.UICorner_22.Parent = ScreenGui.AntiLock
+
+ScreenGui.AntiLock_2.Name = "Anti-Lock"
+ScreenGui.AntiLock_2.Parent = ScreenGui.AntiLock
+ScreenGui.AntiLock_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.AntiLock_2.BackgroundTransparency = 1.000
+ScreenGui.AntiLock_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.AntiLock_2.BorderSizePixel = 0
+ScreenGui.AntiLock_2.Position = UDim2.new(-0.0076923077, 0, -0.0370079055, 0)
+ScreenGui.AntiLock_2.Size = UDim2.new(0, 390, 0, 40)
+ScreenGui.AntiLock_2.Font = Enum.Font.SourceSansBold
+ScreenGui.AntiLock_2.Text = "Anti-Lock"
+ScreenGui.AntiLock_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.AntiLock_2.TextSize = 20.000
+
+ScreenGui.UICorner_23.Parent = ScreenGui.AntiLock_2
+
+ScreenGui.SlientAim.Name = "Slient Aim"
+ScreenGui.SlientAim.Parent = ScreenGui.ScrollingFrame
+ScreenGui.SlientAim.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.SlientAim.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.SlientAim.BorderSizePixel = 0
+ScreenGui.SlientAim.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
+ScreenGui.SlientAim.Size = UDim2.new(0, 180, 0, 40)
+
+ScreenGui.UICorner_24.Parent = ScreenGui.SlientAim
+
+ScreenGui.SlientAim_2.Name = "Slient Aim"
+ScreenGui.SlientAim_2.Parent = ScreenGui.SlientAim
+ScreenGui.SlientAim_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.SlientAim_2.BackgroundTransparency = 1.000
+ScreenGui.SlientAim_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.SlientAim_2.BorderSizePixel = 0
+ScreenGui.SlientAim_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
+ScreenGui.SlientAim_2.Size = UDim2.new(0, 390, 0, 40)
+ScreenGui.SlientAim_2.Font = Enum.Font.SourceSansBold
+ScreenGui.SlientAim_2.Text = "Slient Aim"
+ScreenGui.SlientAim_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.SlientAim_2.TextSize = 20.000
+
+ScreenGui.UICorner_25.Parent = ScreenGui.SlientAim_2
+
+ScreenGui.HomeFrame.Name = "HomeFrame"
+ScreenGui.HomeFrame.Parent = ScreenGui.MainFram
+ScreenGui.HomeFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.HomeFrame.BackgroundTransparency = 0.950
+ScreenGui.HomeFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.HomeFrame.BorderSizePixel = 0
+ScreenGui.HomeFrame.Position = UDim2.new(0.191665769, 0, 0, 0)
+ScreenGui.HomeFrame.Size = UDim2.new(0, 404, 0, 300)
+
+ScreenGui.buttonhover.Name = "button hover"
+ScreenGui.buttonhover.Parent = ScreenGui.HomeFrame
+ScreenGui.buttonhover.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.buttonhover.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.buttonhover.BorderSizePixel = 0
+ScreenGui.buttonhover.Position = UDim2.new(-0.237623766, 0, 0.0799999982, 0)
+ScreenGui.buttonhover.Size = UDim2.new(0, 95, 0, 30)
+
+ScreenGui.TextLabel_4.Parent = ScreenGui.buttonhover
+ScreenGui.TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_4.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextLabel_4.BorderSizePixel = 0
+ScreenGui.TextLabel_4.Position = UDim2.new(-0.0105259949, 0, 0, 0)
+ScreenGui.TextLabel_4.Size = UDim2.new(0, 95, 0, 30)
+ScreenGui.TextLabel_4.Font = Enum.Font.SourceSansBold
+ScreenGui.TextLabel_4.Text = "Home"
+ScreenGui.TextLabel_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextLabel_4.TextSize = 29.000
+
+ScreenGui.Changelog.Name = "Changelog"
+ScreenGui.Changelog.Parent = ScreenGui.HomeFrame
+ScreenGui.Changelog.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Changelog.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Changelog.BorderSizePixel = 0
+ScreenGui.Changelog.Position = UDim2.new(0.0396039225, 0, 0.0933333337, 0)
+ScreenGui.Changelog.Size = UDim2.new(0, 378, 0, 203)
+
+ScreenGui.UICorner_26.Parent = ScreenGui.Changelog
+
+ScreenGui.logs.Name = "logs"
+ScreenGui.logs.Parent = ScreenGui.Changelog
+ScreenGui.logs.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.logs.BackgroundTransparency = 1.000
+ScreenGui.logs.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.logs.BorderSizePixel = 0
+ScreenGui.logs.Position = UDim2.new(0, 0, 0.149606332, 0)
+ScreenGui.logs.Size = UDim2.new(0, 379, 0, 172)
+ScreenGui.logs.Font = Enum.Font.SourceSansBold
+ScreenGui.logs.Text = " Welcome to Astra Hub!"
+ScreenGui.logs.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.logs.TextSize = 16.000
+ScreenGui.logs.TextXAlignment = Enum.TextXAlignment.Left
+ScreenGui.logs.TextYAlignment = Enum.TextYAlignment.Top
+
+ScreenGui.Discord.Name = "Discord"
+ScreenGui.Discord.Parent = ScreenGui.Changelog
+ScreenGui.Discord.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Discord.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Discord.BorderSizePixel = 0
+ScreenGui.Discord.Position = UDim2.new(0, 0, 1.0629921, 0)
+ScreenGui.Discord.Size = UDim2.new(0, 180, 0, 40)
+
+ScreenGui.UICorner_27.Parent = ScreenGui.Discord
+
+ScreenGui.DiscordButton.Name = "Discord Button"
+ScreenGui.DiscordButton.Parent = ScreenGui.Discord
+ScreenGui.DiscordButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.DiscordButton.BackgroundTransparency = 1.000
+ScreenGui.DiscordButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.DiscordButton.BorderSizePixel = 0
+ScreenGui.DiscordButton.Position = UDim2.new(0, 0, -0.0120079042, 0)
+ScreenGui.DiscordButton.Size = UDim2.new(0, 180, 0, 40)
+ScreenGui.DiscordButton.Font = Enum.Font.SourceSansBold
+ScreenGui.DiscordButton.Text = "Discord Invite"
+ScreenGui.DiscordButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.DiscordButton.TextSize = 20.000
+
+ScreenGui.UICorner_28.Parent = ScreenGui.DiscordButton
+
+ScreenGui.Website.Name = "Website"
+ScreenGui.Website.Parent = ScreenGui.Changelog
+ScreenGui.Website.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Website.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Website.BorderSizePixel = 0
+ScreenGui.Website.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
+ScreenGui.Website.Size = UDim2.new(0, 180, 0, 40)
+
+ScreenGui.UICorner_29.Parent = ScreenGui.Website
+
+ScreenGui.WebsiteButton.Name = "Website Button"
+ScreenGui.WebsiteButton.Parent = ScreenGui.Website
+ScreenGui.WebsiteButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.WebsiteButton.BackgroundTransparency = 1.000
+ScreenGui.WebsiteButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.WebsiteButton.BorderSizePixel = 0
+ScreenGui.WebsiteButton.Position = UDim2.new(0, 0, -0.0120079042, 0)
+ScreenGui.WebsiteButton.Size = UDim2.new(0, 180, 0, 40)
+ScreenGui.WebsiteButton.Font = Enum.Font.SourceSansBold
+ScreenGui.WebsiteButton.Text = "Website URL"
+ScreenGui.WebsiteButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.WebsiteButton.TextSize = 20.000
+
+ScreenGui.UICorner_30.Parent = ScreenGui.WebsiteButton
+
+ScreenGui.TextLabel_5.Parent = ScreenGui.Changelog
+ScreenGui.TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextLabel_5.BorderSizePixel = 0
+ScreenGui.TextLabel_5.Position = UDim2.new(0.377308697, 0, 0.0157480314, 0)
+ScreenGui.TextLabel_5.Size = UDim2.new(0, 93, 0, 18)
+ScreenGui.TextLabel_5.Font = Enum.Font.SourceSansBold
+ScreenGui.TextLabel_5.Text = "Changelogs"
+ScreenGui.TextLabel_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextLabel_5.TextScaled = true
+ScreenGui.TextLabel_5.TextSize = 14.000
+ScreenGui.TextLabel_5.TextWrapped = true
+
+ScreenGui.name.Name = "name"
+ScreenGui.name.Parent = ScreenGui.HomeFrame
+ScreenGui.name.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.name.BackgroundTransparency = 1.000
+ScreenGui.name.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.name.BorderSizePixel = 0
+ScreenGui.name.Position = UDim2.new(0.339108974, 0, 0, 0)
+ScreenGui.name.Size = UDim2.new(0, 129, 0, 28)
+ScreenGui.name.Font = Enum.Font.SourceSansBold
+ScreenGui.name.Text = "Astra Hub"
+ScreenGui.name.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.name.TextScaled = true
+ScreenGui.name.TextSize = 14.000
+ScreenGui.name.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.name.TextWrapped = true
+
+ScreenGui.ScriptsFrame.Name = "ScriptsFrame"
+ScreenGui.ScriptsFrame.Parent = ScreenGui.MainFram
+ScreenGui.ScriptsFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.ScriptsFrame.BackgroundTransparency = 1.000
+ScreenGui.ScriptsFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.ScriptsFrame.BorderSizePixel = 0
+ScreenGui.ScriptsFrame.Position = UDim2.new(0.191665769, 0, 0, 0)
+ScreenGui.ScriptsFrame.Size = UDim2.new(0, 404, 0, 300)
+ScreenGui.ScriptsFrame.Visible = false
+
+ScreenGui.Frame_2.Parent = ScreenGui.ScriptsFrame
+ScreenGui.Frame_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Frame_2.BorderSizePixel = 0
+ScreenGui.Frame_2.Position = UDim2.new(-0.237623766, 0, 0.180000007, 0)
+ScreenGui.Frame_2.Size = UDim2.new(0, 95, 0, 30)
+
+ScreenGui.TextLabel_6.Parent = ScreenGui.Frame_2
+ScreenGui.TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_6.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextLabel_6.BorderSizePixel = 0
+ScreenGui.TextLabel_6.Position = UDim2.new(0.0105266366, 0, 0, 0)
+ScreenGui.TextLabel_6.Size = UDim2.new(0, 95, 0, 30)
+ScreenGui.TextLabel_6.Font = Enum.Font.SourceSansBold
+ScreenGui.TextLabel_6.Text = "Scripts"
+ScreenGui.TextLabel_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextLabel_6.TextSize = 29.000
+
+ScreenGui.ScrollingFrame_2.Parent = ScreenGui.ScriptsFrame
+ScreenGui.ScrollingFrame_2.Active = true
+ScreenGui.ScrollingFrame_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.ScrollingFrame_2.BackgroundTransparency = 1.000
+ScreenGui.ScrollingFrame_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.ScrollingFrame_2.BorderSizePixel = 0
+ScreenGui.ScrollingFrame_2.Position = UDim2.new(0.0247525517, 0, 0.0799999982, 0)
+ScreenGui.ScrollingFrame_2.Size = UDim2.new(0, 394, 0, 276)
+ScreenGui.ScrollingFrame_2.CanvasSize = UDim2.new(0, 0, 3, 0)
+ScreenGui.ScrollingFrame_2.ScrollBarImageColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.ScrollingFrame_2.ScrollBarThickness = 0
+
+ScreenGui.UIGridLayout_2.Parent = ScreenGui.ScrollingFrame_2
+ScreenGui.UIGridLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
+ScreenGui.UIGridLayout_2.CellSize = UDim2.new(0, 390, 0, 40)
+
+ScreenGui.MyRestaurant.Name = "My Restaurant"
+ScreenGui.MyRestaurant.Parent = ScreenGui.ScrollingFrame_2
+ScreenGui.MyRestaurant.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.MyRestaurant.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.MyRestaurant.BorderSizePixel = 0
+ScreenGui.MyRestaurant.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
+ScreenGui.MyRestaurant.Size = UDim2.new(0, 180, 0, 40)
+
+ScreenGui.UICorner_31.Parent = ScreenGui.MyRestaurant
+
+ScreenGui.MyRestaurant_2.Name = "My Restaurant"
+ScreenGui.MyRestaurant_2.Parent = ScreenGui.MyRestaurant
+ScreenGui.MyRestaurant_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.MyRestaurant_2.BackgroundTransparency = 1.000
+ScreenGui.MyRestaurant_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.MyRestaurant_2.BorderSizePixel = 0
+ScreenGui.MyRestaurant_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
+ScreenGui.MyRestaurant_2.Size = UDim2.new(0, 390, 0, 40)
+ScreenGui.MyRestaurant_2.Font = Enum.Font.SourceSansBold
+ScreenGui.MyRestaurant_2.Text = "My Restaurant"
+ScreenGui.MyRestaurant_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.MyRestaurant_2.TextSize = 20.000
+
+ScreenGui.UICorner_32.Parent = ScreenGui.MyRestaurant_2
+
+ScreenGui.PetSimulator99.Name = "Pet Simulator 99"
+ScreenGui.PetSimulator99.Parent = ScreenGui.ScrollingFrame_2
+ScreenGui.PetSimulator99.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.PetSimulator99.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.PetSimulator99.BorderSizePixel = 0
+ScreenGui.PetSimulator99.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
+ScreenGui.PetSimulator99.Size = UDim2.new(0, 180, 0, 40)
+
+ScreenGui.UICorner_33.Parent = ScreenGui.PetSimulator99
+
+ScreenGui.PetSimulator99_2.Name = "Pet Simulator 99"
+ScreenGui.PetSimulator99_2.Parent = ScreenGui.PetSimulator99
+ScreenGui.PetSimulator99_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.PetSimulator99_2.BackgroundTransparency = 1.000
+ScreenGui.PetSimulator99_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.PetSimulator99_2.BorderSizePixel = 0
+ScreenGui.PetSimulator99_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
+ScreenGui.PetSimulator99_2.Size = UDim2.new(0, 390, 0, 40)
+ScreenGui.PetSimulator99_2.Font = Enum.Font.SourceSansBold
+ScreenGui.PetSimulator99_2.Text = "Pet Simulator 99"
+ScreenGui.PetSimulator99_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.PetSimulator99_2.TextSize = 20.000
+
+ScreenGui.UICorner_34.Parent = ScreenGui.PetSimulator99_2
+
+ScreenGui.BladeBallAutoParry.Name = "Blade Ball Auto Parry"
+ScreenGui.BladeBallAutoParry.Parent = ScreenGui.ScrollingFrame_2
+ScreenGui.BladeBallAutoParry.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.BladeBallAutoParry.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.BladeBallAutoParry.BorderSizePixel = 0
+ScreenGui.BladeBallAutoParry.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
+ScreenGui.BladeBallAutoParry.Size = UDim2.new(0, 180, 0, 40)
+
+ScreenGui.UICorner_35.Parent = ScreenGui.BladeBallAutoParry
+
+ScreenGui.BladeBallAutoParry_2.Name = "Blade Ball Auto Parry"
+ScreenGui.BladeBallAutoParry_2.Parent = ScreenGui.BladeBallAutoParry
+ScreenGui.BladeBallAutoParry_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.BladeBallAutoParry_2.BackgroundTransparency = 1.000
+ScreenGui.BladeBallAutoParry_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.BladeBallAutoParry_2.BorderSizePixel = 0
+ScreenGui.BladeBallAutoParry_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
+ScreenGui.BladeBallAutoParry_2.Size = UDim2.new(0, 390, 0, 40)
+ScreenGui.BladeBallAutoParry_2.Font = Enum.Font.SourceSansBold
+ScreenGui.BladeBallAutoParry_2.Text = "Blade Ball Auto Parry"
+ScreenGui.BladeBallAutoParry_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.BladeBallAutoParry_2.TextSize = 20.000
+
+ScreenGui.UICorner_36.Parent = ScreenGui.BladeBallAutoParry_2
+
+ScreenGui.TowerOfHell.Name = "Tower Of Hell"
+ScreenGui.TowerOfHell.Parent = ScreenGui.ScrollingFrame_2
+ScreenGui.TowerOfHell.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TowerOfHell.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TowerOfHell.BorderSizePixel = 0
+ScreenGui.TowerOfHell.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
+ScreenGui.TowerOfHell.Size = UDim2.new(0, 180, 0, 40)
+
+ScreenGui.UICorner_37.Parent = ScreenGui.TowerOfHell
+
+ScreenGui.TowerOfHell_2.Name = "Tower Of Hell"
+ScreenGui.TowerOfHell_2.Parent = ScreenGui.TowerOfHell
+ScreenGui.TowerOfHell_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TowerOfHell_2.BackgroundTransparency = 1.000
+ScreenGui.TowerOfHell_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TowerOfHell_2.BorderSizePixel = 0
+ScreenGui.TowerOfHell_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
+ScreenGui.TowerOfHell_2.Size = UDim2.new(0, 390, 0, 40)
+ScreenGui.TowerOfHell_2.Font = Enum.Font.SourceSansBold
+ScreenGui.TowerOfHell_2.Text = "Tower Of Hell"
+ScreenGui.TowerOfHell_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TowerOfHell_2.TextSize = 20.000
+
+ScreenGui.UICorner_38.Parent = ScreenGui.TowerOfHell_2
+
+ScreenGui.DriveWorld.Name = "Drive World"
+ScreenGui.DriveWorld.Parent = ScreenGui.ScrollingFrame_2
+ScreenGui.DriveWorld.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.DriveWorld.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.DriveWorld.BorderSizePixel = 0
+ScreenGui.DriveWorld.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
+ScreenGui.DriveWorld.Size = UDim2.new(0, 180, 0, 40)
+
+ScreenGui.UICorner_39.Parent = ScreenGui.DriveWorld
+
+ScreenGui.DriveWorld_2.Name = "Drive World"
+ScreenGui.DriveWorld_2.Parent = ScreenGui.DriveWorld
+ScreenGui.DriveWorld_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.DriveWorld_2.BackgroundTransparency = 1.000
+ScreenGui.DriveWorld_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.DriveWorld_2.BorderSizePixel = 0
+ScreenGui.DriveWorld_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
+ScreenGui.DriveWorld_2.Size = UDim2.new(0, 390, 0, 40)
+ScreenGui.DriveWorld_2.Font = Enum.Font.SourceSansBold
+ScreenGui.DriveWorld_2.Text = "Drive World"
+ScreenGui.DriveWorld_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.DriveWorld_2.TextSize = 20.000
+
+ScreenGui.UICorner_40.Parent = ScreenGui.DriveWorld_2
+
+ScreenGui.Evade.Name = "Evade"
+ScreenGui.Evade.Parent = ScreenGui.ScrollingFrame_2
+ScreenGui.Evade.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Evade.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Evade.BorderSizePixel = 0
+ScreenGui.Evade.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
+ScreenGui.Evade.Size = UDim2.new(0, 180, 0, 40)
+
+ScreenGui.UICorner_41.Parent = ScreenGui.Evade
+
+ScreenGui.Evade_2.Name = "Evade"
+ScreenGui.Evade_2.Parent = ScreenGui.Evade
+ScreenGui.Evade_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Evade_2.BackgroundTransparency = 1.000
+ScreenGui.Evade_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Evade_2.BorderSizePixel = 0
+ScreenGui.Evade_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
+ScreenGui.Evade_2.Size = UDim2.new(0, 390, 0, 40)
+ScreenGui.Evade_2.Font = Enum.Font.SourceSansBold
+ScreenGui.Evade_2.Text = "Evade"
+ScreenGui.Evade_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Evade_2.TextSize = 20.000
+
+ScreenGui.UICorner_42.Parent = ScreenGui.Evade_2
+
+ScreenGui.DaHoodModded.Name = "Da Hood Modded"
+ScreenGui.DaHoodModded.Parent = ScreenGui.ScrollingFrame_2
+ScreenGui.DaHoodModded.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.DaHoodModded.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.DaHoodModded.BorderSizePixel = 0
+ScreenGui.DaHoodModded.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
+ScreenGui.DaHoodModded.Size = UDim2.new(0, 180, 0, 40)
+
+ScreenGui.UICorner_43.Parent = ScreenGui.DaHoodModded
+
+ScreenGui.DaHoodModded_2.Name = "Da Hood Modded"
+ScreenGui.DaHoodModded_2.Parent = ScreenGui.DaHoodModded
+ScreenGui.DaHoodModded_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.DaHoodModded_2.BackgroundTransparency = 1.000
+ScreenGui.DaHoodModded_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.DaHoodModded_2.BorderSizePixel = 0
+ScreenGui.DaHoodModded_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
+ScreenGui.DaHoodModded_2.Size = UDim2.new(0, 390, 0, 40)
+ScreenGui.DaHoodModded_2.Font = Enum.Font.SourceSansBold
+ScreenGui.DaHoodModded_2.Text = "Da Hood Modded"
+ScreenGui.DaHoodModded_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.DaHoodModded_2.TextSize = 20.000
+
+ScreenGui.UICorner_44.Parent = ScreenGui.DaHoodModded_2
+
+ScreenGui.MurderMystery2.Name = "Murder Mystery 2"
+ScreenGui.MurderMystery2.Parent = ScreenGui.ScrollingFrame_2
+ScreenGui.MurderMystery2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.MurderMystery2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.MurderMystery2.BorderSizePixel = 0
+ScreenGui.MurderMystery2.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
+ScreenGui.MurderMystery2.Size = UDim2.new(0, 180, 0, 40)
+
+ScreenGui.UICorner_45.Parent = ScreenGui.MurderMystery2
+
+ScreenGui.MurderMystery2_2.Name = "Murder Mystery 2"
+ScreenGui.MurderMystery2_2.Parent = ScreenGui.MurderMystery2
+ScreenGui.MurderMystery2_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.MurderMystery2_2.BackgroundTransparency = 1.000
+ScreenGui.MurderMystery2_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.MurderMystery2_2.BorderSizePixel = 0
+ScreenGui.MurderMystery2_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
+ScreenGui.MurderMystery2_2.Size = UDim2.new(0, 390, 0, 40)
+ScreenGui.MurderMystery2_2.Font = Enum.Font.SourceSansBold
+ScreenGui.MurderMystery2_2.Text = "Murder Mystery 2"
+ScreenGui.MurderMystery2_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.MurderMystery2_2.TextSize = 20.000
+
+ScreenGui.UICorner_46.Parent = ScreenGui.MurderMystery2_2
+
+ScreenGui.BigPaintBall2.Name = "Big PaintBall 2"
+ScreenGui.BigPaintBall2.Parent = ScreenGui.ScrollingFrame_2
+ScreenGui.BigPaintBall2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.BigPaintBall2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.BigPaintBall2.BorderSizePixel = 0
+ScreenGui.BigPaintBall2.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
+ScreenGui.BigPaintBall2.Size = UDim2.new(0, 180, 0, 40)
+
+ScreenGui.UICorner_47.Parent = ScreenGui.BigPaintBall2
+
+ScreenGui.BigPaintBall2_2.Name = "Big PaintBall 2"
+ScreenGui.BigPaintBall2_2.Parent = ScreenGui.BigPaintBall2
+ScreenGui.BigPaintBall2_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.BigPaintBall2_2.BackgroundTransparency = 1.000
+ScreenGui.BigPaintBall2_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.BigPaintBall2_2.BorderSizePixel = 0
+ScreenGui.BigPaintBall2_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
+ScreenGui.BigPaintBall2_2.Size = UDim2.new(0, 390, 0, 40)
+ScreenGui.BigPaintBall2_2.Font = Enum.Font.SourceSansBold
+ScreenGui.BigPaintBall2_2.Text = "Big PaintBall 2"
+ScreenGui.BigPaintBall2_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.BigPaintBall2_2.TextSize = 20.000
+
+ScreenGui.UICorner_48.Parent = ScreenGui.BigPaintBall2_2
+
+ScreenGui.Arsenal.Name = "Arsenal"
+ScreenGui.Arsenal.Parent = ScreenGui.ScrollingFrame_2
+ScreenGui.Arsenal.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Arsenal.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Arsenal.BorderSizePixel = 0
+ScreenGui.Arsenal.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
+ScreenGui.Arsenal.Size = UDim2.new(0, 180, 0, 40)
+
+ScreenGui.UICorner_49.Parent = ScreenGui.Arsenal
+
+ScreenGui.Arsenal_2.Name = "Arsenal"
+ScreenGui.Arsenal_2.Parent = ScreenGui.Arsenal
+ScreenGui.Arsenal_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Arsenal_2.BackgroundTransparency = 1.000
+ScreenGui.Arsenal_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Arsenal_2.BorderSizePixel = 0
+ScreenGui.Arsenal_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
+ScreenGui.Arsenal_2.Size = UDim2.new(0, 390, 0, 40)
+ScreenGui.Arsenal_2.Font = Enum.Font.SourceSansBold
+ScreenGui.Arsenal_2.Text = "Arsenal"
+ScreenGui.Arsenal_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Arsenal_2.TextSize = 20.000
+
+ScreenGui.UICorner_50.Parent = ScreenGui.Arsenal_2
+
+ScreenGui.RainbowFriends.Name = "Rainbow Friends"
+ScreenGui.RainbowFriends.Parent = ScreenGui.ScrollingFrame_2
+ScreenGui.RainbowFriends.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.RainbowFriends.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.RainbowFriends.BorderSizePixel = 0
+ScreenGui.RainbowFriends.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
+ScreenGui.RainbowFriends.Size = UDim2.new(0, 180, 0, 40)
+
+ScreenGui.UICorner_51.Parent = ScreenGui.RainbowFriends
+
+ScreenGui.RainbowFriends_2.Name = "Rainbow Friends"
+ScreenGui.RainbowFriends_2.Parent = ScreenGui.RainbowFriends
+ScreenGui.RainbowFriends_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.RainbowFriends_2.BackgroundTransparency = 1.000
+ScreenGui.RainbowFriends_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.RainbowFriends_2.BorderSizePixel = 0
+ScreenGui.RainbowFriends_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
+ScreenGui.RainbowFriends_2.Size = UDim2.new(0, 390, 0, 40)
+ScreenGui.RainbowFriends_2.Font = Enum.Font.SourceSansBold
+ScreenGui.RainbowFriends_2.Text = "Rainbow Friends"
+ScreenGui.RainbowFriends_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.RainbowFriends_2.TextSize = 20.000
+
+ScreenGui.UICorner_52.Parent = ScreenGui.RainbowFriends_2
+
+ScreenGui.AnimeAdventures.Name = "Anime Adventures"
+ScreenGui.AnimeAdventures.Parent = ScreenGui.ScrollingFrame_2
+ScreenGui.AnimeAdventures.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.AnimeAdventures.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.AnimeAdventures.BorderSizePixel = 0
+ScreenGui.AnimeAdventures.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
+ScreenGui.AnimeAdventures.Size = UDim2.new(0, 180, 0, 40)
+
+ScreenGui.UICorner_53.Parent = ScreenGui.AnimeAdventures
+
+ScreenGui.AnimeAdventures_2.Name = "Anime Adventures"
+ScreenGui.AnimeAdventures_2.Parent = ScreenGui.AnimeAdventures
+ScreenGui.AnimeAdventures_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.AnimeAdventures_2.BackgroundTransparency = 1.000
+ScreenGui.AnimeAdventures_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.AnimeAdventures_2.BorderSizePixel = 0
+ScreenGui.AnimeAdventures_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
+ScreenGui.AnimeAdventures_2.Size = UDim2.new(0, 390, 0, 40)
+ScreenGui.AnimeAdventures_2.Font = Enum.Font.SourceSansBold
+ScreenGui.AnimeAdventures_2.Text = "Anime Adventures"
+ScreenGui.AnimeAdventures_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.AnimeAdventures_2.TextSize = 20.000
+
+ScreenGui.UICorner_54.Parent = ScreenGui.AnimeAdventures_2
+
+ScreenGui.BloxFruits.Name = "BloxFruits"
+ScreenGui.BloxFruits.Parent = ScreenGui.ScrollingFrame_2
+ScreenGui.BloxFruits.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.BloxFruits.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.BloxFruits.BorderSizePixel = 0
+ScreenGui.BloxFruits.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
+ScreenGui.BloxFruits.Size = UDim2.new(0, 180, 0, 40)
+
+ScreenGui.UICorner_55.Parent = ScreenGui.BloxFruits
+
+ScreenGui.BloxFruits_2.Name = "BloxFruits"
+ScreenGui.BloxFruits_2.Parent = ScreenGui.BloxFruits
+ScreenGui.BloxFruits_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.BloxFruits_2.BackgroundTransparency = 1.000
+ScreenGui.BloxFruits_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.BloxFruits_2.BorderSizePixel = 0
+ScreenGui.BloxFruits_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
+ScreenGui.BloxFruits_2.Size = UDim2.new(0, 390, 0, 40)
+ScreenGui.BloxFruits_2.Font = Enum.Font.SourceSansBold
+ScreenGui.BloxFruits_2.Text = "BloxFruits"
+ScreenGui.BloxFruits_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.BloxFruits_2.TextSize = 20.000
+
+ScreenGui.UICorner_56.Parent = ScreenGui.BloxFruits_2
+
+ScreenGui.AdoptMe.Name = "Adopt Me"
+ScreenGui.AdoptMe.Parent = ScreenGui.ScrollingFrame_2
+ScreenGui.AdoptMe.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.AdoptMe.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.AdoptMe.BorderSizePixel = 0
+ScreenGui.AdoptMe.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
+ScreenGui.AdoptMe.Size = UDim2.new(0, 180, 0, 40)
+
+ScreenGui.UICorner_57.Parent = ScreenGui.AdoptMe
+
+ScreenGui.AdoptMe_2.Name = "Adopt Me"
+ScreenGui.AdoptMe_2.Parent = ScreenGui.AdoptMe
+ScreenGui.AdoptMe_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.AdoptMe_2.BackgroundTransparency = 1.000
+ScreenGui.AdoptMe_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.AdoptMe_2.BorderSizePixel = 0
+ScreenGui.AdoptMe_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
+ScreenGui.AdoptMe_2.Size = UDim2.new(0, 390, 0, 40)
+ScreenGui.AdoptMe_2.Font = Enum.Font.SourceSansBold
+ScreenGui.AdoptMe_2.Text = "Adopt Me"
+ScreenGui.AdoptMe_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.AdoptMe_2.TextSize = 20.000
+
+ScreenGui.UICorner_58.Parent = ScreenGui.AdoptMe_2
+
+ScreenGui.FunkyFriday.Name = "Funky Friday"
+ScreenGui.FunkyFriday.Parent = ScreenGui.ScrollingFrame_2
+ScreenGui.FunkyFriday.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.FunkyFriday.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.FunkyFriday.BorderSizePixel = 0
+ScreenGui.FunkyFriday.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
+ScreenGui.FunkyFriday.Size = UDim2.new(0, 180, 0, 40)
+
+ScreenGui.UICorner_59.Parent = ScreenGui.FunkyFriday
+
+ScreenGui.FunkyFriday_2.Name = "Funky Friday"
+ScreenGui.FunkyFriday_2.Parent = ScreenGui.FunkyFriday
+ScreenGui.FunkyFriday_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.FunkyFriday_2.BackgroundTransparency = 1.000
+ScreenGui.FunkyFriday_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.FunkyFriday_2.BorderSizePixel = 0
+ScreenGui.FunkyFriday_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
+ScreenGui.FunkyFriday_2.Size = UDim2.new(0, 390, 0, 40)
+ScreenGui.FunkyFriday_2.Font = Enum.Font.SourceSansBold
+ScreenGui.FunkyFriday_2.Text = "Funky Friday"
+ScreenGui.FunkyFriday_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.FunkyFriday_2.TextSize = 20.000
+
+ScreenGui.UICorner_60.Parent = ScreenGui.FunkyFriday_2
+
+ScreenGui.AnimeSoulSimulator.Name = "Anime Soul Simulator"
+ScreenGui.AnimeSoulSimulator.Parent = ScreenGui.ScrollingFrame_2
+ScreenGui.AnimeSoulSimulator.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.AnimeSoulSimulator.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.AnimeSoulSimulator.BorderSizePixel = 0
+ScreenGui.AnimeSoulSimulator.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
+ScreenGui.AnimeSoulSimulator.Size = UDim2.new(0, 180, 0, 40)
+
+ScreenGui.UICorner_61.Parent = ScreenGui.AnimeSoulSimulator
+
+ScreenGui.AnimeSoulSimulator_2.Name = "Anime Soul Simulator"
+ScreenGui.AnimeSoulSimulator_2.Parent = ScreenGui.AnimeSoulSimulator
+ScreenGui.AnimeSoulSimulator_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.AnimeSoulSimulator_2.BackgroundTransparency = 1.000
+ScreenGui.AnimeSoulSimulator_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.AnimeSoulSimulator_2.BorderSizePixel = 0
+ScreenGui.AnimeSoulSimulator_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
+ScreenGui.AnimeSoulSimulator_2.Size = UDim2.new(0, 390, 0, 40)
+ScreenGui.AnimeSoulSimulator_2.Font = Enum.Font.SourceSansBold
+ScreenGui.AnimeSoulSimulator_2.Text = "Anime Soul Simulator"
+ScreenGui.AnimeSoulSimulator_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.AnimeSoulSimulator_2.TextSize = 20.000
+
+ScreenGui.UICorner_62.Parent = ScreenGui.AnimeSoulSimulator_2
+
+ScreenGui.DeathBall.Name = "Death Ball"
+ScreenGui.DeathBall.Parent = ScreenGui.ScrollingFrame_2
+ScreenGui.DeathBall.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.DeathBall.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.DeathBall.BorderSizePixel = 0
+ScreenGui.DeathBall.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
+ScreenGui.DeathBall.Size = UDim2.new(0, 180, 0, 40)
+
+ScreenGui.UICorner_63.Parent = ScreenGui.DeathBall
+
+ScreenGui.DeathBall_2.Name = "Death Ball"
+ScreenGui.DeathBall_2.Parent = ScreenGui.DeathBall
+ScreenGui.DeathBall_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.DeathBall_2.BackgroundTransparency = 1.000
+ScreenGui.DeathBall_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.DeathBall_2.BorderSizePixel = 0
+ScreenGui.DeathBall_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
+ScreenGui.DeathBall_2.Size = UDim2.new(0, 390, 0, 40)
+ScreenGui.DeathBall_2.Font = Enum.Font.SourceSansBold
+ScreenGui.DeathBall_2.Text = "Death Ball"
+ScreenGui.DeathBall_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.DeathBall_2.TextSize = 20.000
+
+ScreenGui.UICorner_64.Parent = ScreenGui.DeathBall_2
+
+ScreenGui.Bedwars.Name = "Bedwars"
+ScreenGui.Bedwars.Parent = ScreenGui.ScrollingFrame_2
+ScreenGui.Bedwars.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Bedwars.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Bedwars.BorderSizePixel = 0
+ScreenGui.Bedwars.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
+ScreenGui.Bedwars.Size = UDim2.new(0, 180, 0, 40)
+
+ScreenGui.UICorner_65.Parent = ScreenGui.Bedwars
+
+ScreenGui.Bedwars_2.Name = "Bedwars"
+ScreenGui.Bedwars_2.Parent = ScreenGui.Bedwars
+ScreenGui.Bedwars_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Bedwars_2.BackgroundTransparency = 1.000
+ScreenGui.Bedwars_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Bedwars_2.BorderSizePixel = 0
+ScreenGui.Bedwars_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
+ScreenGui.Bedwars_2.Size = UDim2.new(0, 390, 0, 40)
+ScreenGui.Bedwars_2.Font = Enum.Font.SourceSansBold
+ScreenGui.Bedwars_2.Text = "Bedwars"
+ScreenGui.Bedwars_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Bedwars_2.TextSize = 20.000
+
+ScreenGui.UICorner_66.Parent = ScreenGui.Bedwars_2
+
+ScreenGui.ShindoLife2.Name = "Shindo Life 2"
+ScreenGui.ShindoLife2.Parent = ScreenGui.ScrollingFrame_2
+ScreenGui.ShindoLife2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.ShindoLife2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.ShindoLife2.BorderSizePixel = 0
+ScreenGui.ShindoLife2.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
+ScreenGui.ShindoLife2.Size = UDim2.new(0, 180, 0, 40)
+
+ScreenGui.UICorner_67.Parent = ScreenGui.ShindoLife2
+
+ScreenGui.ShindoLife2_2.Name = "Shindo Life 2"
+ScreenGui.ShindoLife2_2.Parent = ScreenGui.ShindoLife2
+ScreenGui.ShindoLife2_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.ShindoLife2_2.BackgroundTransparency = 1.000
+ScreenGui.ShindoLife2_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.ShindoLife2_2.BorderSizePixel = 0
+ScreenGui.ShindoLife2_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
+ScreenGui.ShindoLife2_2.Size = UDim2.new(0, 390, 0, 40)
+ScreenGui.ShindoLife2_2.Font = Enum.Font.SourceSansBold
+ScreenGui.ShindoLife2_2.Text = "Shindo Life 2"
+ScreenGui.ShindoLife2_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.ShindoLife2_2.TextSize = 20.000
+
+ScreenGui.UICorner_68.Parent = ScreenGui.ShindoLife2_2
+
+ScreenGui.PrisonLife.Name = "Prison Life"
+ScreenGui.PrisonLife.Parent = ScreenGui.ScrollingFrame_2
+ScreenGui.PrisonLife.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.PrisonLife.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.PrisonLife.BorderSizePixel = 0
+ScreenGui.PrisonLife.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
+ScreenGui.PrisonLife.Size = UDim2.new(0, 180, 0, 40)
+
+ScreenGui.UICorner_69.Parent = ScreenGui.PrisonLife
+
+ScreenGui.PrisonLife_2.Name = "Prison Life"
+ScreenGui.PrisonLife_2.Parent = ScreenGui.PrisonLife
+ScreenGui.PrisonLife_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.PrisonLife_2.BackgroundTransparency = 1.000
+ScreenGui.PrisonLife_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.PrisonLife_2.BorderSizePixel = 0
+ScreenGui.PrisonLife_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
+ScreenGui.PrisonLife_2.Size = UDim2.new(0, 390, 0, 40)
+ScreenGui.PrisonLife_2.Font = Enum.Font.SourceSansBold
+ScreenGui.PrisonLife_2.Text = "Prison Life"
+ScreenGui.PrisonLife_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.PrisonLife_2.TextSize = 20.000
+
+ScreenGui.UICorner_70.Parent = ScreenGui.PrisonLife_2
+
+ScreenGui.TextLabel_7.Parent = ScreenGui.ScriptsFrame
+ScreenGui.TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_7.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextLabel_7.BorderSizePixel = 0
+ScreenGui.TextLabel_7.Position = UDim2.new(7.55385585e-08, 0, 0, 0)
+ScreenGui.TextLabel_7.Size = UDim2.new(0, 404, 0, 17)
+ScreenGui.TextLabel_7.Font = Enum.Font.SourceSansBold
+ScreenGui.TextLabel_7.Text = "Scripts"
+ScreenGui.TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_7.TextSize = 25.000
+
+ScreenGui.Frame_3.Parent = ScreenGui.MainFram
+ScreenGui.Frame_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Frame_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Frame_3.BorderSizePixel = 0
+ScreenGui.Frame_3.Position = UDim2.new(0.186000183, 0, 0, 0)
+ScreenGui.Frame_3.Size = UDim2.new(0, 2, 0, 300)
+
+ScreenGui.Misc.Name = "Misc"
+ScreenGui.Misc.Parent = ScreenGui.MainFram
+ScreenGui.Misc.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Misc.BackgroundTransparency = 1.000
+ScreenGui.Misc.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Misc.BorderSizePixel = 0
+ScreenGui.Misc.Position = UDim2.new(0, 0, 0.375362337, 0)
+ScreenGui.Misc.Size = UDim2.new(0, 95, 0, 30)
+ScreenGui.Misc.Font = Enum.Font.SourceSansBold
+ScreenGui.Misc.Text = "Misc"
+ScreenGui.Misc.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Misc.TextSize = 29.000
+ScreenGui.Misc.TextWrapped = true
+
+ScreenGui.MiscFrame.Name = "MiscFrame"
+ScreenGui.MiscFrame.Parent = ScreenGui.MainFram
+ScreenGui.MiscFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.MiscFrame.BackgroundTransparency = 1.000
+ScreenGui.MiscFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.MiscFrame.BorderSizePixel = 0
+ScreenGui.MiscFrame.Position = UDim2.new(0.191665769, 0, 0, 0)
+ScreenGui.MiscFrame.Size = UDim2.new(0, 404, 0, 300)
+ScreenGui.MiscFrame.Visible = false
+
+ScreenGui.Background.Name = "Background"
+ScreenGui.Background.Parent = ScreenGui.MiscFrame
+ScreenGui.Background.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Background.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Background.BorderSizePixel = 0
+ScreenGui.Background.Position = UDim2.new(-0.237623766, 0, 0.379999995, 0)
+ScreenGui.Background.Size = UDim2.new(0, 95, 0, 30)
+
+ScreenGui.TextLabel_8.Parent = ScreenGui.Background
+ScreenGui.TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_8.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextLabel_8.BorderSizePixel = 0
+ScreenGui.TextLabel_8.Position = UDim2.new(0.0105266366, 0, 0, 0)
+ScreenGui.TextLabel_8.Size = UDim2.new(0, 95, 0, 30)
+ScreenGui.TextLabel_8.Font = Enum.Font.SourceSansBold
+ScreenGui.TextLabel_8.Text = "Misc"
+ScreenGui.TextLabel_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextLabel_8.TextSize = 29.000
+
+ScreenGui.ScrollingFrame_3.Parent = ScreenGui.MiscFrame
+ScreenGui.ScrollingFrame_3.Active = true
+ScreenGui.ScrollingFrame_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.ScrollingFrame_3.BackgroundTransparency = 1.000
+ScreenGui.ScrollingFrame_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.ScrollingFrame_3.BorderSizePixel = 0
+ScreenGui.ScrollingFrame_3.Position = UDim2.new(0.0247525517, 0, 0.0799999982, 0)
+ScreenGui.ScrollingFrame_3.Size = UDim2.new(0, 394, 0, 276)
+ScreenGui.ScrollingFrame_3.CanvasSize = UDim2.new(0, 0, 1.35000002, 0)
+ScreenGui.ScrollingFrame_3.ScrollBarImageColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.ScrollingFrame_3.ScrollBarThickness = 0
+
+ScreenGui.UIGridLayout_3.Parent = ScreenGui.ScrollingFrame_3
+ScreenGui.UIGridLayout_3.SortOrder = Enum.SortOrder.LayoutOrder
+ScreenGui.UIGridLayout_3.CellSize = UDim2.new(0, 390, 0, 40)
+
+ScreenGui.InfiniteYield.Name = "Infinite Yield"
+ScreenGui.InfiniteYield.Parent = ScreenGui.ScrollingFrame_3
+ScreenGui.InfiniteYield.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.InfiniteYield.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.InfiniteYield.BorderSizePixel = 0
+ScreenGui.InfiniteYield.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
+ScreenGui.InfiniteYield.Size = UDim2.new(0, 180, 0, 40)
+
+ScreenGui.UICorner_71.Parent = ScreenGui.InfiniteYield
+
+ScreenGui.InfiniteYield_2.Name = "Infinite Yield"
+ScreenGui.InfiniteYield_2.Parent = ScreenGui.InfiniteYield
+ScreenGui.InfiniteYield_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.InfiniteYield_2.BackgroundTransparency = 1.000
+ScreenGui.InfiniteYield_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.InfiniteYield_2.BorderSizePixel = 0
+ScreenGui.InfiniteYield_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
+ScreenGui.InfiniteYield_2.Size = UDim2.new(0, 390, 0, 40)
+ScreenGui.InfiniteYield_2.Font = Enum.Font.SourceSansBold
+ScreenGui.InfiniteYield_2.Text = "Infinite Yield"
+ScreenGui.InfiniteYield_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.InfiniteYield_2.TextSize = 20.000
+
+ScreenGui.UICorner_72.Parent = ScreenGui.InfiniteYield_2
+
+ScreenGui.AntiAFK.Name = "Anti AFK"
+ScreenGui.AntiAFK.Parent = ScreenGui.ScrollingFrame_3
+ScreenGui.AntiAFK.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.AntiAFK.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.AntiAFK.BorderSizePixel = 0
+ScreenGui.AntiAFK.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
+ScreenGui.AntiAFK.Size = UDim2.new(0, 180, 0, 40)
+
+ScreenGui.UICorner_73.Parent = ScreenGui.AntiAFK
+
+ScreenGui.AntiAFK_2.Name = "Anti AFK"
+ScreenGui.AntiAFK_2.Parent = ScreenGui.AntiAFK
+ScreenGui.AntiAFK_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.AntiAFK_2.BackgroundTransparency = 1.000
+ScreenGui.AntiAFK_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.AntiAFK_2.BorderSizePixel = 0
+ScreenGui.AntiAFK_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
+ScreenGui.AntiAFK_2.Size = UDim2.new(0, 390, 0, 40)
+ScreenGui.AntiAFK_2.Font = Enum.Font.SourceSansBold
+ScreenGui.AntiAFK_2.Text = "Anti AFK"
+ScreenGui.AntiAFK_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.AntiAFK_2.TextSize = 20.000
+
+ScreenGui.UICorner_74.Parent = ScreenGui.AntiAFK_2
+
+ScreenGui.AutoPiano.Name = "Auto Piano"
+ScreenGui.AutoPiano.Parent = ScreenGui.ScrollingFrame_3
+ScreenGui.AutoPiano.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.AutoPiano.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.AutoPiano.BorderSizePixel = 0
+ScreenGui.AutoPiano.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
+ScreenGui.AutoPiano.Size = UDim2.new(0, 180, 0, 40)
+
+ScreenGui.UICorner_75.Parent = ScreenGui.AutoPiano
+
+ScreenGui.AutoPiano_2.Name = "Auto Piano"
+ScreenGui.AutoPiano_2.Parent = ScreenGui.AutoPiano
+ScreenGui.AutoPiano_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.AutoPiano_2.BackgroundTransparency = 1.000
+ScreenGui.AutoPiano_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.AutoPiano_2.BorderSizePixel = 0
+ScreenGui.AutoPiano_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
+ScreenGui.AutoPiano_2.Size = UDim2.new(0, 390, 0, 40)
+ScreenGui.AutoPiano_2.Font = Enum.Font.SourceSansBold
+ScreenGui.AutoPiano_2.Text = "Auto Piano"
+ScreenGui.AutoPiano_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.AutoPiano_2.TextSize = 20.000
+
+ScreenGui.UICorner_76.Parent = ScreenGui.AutoPiano_2
+
+ScreenGui.AutoClicker.Name = "Auto Clicker"
+ScreenGui.AutoClicker.Parent = ScreenGui.ScrollingFrame_3
+ScreenGui.AutoClicker.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.AutoClicker.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.AutoClicker.BorderSizePixel = 0
+ScreenGui.AutoClicker.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
+ScreenGui.AutoClicker.Size = UDim2.new(0, 180, 0, 40)
+
+ScreenGui.UICorner_77.Parent = ScreenGui.AutoClicker
+
+ScreenGui.AutoClicker_2.Name = "Auto Clicker"
+ScreenGui.AutoClicker_2.Parent = ScreenGui.AutoClicker
+ScreenGui.AutoClicker_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.AutoClicker_2.BackgroundTransparency = 1.000
+ScreenGui.AutoClicker_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.AutoClicker_2.BorderSizePixel = 0
+ScreenGui.AutoClicker_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
+ScreenGui.AutoClicker_2.Size = UDim2.new(0, 390, 0, 40)
+ScreenGui.AutoClicker_2.Font = Enum.Font.SourceSansBold
+ScreenGui.AutoClicker_2.Text = "Auto Clicker"
+ScreenGui.AutoClicker_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.AutoClicker_2.TextSize = 20.000
+
+ScreenGui.UICorner_78.Parent = ScreenGui.AutoClicker_2
+
+ScreenGui.CFrame.Name = "CFrame"
+ScreenGui.CFrame.Parent = ScreenGui.ScrollingFrame_3
+ScreenGui.CFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.CFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.CFrame.BorderSizePixel = 0
+ScreenGui.CFrame.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
+ScreenGui.CFrame.Size = UDim2.new(0, 180, 0, 40)
+
+ScreenGui.UICorner_79.Parent = ScreenGui.CFrame
+
+ScreenGui.CFrame_2.Name = "CFrame"
+ScreenGui.CFrame_2.Parent = ScreenGui.CFrame
+ScreenGui.CFrame_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.CFrame_2.BackgroundTransparency = 1.000
+ScreenGui.CFrame_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.CFrame_2.BorderSizePixel = 0
+ScreenGui.CFrame_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
+ScreenGui.CFrame_2.Size = UDim2.new(0, 390, 0, 40)
+ScreenGui.CFrame_2.Font = Enum.Font.SourceSansBold
+ScreenGui.CFrame_2.Text = "CFrame"
+ScreenGui.CFrame_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.CFrame_2.TextSize = 20.000
+
+ScreenGui.UICorner_80.Parent = ScreenGui.CFrame_2
+
+ScreenGui.QTool.Name = "Q Tool"
+ScreenGui.QTool.Parent = ScreenGui.ScrollingFrame_3
+ScreenGui.QTool.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.QTool.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.QTool.BorderSizePixel = 0
+ScreenGui.QTool.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
+ScreenGui.QTool.Size = UDim2.new(0, 180, 0, 40)
+
+ScreenGui.UICorner_81.Parent = ScreenGui.QTool
+
+ScreenGui.QTool_2.Name = "Q Tool"
+ScreenGui.QTool_2.Parent = ScreenGui.QTool
+ScreenGui.QTool_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.QTool_2.BackgroundTransparency = 1.000
+ScreenGui.QTool_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.QTool_2.BorderSizePixel = 0
+ScreenGui.QTool_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
+ScreenGui.QTool_2.Size = UDim2.new(0, 390, 0, 40)
+ScreenGui.QTool_2.Font = Enum.Font.SourceSansBold
+ScreenGui.QTool_2.Text = "Q Tool"
+ScreenGui.QTool_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.QTool_2.TextSize = 20.000
+
+ScreenGui.UICorner_82.Parent = ScreenGui.QTool_2
+
+ScreenGui.Keyboard.Name = "Keyboard"
+ScreenGui.Keyboard.Parent = ScreenGui.ScrollingFrame_3
+ScreenGui.Keyboard.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Keyboard.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Keyboard.BorderSizePixel = 0
+ScreenGui.Keyboard.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
+ScreenGui.Keyboard.Size = UDim2.new(0, 180, 0, 40)
+
+ScreenGui.UICorner_83.Parent = ScreenGui.Keyboard
+
+ScreenGui.Keyboard_2.Name = "Keyboard"
+ScreenGui.Keyboard_2.Parent = ScreenGui.Keyboard
+ScreenGui.Keyboard_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Keyboard_2.BackgroundTransparency = 1.000
+ScreenGui.Keyboard_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Keyboard_2.BorderSizePixel = 0
+ScreenGui.Keyboard_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
+ScreenGui.Keyboard_2.Size = UDim2.new(0, 390, 0, 40)
+ScreenGui.Keyboard_2.Font = Enum.Font.SourceSansBold
+ScreenGui.Keyboard_2.Text = "Keyboard"
+ScreenGui.Keyboard_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Keyboard_2.TextSize = 20.000
+
+ScreenGui.UICorner_84.Parent = ScreenGui.Keyboard_2
+
+ScreenGui.SpeedTool.Name = "Speed Tool"
+ScreenGui.SpeedTool.Parent = ScreenGui.ScrollingFrame_3
+ScreenGui.SpeedTool.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.SpeedTool.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.SpeedTool.BorderSizePixel = 0
+ScreenGui.SpeedTool.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
+ScreenGui.SpeedTool.Size = UDim2.new(0, 180, 0, 40)
+
+ScreenGui.UICorner_85.Parent = ScreenGui.SpeedTool
+
+ScreenGui.SpeedTool_2.Name = "Speed Tool"
+ScreenGui.SpeedTool_2.Parent = ScreenGui.SpeedTool
+ScreenGui.SpeedTool_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.SpeedTool_2.BackgroundTransparency = 1.000
+ScreenGui.SpeedTool_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.SpeedTool_2.BorderSizePixel = 0
+ScreenGui.SpeedTool_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
+ScreenGui.SpeedTool_2.Size = UDim2.new(0, 390, 0, 40)
+ScreenGui.SpeedTool_2.Font = Enum.Font.SourceSansBold
+ScreenGui.SpeedTool_2.Text = "Speed Tool"
+ScreenGui.SpeedTool_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.SpeedTool_2.TextSize = 20.000
+
+ScreenGui.UICorner_86.Parent = ScreenGui.SpeedTool_2
+
+ScreenGui.Fly.Name = "Fly"
+ScreenGui.Fly.Parent = ScreenGui.ScrollingFrame_3
+ScreenGui.Fly.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Fly.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Fly.BorderSizePixel = 0
+ScreenGui.Fly.Position = UDim2.new(0.525065958, 0, 1.0629921, 0)
+ScreenGui.Fly.Size = UDim2.new(0, 180, 0, 40)
+
+ScreenGui.UICorner_87.Parent = ScreenGui.Fly
+
+ScreenGui.Fly_2.Name = "Fly"
+ScreenGui.Fly_2.Parent = ScreenGui.Fly
+ScreenGui.Fly_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.Fly_2.BackgroundTransparency = 1.000
+ScreenGui.Fly_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Fly_2.BorderSizePixel = 0
+ScreenGui.Fly_2.Position = UDim2.new(0, 0, -0.0120079042, 0)
+ScreenGui.Fly_2.Size = UDim2.new(0, 390, 0, 40)
+ScreenGui.Fly_2.Font = Enum.Font.SourceSansBold
+ScreenGui.Fly_2.Text = "Fly"
+ScreenGui.Fly_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.Fly_2.TextSize = 20.000
+
+ScreenGui.UICorner_88.Parent = ScreenGui.Fly_2
+
+ScreenGui.TextLabel_9.Parent = ScreenGui.MiscFrame
+ScreenGui.TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_9.BackgroundTransparency = 1.000
+ScreenGui.TextLabel_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.TextLabel_9.BorderSizePixel = 0
+ScreenGui.TextLabel_9.Position = UDim2.new(7.55385585e-08, 0, 0, 0)
+ScreenGui.TextLabel_9.Size = UDim2.new(0, 404, 0, 17)
+ScreenGui.TextLabel_9.Font = Enum.Font.SourceSansBold
+ScreenGui.TextLabel_9.Text = "Misc"
+ScreenGui.TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.TextLabel_9.TextSize = 25.000
+
+ScreenGui.ImageButton.Parent = ScreenGui.ScreenGui
+ScreenGui.ImageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScreenGui.ImageButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScreenGui.ImageButton.BorderSizePixel = 0
+ScreenGui.ImageButton.Position = UDim2.new(0.0185139291, 0, 0.360134959, 0)
+ScreenGui.ImageButton.Size = UDim2.new(0, 70, 0, 70)
+ScreenGui.ImageButton.Image = "http://www.roblox.com/asset/?id=16001410208"
+
+ScreenGui.UICorner_89.Parent = ScreenGui.ImageButton
+
+-- Scripts:
+
+local function KPEL_fake_script() -- ScreenGui.MainFram.Dragify 
+	local script = Instance.new('LocalScript', ScreenGui.MainFram)
 
 	local UIS = game:GetService('UserInputService')
 	local frame = script.Parent
@@ -1674,9 +1689,9 @@ local function JIFWVE_fake_script() -- MainFram.Dragify
 		end
 	end)
 end
-coroutine.wrap(JIFWVE_fake_script)()
-local function ECYFWUU_fake_script() -- Dahood.LocalScript 
-	local script = Instance.new('LocalScript', Dahood)
+coroutine.wrap(KPEL_fake_script)()
+local function YWDI_fake_script() -- ScreenGui.Dahood.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.Dahood)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.HomeFrame.Visible = false
@@ -1686,9 +1701,9 @@ local function ECYFWUU_fake_script() -- Dahood.LocalScript
 	end)
 	
 end
-coroutine.wrap(ECYFWUU_fake_script)()
-local function YVRXPC_fake_script() -- Home.LocalScript 
-	local script = Instance.new('LocalScript', Home)
+coroutine.wrap(YWDI_fake_script)()
+local function WMHEOOE_fake_script() -- ScreenGui.Home.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.Home)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.HomeFrame.Visible = true
@@ -1698,9 +1713,9 @@ local function YVRXPC_fake_script() -- Home.LocalScript
 	end)
 	
 end
-coroutine.wrap(YVRXPC_fake_script)()
-local function FMWLMJ_fake_script() -- Scripts.LocalScript 
-	local script = Instance.new('LocalScript', Scripts)
+coroutine.wrap(WMHEOOE_fake_script)()
+local function KWJLXVS_fake_script() -- ScreenGui.Scripts.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.Scripts)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.HomeFrame.Visible = false
@@ -1712,9 +1727,9 @@ local function FMWLMJ_fake_script() -- Scripts.LocalScript
 	
 	
 end
-coroutine.wrap(FMWLMJ_fake_script)()
-local function TGQRD_fake_script() -- Misc.LocalScript 
-	local script = Instance.new('LocalScript', Misc)
+coroutine.wrap(KWJLXVS_fake_script)()
+local function UQLYWF_fake_script() -- ScreenGui.Misc.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.Misc)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.HomeFrame.Visible = false
@@ -1725,9 +1740,9 @@ local function TGQRD_fake_script() -- Misc.LocalScript
 	
 	
 end
-coroutine.wrap(TGQRD_fake_script)()
-local function RNBF_fake_script() -- ImageButton.LocalScript 
-	local script = Instance.new('LocalScript', ImageButton)
+coroutine.wrap(UQLYWF_fake_script)()
+local function PIRX_fake_script() -- ScreenGui.ImageButton.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.ImageButton)
 
 	local UIS = game:GetService('UserInputService')
 	local frame = script.Parent
@@ -1764,9 +1779,9 @@ local function RNBF_fake_script() -- ImageButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(RNBF_fake_script)()
-local function LJHFBQ_fake_script() -- ScreenGui.LocalScript 
-	local script = Instance.new('LocalScript', ScreenGui)
+coroutine.wrap(PIRX_fake_script)()
+local function EHAMGSP_fake_script() -- ScreenGui.ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui.ScreenGui)
 
 	local SGui = script.Parent
 	local Frame = SGui:WaitForChild("MainFram")
@@ -1780,4 +1795,4 @@ local function LJHFBQ_fake_script() -- ScreenGui.LocalScript
 	
 	
 end
-coroutine.wrap(LJHFBQ_fake_script)()
+coroutine.wrap(EHAMGSP_fake_script)()
