@@ -7,7 +7,7 @@
  Y888P  ~Y8888P' Y888888P      888888D      Y88888P ~Y8888P' YP   YP  CONVERTER
 ]=]
 
--- Instances: 217 | Scripts: 7 | Modules: 0
+-- Instances: 218 | Scripts: 8 | Modules: 0
 local G2L = {};
 
 -- StarterGui.ScreenGui
@@ -1579,193 +1579,197 @@ G2L["bf"]["BackgroundTransparency"] = 1;
 G2L["c0"] = Instance.new("UICorner", G2L["bf"]);
 
 
+-- StarterGui.ScreenGui.MainFram.MiscFrame.ScrollingFrame.Auto Clicker.Auto Clicker.LocalScript
+G2L["c1"] = Instance.new("LocalScript", G2L["bf"]);
+
+
 -- StarterGui.ScreenGui.MainFram.MiscFrame.ScrollingFrame.CFrame
-G2L["c1"] = Instance.new("Frame", G2L["af"]);
-G2L["c1"]["BorderSizePixel"] = 0;
-G2L["c1"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["c1"]["Size"] = UDim2.new(0, 180, 0, 40);
-G2L["c1"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["c1"]["Position"] = UDim2.new(0.5250659584999084, 0, 1.0629920959472656, 0);
-G2L["c1"]["Name"] = [[CFrame]];
+G2L["c2"] = Instance.new("Frame", G2L["af"]);
+G2L["c2"]["BorderSizePixel"] = 0;
+G2L["c2"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["c2"]["Size"] = UDim2.new(0, 180, 0, 40);
+G2L["c2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["c2"]["Position"] = UDim2.new(0.5250659584999084, 0, 1.0629920959472656, 0);
+G2L["c2"]["Name"] = [[CFrame]];
 
 -- StarterGui.ScreenGui.MainFram.MiscFrame.ScrollingFrame.CFrame.UICorner
-G2L["c2"] = Instance.new("UICorner", G2L["c1"]);
+G2L["c3"] = Instance.new("UICorner", G2L["c2"]);
 
 
 -- StarterGui.ScreenGui.MainFram.MiscFrame.ScrollingFrame.CFrame.CFrame
-G2L["c3"] = Instance.new("TextButton", G2L["c1"]);
-G2L["c3"]["BorderSizePixel"] = 0;
-G2L["c3"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["c3"]["TextSize"] = 20;
-G2L["c3"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["c3"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["c3"]["Size"] = UDim2.new(0, 390, 0, 40);
-G2L["c3"]["Name"] = [[CFrame]];
-G2L["c3"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["c3"]["Text"] = [[CFrame]];
-G2L["c3"]["Position"] = UDim2.new(0, 0, -0.01200790423899889, 0);
-G2L["c3"]["BackgroundTransparency"] = 1;
+G2L["c4"] = Instance.new("TextButton", G2L["c2"]);
+G2L["c4"]["BorderSizePixel"] = 0;
+G2L["c4"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["c4"]["TextSize"] = 20;
+G2L["c4"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["c4"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["c4"]["Size"] = UDim2.new(0, 390, 0, 40);
+G2L["c4"]["Name"] = [[CFrame]];
+G2L["c4"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["c4"]["Text"] = [[CFrame]];
+G2L["c4"]["Position"] = UDim2.new(0, 0, -0.01200790423899889, 0);
+G2L["c4"]["BackgroundTransparency"] = 1;
 
 -- StarterGui.ScreenGui.MainFram.MiscFrame.ScrollingFrame.CFrame.CFrame.UICorner
-G2L["c4"] = Instance.new("UICorner", G2L["c3"]);
+G2L["c5"] = Instance.new("UICorner", G2L["c4"]);
 
 
 -- StarterGui.ScreenGui.MainFram.MiscFrame.ScrollingFrame.Q Tool
-G2L["c5"] = Instance.new("Frame", G2L["af"]);
-G2L["c5"]["BorderSizePixel"] = 0;
-G2L["c5"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["c5"]["Size"] = UDim2.new(0, 180, 0, 40);
-G2L["c5"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["c5"]["Position"] = UDim2.new(0.5250659584999084, 0, 1.0629920959472656, 0);
-G2L["c5"]["Name"] = [[Q Tool]];
+G2L["c6"] = Instance.new("Frame", G2L["af"]);
+G2L["c6"]["BorderSizePixel"] = 0;
+G2L["c6"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["c6"]["Size"] = UDim2.new(0, 180, 0, 40);
+G2L["c6"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["c6"]["Position"] = UDim2.new(0.5250659584999084, 0, 1.0629920959472656, 0);
+G2L["c6"]["Name"] = [[Q Tool]];
 
 -- StarterGui.ScreenGui.MainFram.MiscFrame.ScrollingFrame.Q Tool.UICorner
-G2L["c6"] = Instance.new("UICorner", G2L["c5"]);
+G2L["c7"] = Instance.new("UICorner", G2L["c6"]);
 
 
 -- StarterGui.ScreenGui.MainFram.MiscFrame.ScrollingFrame.Q Tool.Q Tool
-G2L["c7"] = Instance.new("TextButton", G2L["c5"]);
-G2L["c7"]["BorderSizePixel"] = 0;
-G2L["c7"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["c7"]["TextSize"] = 20;
-G2L["c7"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["c7"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["c7"]["Size"] = UDim2.new(0, 390, 0, 40);
-G2L["c7"]["Name"] = [[Q Tool]];
-G2L["c7"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["c7"]["Text"] = [[Q Tool]];
-G2L["c7"]["Position"] = UDim2.new(0, 0, -0.01200790423899889, 0);
-G2L["c7"]["BackgroundTransparency"] = 1;
+G2L["c8"] = Instance.new("TextButton", G2L["c6"]);
+G2L["c8"]["BorderSizePixel"] = 0;
+G2L["c8"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["c8"]["TextSize"] = 20;
+G2L["c8"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["c8"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["c8"]["Size"] = UDim2.new(0, 390, 0, 40);
+G2L["c8"]["Name"] = [[Q Tool]];
+G2L["c8"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["c8"]["Text"] = [[Q Tool]];
+G2L["c8"]["Position"] = UDim2.new(0, 0, -0.01200790423899889, 0);
+G2L["c8"]["BackgroundTransparency"] = 1;
 
 -- StarterGui.ScreenGui.MainFram.MiscFrame.ScrollingFrame.Q Tool.Q Tool.UICorner
-G2L["c8"] = Instance.new("UICorner", G2L["c7"]);
+G2L["c9"] = Instance.new("UICorner", G2L["c8"]);
 
 
 -- StarterGui.ScreenGui.MainFram.MiscFrame.ScrollingFrame.Keyboard
-G2L["c9"] = Instance.new("Frame", G2L["af"]);
-G2L["c9"]["BorderSizePixel"] = 0;
-G2L["c9"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["c9"]["Size"] = UDim2.new(0, 180, 0, 40);
-G2L["c9"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["c9"]["Position"] = UDim2.new(0.5250659584999084, 0, 1.0629920959472656, 0);
-G2L["c9"]["Name"] = [[Keyboard]];
+G2L["ca"] = Instance.new("Frame", G2L["af"]);
+G2L["ca"]["BorderSizePixel"] = 0;
+G2L["ca"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["ca"]["Size"] = UDim2.new(0, 180, 0, 40);
+G2L["ca"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["ca"]["Position"] = UDim2.new(0.5250659584999084, 0, 1.0629920959472656, 0);
+G2L["ca"]["Name"] = [[Keyboard]];
 
 -- StarterGui.ScreenGui.MainFram.MiscFrame.ScrollingFrame.Keyboard.UICorner
-G2L["ca"] = Instance.new("UICorner", G2L["c9"]);
+G2L["cb"] = Instance.new("UICorner", G2L["ca"]);
 
 
 -- StarterGui.ScreenGui.MainFram.MiscFrame.ScrollingFrame.Keyboard.Keyboard
-G2L["cb"] = Instance.new("TextButton", G2L["c9"]);
-G2L["cb"]["BorderSizePixel"] = 0;
-G2L["cb"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["cb"]["TextSize"] = 20;
-G2L["cb"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["cb"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["cb"]["Size"] = UDim2.new(0, 390, 0, 40);
-G2L["cb"]["Name"] = [[Keyboard]];
-G2L["cb"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["cb"]["Text"] = [[Keyboard]];
-G2L["cb"]["Position"] = UDim2.new(0, 0, -0.01200790423899889, 0);
-G2L["cb"]["BackgroundTransparency"] = 1;
+G2L["cc"] = Instance.new("TextButton", G2L["ca"]);
+G2L["cc"]["BorderSizePixel"] = 0;
+G2L["cc"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["cc"]["TextSize"] = 20;
+G2L["cc"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["cc"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["cc"]["Size"] = UDim2.new(0, 390, 0, 40);
+G2L["cc"]["Name"] = [[Keyboard]];
+G2L["cc"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["cc"]["Text"] = [[Keyboard]];
+G2L["cc"]["Position"] = UDim2.new(0, 0, -0.01200790423899889, 0);
+G2L["cc"]["BackgroundTransparency"] = 1;
 
 -- StarterGui.ScreenGui.MainFram.MiscFrame.ScrollingFrame.Keyboard.Keyboard.UICorner
-G2L["cc"] = Instance.new("UICorner", G2L["cb"]);
+G2L["cd"] = Instance.new("UICorner", G2L["cc"]);
 
 
 -- StarterGui.ScreenGui.MainFram.MiscFrame.ScrollingFrame.Speed Tool
-G2L["cd"] = Instance.new("Frame", G2L["af"]);
-G2L["cd"]["BorderSizePixel"] = 0;
-G2L["cd"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["cd"]["Size"] = UDim2.new(0, 180, 0, 40);
-G2L["cd"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["cd"]["Position"] = UDim2.new(0.5250659584999084, 0, 1.0629920959472656, 0);
-G2L["cd"]["Name"] = [[Speed Tool]];
+G2L["ce"] = Instance.new("Frame", G2L["af"]);
+G2L["ce"]["BorderSizePixel"] = 0;
+G2L["ce"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["ce"]["Size"] = UDim2.new(0, 180, 0, 40);
+G2L["ce"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["ce"]["Position"] = UDim2.new(0.5250659584999084, 0, 1.0629920959472656, 0);
+G2L["ce"]["Name"] = [[Speed Tool]];
 
 -- StarterGui.ScreenGui.MainFram.MiscFrame.ScrollingFrame.Speed Tool.UICorner
-G2L["ce"] = Instance.new("UICorner", G2L["cd"]);
+G2L["cf"] = Instance.new("UICorner", G2L["ce"]);
 
 
 -- StarterGui.ScreenGui.MainFram.MiscFrame.ScrollingFrame.Speed Tool.Speed Tool
-G2L["cf"] = Instance.new("TextButton", G2L["cd"]);
-G2L["cf"]["BorderSizePixel"] = 0;
-G2L["cf"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["cf"]["TextSize"] = 20;
-G2L["cf"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["cf"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["cf"]["Size"] = UDim2.new(0, 390, 0, 40);
-G2L["cf"]["Name"] = [[Speed Tool]];
-G2L["cf"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["cf"]["Text"] = [[Speed Tool]];
-G2L["cf"]["Position"] = UDim2.new(0, 0, -0.01200790423899889, 0);
-G2L["cf"]["BackgroundTransparency"] = 1;
+G2L["d0"] = Instance.new("TextButton", G2L["ce"]);
+G2L["d0"]["BorderSizePixel"] = 0;
+G2L["d0"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["d0"]["TextSize"] = 20;
+G2L["d0"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["d0"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["d0"]["Size"] = UDim2.new(0, 390, 0, 40);
+G2L["d0"]["Name"] = [[Speed Tool]];
+G2L["d0"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["d0"]["Text"] = [[Speed Tool]];
+G2L["d0"]["Position"] = UDim2.new(0, 0, -0.01200790423899889, 0);
+G2L["d0"]["BackgroundTransparency"] = 1;
 
 -- StarterGui.ScreenGui.MainFram.MiscFrame.ScrollingFrame.Speed Tool.Speed Tool.UICorner
-G2L["d0"] = Instance.new("UICorner", G2L["cf"]);
+G2L["d1"] = Instance.new("UICorner", G2L["d0"]);
 
 
 -- StarterGui.ScreenGui.MainFram.MiscFrame.ScrollingFrame.Fly
-G2L["d1"] = Instance.new("Frame", G2L["af"]);
-G2L["d1"]["BorderSizePixel"] = 0;
-G2L["d1"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["d1"]["Size"] = UDim2.new(0, 180, 0, 40);
-G2L["d1"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["d1"]["Position"] = UDim2.new(0.5250659584999084, 0, 1.0629920959472656, 0);
-G2L["d1"]["Name"] = [[Fly]];
+G2L["d2"] = Instance.new("Frame", G2L["af"]);
+G2L["d2"]["BorderSizePixel"] = 0;
+G2L["d2"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["d2"]["Size"] = UDim2.new(0, 180, 0, 40);
+G2L["d2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["d2"]["Position"] = UDim2.new(0.5250659584999084, 0, 1.0629920959472656, 0);
+G2L["d2"]["Name"] = [[Fly]];
 
 -- StarterGui.ScreenGui.MainFram.MiscFrame.ScrollingFrame.Fly.UICorner
-G2L["d2"] = Instance.new("UICorner", G2L["d1"]);
+G2L["d3"] = Instance.new("UICorner", G2L["d2"]);
 
 
 -- StarterGui.ScreenGui.MainFram.MiscFrame.ScrollingFrame.Fly.Fly
-G2L["d3"] = Instance.new("TextButton", G2L["d1"]);
-G2L["d3"]["BorderSizePixel"] = 0;
-G2L["d3"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["d3"]["TextSize"] = 20;
-G2L["d3"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["d3"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["d3"]["Size"] = UDim2.new(0, 390, 0, 40);
-G2L["d3"]["Name"] = [[Fly]];
-G2L["d3"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["d3"]["Text"] = [[Fly]];
-G2L["d3"]["Position"] = UDim2.new(0, 0, -0.01200790423899889, 0);
-G2L["d3"]["BackgroundTransparency"] = 1;
+G2L["d4"] = Instance.new("TextButton", G2L["d2"]);
+G2L["d4"]["BorderSizePixel"] = 0;
+G2L["d4"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["d4"]["TextSize"] = 20;
+G2L["d4"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["d4"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["d4"]["Size"] = UDim2.new(0, 390, 0, 40);
+G2L["d4"]["Name"] = [[Fly]];
+G2L["d4"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["d4"]["Text"] = [[Fly]];
+G2L["d4"]["Position"] = UDim2.new(0, 0, -0.01200790423899889, 0);
+G2L["d4"]["BackgroundTransparency"] = 1;
 
 -- StarterGui.ScreenGui.MainFram.MiscFrame.ScrollingFrame.Fly.Fly.UICorner
-G2L["d4"] = Instance.new("UICorner", G2L["d3"]);
+G2L["d5"] = Instance.new("UICorner", G2L["d4"]);
 
 
 -- StarterGui.ScreenGui.MainFram.MiscFrame.TextLabel
-G2L["d5"] = Instance.new("TextLabel", G2L["ac"]);
-G2L["d5"]["BorderSizePixel"] = 0;
-G2L["d5"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["d5"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["d5"]["TextSize"] = 25;
-G2L["d5"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["d5"]["Size"] = UDim2.new(0, 404, 0, 17);
-G2L["d5"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["d5"]["Text"] = [[Misc]];
-G2L["d5"]["BackgroundTransparency"] = 1;
-G2L["d5"]["Position"] = UDim2.new(7.553855851938351e-08, 0, 0, 0);
-
--- StarterGui.ScreenGui.ImageButton
-G2L["d6"] = Instance.new("ImageButton", G2L["1"]);
+G2L["d6"] = Instance.new("TextLabel", G2L["ac"]);
 G2L["d6"]["BorderSizePixel"] = 0;
 G2L["d6"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["d6"]["Image"] = [[http://www.roblox.com/asset/?id=16001410208]];
-G2L["d6"]["Size"] = UDim2.new(0, 70, 0, 70);
+G2L["d6"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["d6"]["TextSize"] = 25;
+G2L["d6"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["d6"]["Size"] = UDim2.new(0, 404, 0, 17);
 G2L["d6"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["d6"]["Position"] = UDim2.new(0.018513929098844528, 0, 0.36013495922088623, 0);
+G2L["d6"]["Text"] = [[Misc]];
+G2L["d6"]["BackgroundTransparency"] = 1;
+G2L["d6"]["Position"] = UDim2.new(7.553855851938351e-08, 0, 0, 0);
+
+-- StarterGui.ScreenGui.ImageButton
+G2L["d7"] = Instance.new("ImageButton", G2L["1"]);
+G2L["d7"]["BorderSizePixel"] = 0;
+G2L["d7"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["d7"]["Image"] = [[http://www.roblox.com/asset/?id=16001410208]];
+G2L["d7"]["Size"] = UDim2.new(0, 70, 0, 70);
+G2L["d7"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["d7"]["Position"] = UDim2.new(0.018513929098844528, 0, 0.36013495922088623, 0);
 
 -- StarterGui.ScreenGui.ImageButton.UICorner
-G2L["d7"] = Instance.new("UICorner", G2L["d6"]);
+G2L["d8"] = Instance.new("UICorner", G2L["d7"]);
 
 
 -- StarterGui.ScreenGui.ImageButton.LocalScript
-G2L["d8"] = Instance.new("LocalScript", G2L["d6"]);
+G2L["d9"] = Instance.new("LocalScript", G2L["d7"]);
 
 
 -- StarterGui.ScreenGui.LocalScript
-G2L["d9"] = Instance.new("LocalScript", G2L["1"]);
+G2L["da"] = Instance.new("LocalScript", G2L["1"]);
 
 
 -- StarterGui.ScreenGui.MainFram.Dragify
@@ -1858,9 +1862,18 @@ local script = G2L["ab"];
 	
 end;
 task.spawn(C_ab);
+-- StarterGui.ScreenGui.MainFram.MiscFrame.ScrollingFrame.Auto Clicker.Auto Clicker.LocalScript
+local function C_c1()
+local script = G2L["c1"];
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(("https://raw.githubusercontent.com/corrupted0331/auto-clicker/main/README.md"), true))()
+	end)
+	
+end;
+task.spawn(C_c1);
 -- StarterGui.ScreenGui.ImageButton.LocalScript
-local function C_d8()
-local script = G2L["d8"];
+local function C_d9()
+local script = G2L["d9"];
 	local UIS = game:GetService('UserInputService')
 	local frame = script.Parent
 	local dragToggle = nil
@@ -1896,10 +1909,10 @@ local script = G2L["d8"];
 		end
 	end)
 end;
-task.spawn(C_d8);
+task.spawn(C_d9);
 -- StarterGui.ScreenGui.LocalScript
-local function C_d9()
-local script = G2L["d9"];
+local function C_da()
+local script = G2L["da"];
 	local SGui = script.Parent
 	local Frame = SGui:WaitForChild("MainFram")
 	local ImageButton = SGui:WaitForChild("ImageButton") -- Assuming you have an ImageButton named "ImageButton"
@@ -1912,6 +1925,6 @@ local script = G2L["d9"];
 	
 	
 end;
-task.spawn(C_d9);
+task.spawn(C_da);
 
 return G2L["1"], require;
