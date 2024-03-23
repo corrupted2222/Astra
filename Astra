@@ -1,809 +1,867 @@
--- Gui to Lua
--- Version: 3.6
-
--- Instances:
-
-local main = Instance.new("ScreenGui")
-local MainFrame = Instance.new("Frame")
-local UICorner = Instance.new("UICorner")
-local Icon = Instance.new("ImageLabel")
-local UICorner_2 = Instance.new("UICorner")
-local hiders = Instance.new("Frame")
-local Frame = Instance.new("Frame")
-local Frame_2 = Instance.new("Frame")
-local HomeFrame = Instance.new("Frame")
-local Players = Instance.new("Frame")
-local UICorner_3 = Instance.new("UICorner")
-local UIStroke = Instance.new("UIStroke")
-local avatar = Instance.new("ImageLabel")
-local UICorner_4 = Instance.new("UICorner")
-local name = Instance.new("TextLabel")
-local Frame_3 = Instance.new("Frame")
-local UICorner_5 = Instance.new("UICorner")
-local credits = Instance.new("Frame")
-local UICorner_6 = Instance.new("UICorner")
-local UIStroke_2 = Instance.new("UIStroke")
-local avatar_2 = Instance.new("ImageLabel")
-local UICorner_7 = Instance.new("UICorner")
-local credit1 = Instance.new("TextLabel")
-local credit1_2 = Instance.new("TextLabel")
-local discord = Instance.new("Frame")
-local discordbutton = Instance.new("TextButton")
-local UICorner_8 = Instance.new("UICorner")
-local UICorner_9 = Instance.new("UICorner")
-local UIStroke_3 = Instance.new("UIStroke")
-local updates = Instance.new("Frame")
-local UICorner_10 = Instance.new("UICorner")
-local UIStroke_4 = Instance.new("UIStroke")
-local TextLabel = Instance.new("TextLabel")
-local ScrollingFrame = Instance.new("ScrollingFrame")
-local TextLabel_2 = Instance.new("TextLabel")
-local ScriptFrame = Instance.new("Frame")
-local Frame_4 = Instance.new("Frame")
-local UICorner_11 = Instance.new("UICorner")
-local RobloxScripts = Instance.new("ScrollingFrame")
-local _1 = Instance.new("Frame")
-local ImageButton = Instance.new("ImageButton")
-local UICorner_12 = Instance.new("UICorner")
-local UICorner_13 = Instance.new("UICorner")
-local TextLabel_3 = Instance.new("TextLabel")
-local Frame_5 = Instance.new("Frame")
-local ImageButton_2 = Instance.new("ImageButton")
-local UICorner_14 = Instance.new("UICorner")
-local UICorner_15 = Instance.new("UICorner")
-local TextLabel_4 = Instance.new("TextLabel")
-local Frame_6 = Instance.new("Frame")
-local ImageButton_3 = Instance.new("ImageButton")
-local UICorner_16 = Instance.new("UICorner")
-local UICorner_17 = Instance.new("UICorner")
-local TextLabel_5 = Instance.new("TextLabel")
-local Frame_7 = Instance.new("Frame")
-local ImageButton_4 = Instance.new("ImageButton")
-local UICorner_18 = Instance.new("UICorner")
-local UICorner_19 = Instance.new("UICorner")
-local TextLabel_6 = Instance.new("TextLabel")
-local _2 = Instance.new("Frame")
-local ImageButton_5 = Instance.new("ImageButton")
-local UICorner_20 = Instance.new("UICorner")
-local UICorner_21 = Instance.new("UICorner")
-local TextLabel_7 = Instance.new("TextLabel")
-local Frame_8 = Instance.new("Frame")
-local ImageButton_6 = Instance.new("ImageButton")
-local UICorner_22 = Instance.new("UICorner")
-local UICorner_23 = Instance.new("UICorner")
-local TextLabel_8 = Instance.new("TextLabel")
-local Frame_9 = Instance.new("Frame")
-local ImageButton_7 = Instance.new("ImageButton")
-local UICorner_24 = Instance.new("UICorner")
-local UICorner_25 = Instance.new("UICorner")
-local TextLabel_9 = Instance.new("TextLabel")
-local _3 = Instance.new("Frame")
-local ImageButton_8 = Instance.new("ImageButton")
-local UICorner_26 = Instance.new("UICorner")
-local UICorner_27 = Instance.new("UICorner")
-local TextLabel_10 = Instance.new("TextLabel")
-local Frame_10 = Instance.new("Frame")
-local ImageButton_9 = Instance.new("ImageButton")
-local UICorner_28 = Instance.new("UICorner")
-local UICorner_29 = Instance.new("UICorner")
-local TextLabel_11 = Instance.new("TextLabel")
-local UIGridLayout = Instance.new("UIGridLayout")
-local UIListLayout = Instance.new("UIListLayout")
-local SearchBar = Instance.new("TextBox")
-local UICorner_30 = Instance.new("UICorner")
-local UIStroke_5 = Instance.new("UIStroke")
-local ExeButton = Instance.new("TextButton")
-local UICorner_31 = Instance.new("UICorner")
-local exeicon = Instance.new("ImageLabel")
-local UICorner_32 = Instance.new("UICorner")
-local HomeButton = Instance.new("TextButton")
-local UICorner_33 = Instance.new("UICorner")
-local homeicon = Instance.new("ImageLabel")
-local UICorner_34 = Instance.new("UICorner")
-local ScriptButton = Instance.new("TextButton")
-local UICorner_35 = Instance.new("UICorner")
-local scripticon = Instance.new("ImageLabel")
-local UICorner_36 = Instance.new("UICorner")
-
--- Properties:
-
-main.Name = "main"
-main.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-main.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-
-MainFrame.Name = "MainFrame"
-MainFrame.Parent = main
-MainFrame.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
-MainFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
-MainFrame.BorderSizePixel = 0
-MainFrame.Position = UDim2.new(0.113698438, 0, 0.0987672061, 0)
-MainFrame.Size = UDim2.new(0, 557, 0, 300)
-
-UICorner.Parent = MainFrame
-
-Icon.Name = "Icon"
-Icon.Parent = MainFrame
-Icon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Icon.BackgroundTransparency = 1.000
-Icon.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Icon.BorderSizePixel = 0
-Icon.Position = UDim2.new(0.0179999992, 0, 0.0233333334, 0)
-Icon.Size = UDim2.new(0, 40, 0, 40)
-Icon.Image = "http://www.roblox.com/asset/?id=16833701721"
-
-UICorner_2.CornerRadius = UDim.new(0, 6)
-UICorner_2.Parent = Icon
-
-hiders.Name = "hiders"
-hiders.Parent = MainFrame
-hiders.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-hiders.BackgroundTransparency = 1.000
-hiders.BorderColor3 = Color3.fromRGB(0, 0, 0)
-hiders.BorderSizePixel = 0
-hiders.Size = UDim2.new(0, 500, 0, 300)
-
-Frame.Parent = hiders
-Frame.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
-Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Frame.BorderSizePixel = 0
-Frame.Position = UDim2.new(0.108000003, 8, 0, 0)
-Frame.Size = UDim2.new(0, 1, 0, 300)
-
-Frame_2.Parent = hiders
-Frame_2.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
-Frame_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Frame_2.BorderSizePixel = 0
-Frame_2.Position = UDim2.new(0.0140000004, 0, 0.189999998, 0)
-Frame_2.Size = UDim2.new(0, 45, 0, 1)
-
-HomeFrame.Name = "HomeFrame"
-HomeFrame.Parent = MainFrame
-HomeFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-HomeFrame.BackgroundTransparency = 1.000
-HomeFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
-HomeFrame.BorderSizePixel = 0
-HomeFrame.Position = UDim2.new(0.113105953, 0, 0, 0)
-HomeFrame.Size = UDim2.new(0, 493, 0, 300)
-HomeFrame.Visible = false
-
-Players.Name = "Players"
-Players.Parent = HomeFrame
-Players.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
-Players.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Players.BorderSizePixel = 0
-Players.Position = UDim2.new(0.0160000008, 0, 0.0130000003, 5)
-Players.Size = UDim2.new(0, 190, 0, 80)
-
-UICorner_3.CornerRadius = UDim.new(0, 6)
-UICorner_3.Parent = Players
-
-UIStroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-UIStroke.Color = Color3.fromRGB(50, 50, 50)
-UIStroke.Parent = Players
-
-avatar.Name = "avatar"
-avatar.Parent = Players
-avatar.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-avatar.BackgroundTransparency = 1.000
-avatar.BorderColor3 = Color3.fromRGB(0, 0, 0)
-avatar.BorderSizePixel = 0
-avatar.Position = UDim2.new(0.042105265, 0, 0.1875, 0)
-avatar.Size = UDim2.new(0, 50, 0, 50)
-avatar.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
-
-UICorner_4.CornerRadius = UDim.new(0, 50)
-UICorner_4.Parent = avatar
-
-name.Name = "name"
-name.Parent = Players
-name.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-name.BackgroundTransparency = 2.000
-name.BorderColor3 = Color3.fromRGB(0, 0, 0)
-name.BorderSizePixel = 0
-name.Position = UDim2.new(0.342105269, 0, 0.1875, 0)
-name.Size = UDim2.new(0, 117, 0, 50)
-name.Font = Enum.Font.FredokaOne
-name.Text = "Player Name"
-name.TextColor3 = Color3.fromRGB(255, 255, 255)
-name.TextSize = 14.000
-name.TextWrapped = true
-name.TextXAlignment = Enum.TextXAlignment.Left
-
-Frame_3.Parent = HomeFrame
-Frame_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Frame_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Frame_3.BorderSizePixel = 0
-Frame_3.Position = UDim2.new(-0.0329999998, 7, 0.209999993, 0)
-Frame_3.Size = UDim2.new(0, 4, 0, 40)
-
-UICorner_5.Parent = Frame_3
-
-credits.Name = "credits"
-credits.Parent = HomeFrame
-credits.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
-credits.BorderColor3 = Color3.fromRGB(0, 0, 0)
-credits.BorderSizePixel = 0
-credits.Position = UDim2.new(-0.0712210909, 250, 0.0129999928, 5)
-credits.Size = UDim2.new(0, 267, 0, 80)
-
-UICorner_6.CornerRadius = UDim.new(0, 6)
-UICorner_6.Parent = credits
-
-UIStroke_2.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-UIStroke_2.Color = Color3.fromRGB(50, 50, 50)
-UIStroke_2.Parent = credits
-
-avatar_2.Name = "avatar"
-avatar_2.Parent = credits
-avatar_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-avatar_2.BackgroundTransparency = 1.000
-avatar_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
-avatar_2.BorderSizePixel = 0
-avatar_2.Position = UDim2.new(0.0271239541, 0, 0.125, 0)
-avatar_2.Size = UDim2.new(0, 60, 0, 60)
-avatar_2.Image = "http://www.roblox.com/asset/?id=16833953865"
-
-UICorner_7.CornerRadius = UDim.new(0, 6)
-UICorner_7.Parent = avatar_2
-
-credit1.Name = "credit1"
-credit1.Parent = credits
-credit1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-credit1.BackgroundTransparency = 2.000
-credit1.BorderColor3 = Color3.fromRGB(0, 0, 0)
-credit1.BorderSizePixel = 0
-credit1.Position = UDim2.new(0.274689287, 0, -0.0250000004, 0)
-credit1.Size = UDim2.new(0, 193, 0, 28)
-credit1.Font = Enum.Font.FredokaOne
-credit1.Text = "UI Designer - corrupted_2222"
-credit1.TextColor3 = Color3.fromRGB(255, 255, 255)
-credit1.TextSize = 14.000
-credit1.TextWrapped = true
-credit1.TextXAlignment = Enum.TextXAlignment.Left
-
-credit1_2.Name = "credit1"
-credit1_2.Parent = credits
-credit1_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-credit1_2.BackgroundTransparency = 2.000
-credit1_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
-credit1_2.BorderSizePixel = 0
-credit1_2.Position = UDim2.new(0.274689287, 0, 0.1875, 0)
-credit1_2.Size = UDim2.new(0, 193, 0, 28)
-credit1_2.Font = Enum.Font.FredokaOne
-credit1_2.Text = "Scripter - corrupted_2222"
-credit1_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-credit1_2.TextSize = 14.000
-credit1_2.TextWrapped = true
-credit1_2.TextXAlignment = Enum.TextXAlignment.Left
-
-discord.Name = "discord"
-discord.Parent = credits
-discord.BackgroundColor3 = Color3.fromRGB(114, 137, 218)
-discord.BorderColor3 = Color3.fromRGB(0, 0, 0)
-discord.BorderSizePixel = 0
-discord.Position = UDim2.new(0.284999996, 0, 0.537999988, 0)
-discord.Size = UDim2.new(0, 186, 0, 27)
-
-discordbutton.Name = "discordbutton"
-discordbutton.Parent = discord
-discordbutton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-discordbutton.BackgroundTransparency = 1.000
-discordbutton.BorderColor3 = Color3.fromRGB(0, 0, 0)
-discordbutton.BorderSizePixel = 0
-discordbutton.Position = UDim2.new(5.38159438e-05, 0, -0.0175558012, 0)
-discordbutton.Size = UDim2.new(0, 186, 0, 27)
-discordbutton.Font = Enum.Font.FredokaOne
-discordbutton.Text = "Discord Server"
-discordbutton.TextColor3 = Color3.fromRGB(255, 255, 255)
-discordbutton.TextSize = 14.000
-
-UICorner_8.CornerRadius = UDim.new(0, 6)
-UICorner_8.Parent = discordbutton
-
-UICorner_9.CornerRadius = UDim.new(0, 6)
-UICorner_9.Parent = discord
-
-UIStroke_3.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-UIStroke_3.Color = Color3.fromRGB(179, 196, 255)
-UIStroke_3.Parent = discord
-
-updates.Name = "updates"
-updates.Parent = HomeFrame
-updates.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
-updates.BorderColor3 = Color3.fromRGB(0, 0, 0)
-updates.BorderSizePixel = 0
-updates.Position = UDim2.new(0.0141987829, 0, 0.326666623, 0)
-updates.Size = UDim2.new(0, 474, 0, 190)
-
-UICorner_10.CornerRadius = UDim.new(0, 6)
-UICorner_10.Parent = updates
-
-UIStroke_4.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-UIStroke_4.Color = Color3.fromRGB(50, 50, 50)
-UIStroke_4.Parent = updates
-
-TextLabel.Parent = updates
-TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel.BackgroundTransparency = 1.000
-TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel.BorderSizePixel = 0
-TextLabel.Position = UDim2.new(3.21915365e-08, 0, 0, 0)
-TextLabel.Size = UDim2.new(0, 474, 0, 23)
-TextLabel.Font = Enum.Font.FredokaOne
-TextLabel.Text = "Update Logs"
-TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel.TextSize = 16.000
-
-ScrollingFrame.Parent = updates
-ScrollingFrame.Active = true
-ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ScrollingFrame.BackgroundTransparency = 1.000
-ScrollingFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
-ScrollingFrame.BorderSizePixel = 0
-ScrollingFrame.Position = UDim2.new(0.00187341881, 0, 0.131578952, 0)
-ScrollingFrame.Size = UDim2.new(0, 473, 0, 165)
-ScrollingFrame.CanvasSize = UDim2.new(0, 0, 0, 0)
-ScrollingFrame.ScrollBarImageColor3 = Color3.fromRGB(0, 0, 0)
-ScrollingFrame.ScrollBarThickness = 0
-
-TextLabel_2.Parent = ScrollingFrame
-TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_2.BackgroundTransparency = 1.000
-TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_2.BorderSizePixel = 0
-TextLabel_2.Size = UDim2.new(0, 473, 0, 20)
-TextLabel_2.Font = Enum.Font.FredokaOne
-TextLabel_2.Text = " v.1 Release"
-TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_2.TextSize = 15.000
-TextLabel_2.TextXAlignment = Enum.TextXAlignment.Left
-
-ScriptFrame.Name = "ScriptFrame"
-ScriptFrame.Parent = MainFrame
-ScriptFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ScriptFrame.BackgroundTransparency = 1.000
-ScriptFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
-ScriptFrame.BorderSizePixel = 0
-ScriptFrame.Position = UDim2.new(0.132854581, 0, -5.08626314e-08, 0)
-ScriptFrame.Size = UDim2.new(0, 483, 0, 300)
-
-Frame_4.Parent = ScriptFrame
-Frame_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Frame_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Frame_4.BorderSizePixel = 0
-Frame_4.Position = UDim2.new(-0.050999999, 5, 0.367000014, 0)
-Frame_4.Size = UDim2.new(0, 4, 0, 40)
-
-UICorner_11.Parent = Frame_4
-
-RobloxScripts.Name = "RobloxScripts"
-RobloxScripts.Parent = ScriptFrame
-RobloxScripts.Active = true
-RobloxScripts.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-RobloxScripts.BackgroundTransparency = 1.000
-RobloxScripts.BorderColor3 = Color3.fromRGB(0, 0, 0)
-RobloxScripts.BorderSizePixel = 0
-RobloxScripts.Position = UDim2.new(-0.00899996888, 0, 0.156666741, 0)
-RobloxScripts.Size = UDim2.new(0, 487, 0, 252)
-RobloxScripts.ScrollBarImageColor3 = Color3.fromRGB(254, 254, 254)
-RobloxScripts.ScrollBarThickness = 4
-
-_1.Name = "1"
-_1.Parent = RobloxScripts
-_1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-_1.BackgroundTransparency = 1.000
-_1.BorderColor3 = Color3.fromRGB(0, 0, 0)
-_1.BorderSizePixel = 0
-_1.Size = UDim2.new(0, 213, 0, 130)
-
-ImageButton.Parent = _1
-ImageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ImageButton.BackgroundTransparency = 1.000
-ImageButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
-ImageButton.BorderSizePixel = 0
-ImageButton.Size = UDim2.new(0, 156, 0, 86)
-ImageButton.Image = "rbxassetid://16833708981"
-
-UICorner_12.CornerRadius = UDim.new(0, 6)
-UICorner_12.Parent = ImageButton
-
-UICorner_13.Parent = _1
-
-TextLabel_3.Parent = _1
-TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_3.BackgroundTransparency = 1.000
-TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_3.BorderSizePixel = 0
-TextLabel_3.Position = UDim2.new(0, 0, 0.781818211, 0)
-TextLabel_3.Size = UDim2.new(0, 156, 0, 24)
-TextLabel_3.Font = Enum.Font.FredokaOne
-TextLabel_3.Text = " Script title/game"
-TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_3.TextSize = 16.000
-TextLabel_3.TextXAlignment = Enum.TextXAlignment.Left
-
-Frame_5.Parent = RobloxScripts
-Frame_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Frame_5.BackgroundTransparency = 1.000
-Frame_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Frame_5.BorderSizePixel = 0
-Frame_5.Position = UDim2.new(0, 0, -1.30194442e-08, 0)
-Frame_5.Size = UDim2.new(0, 156, 0, 92)
-
-ImageButton_2.Parent = Frame_5
-ImageButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ImageButton_2.BackgroundTransparency = 1.000
-ImageButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
-ImageButton_2.BorderSizePixel = 0
-ImageButton_2.Size = UDim2.new(0, 156, 0, 86)
-ImageButton_2.Image = "rbxassetid://16833708981"
-
-UICorner_14.CornerRadius = UDim.new(0, 6)
-UICorner_14.Parent = ImageButton_2
-
-UICorner_15.Parent = Frame_5
-
-TextLabel_4.Parent = Frame_5
-TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_4.BackgroundTransparency = 1.000
-TextLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_4.BorderSizePixel = 0
-TextLabel_4.Position = UDim2.new(0, 0, 0.781818211, 0)
-TextLabel_4.Size = UDim2.new(0, 156, 0, 24)
-TextLabel_4.Font = Enum.Font.FredokaOne
-TextLabel_4.Text = " Script title/game"
-TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_4.TextSize = 16.000
-TextLabel_4.TextXAlignment = Enum.TextXAlignment.Left
-
-Frame_6.Parent = RobloxScripts
-Frame_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Frame_6.BackgroundTransparency = 1.000
-Frame_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Frame_6.BorderSizePixel = 0
-Frame_6.Size = UDim2.new(0, 213, 0, 130)
-
-ImageButton_3.Parent = Frame_6
-ImageButton_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ImageButton_3.BackgroundTransparency = 1.000
-ImageButton_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
-ImageButton_3.BorderSizePixel = 0
-ImageButton_3.Size = UDim2.new(0, 156, 0, 86)
-ImageButton_3.Image = "rbxassetid://16833708981"
-
-UICorner_16.CornerRadius = UDim.new(0, 6)
-UICorner_16.Parent = ImageButton_3
-
-UICorner_17.Parent = Frame_6
-
-TextLabel_5.Parent = Frame_6
-TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_5.BackgroundTransparency = 1.000
-TextLabel_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_5.BorderSizePixel = 0
-TextLabel_5.Position = UDim2.new(0, 0, 0.781818211, 0)
-TextLabel_5.Size = UDim2.new(0, 156, 0, 24)
-TextLabel_5.Font = Enum.Font.FredokaOne
-TextLabel_5.Text = " Script title/game"
-TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_5.TextSize = 16.000
-TextLabel_5.TextXAlignment = Enum.TextXAlignment.Left
-
-Frame_7.Parent = RobloxScripts
-Frame_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Frame_7.BackgroundTransparency = 1.000
-Frame_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Frame_7.BorderSizePixel = 0
-Frame_7.Position = UDim2.new(0, 0, -1.30194442e-08, 0)
-Frame_7.Size = UDim2.new(0, 156, 0, 92)
-
-ImageButton_4.Parent = Frame_7
-ImageButton_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ImageButton_4.BackgroundTransparency = 1.000
-ImageButton_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
-ImageButton_4.BorderSizePixel = 0
-ImageButton_4.Size = UDim2.new(0, 156, 0, 86)
-ImageButton_4.Image = "rbxassetid://16833708981"
-
-UICorner_18.CornerRadius = UDim.new(0, 6)
-UICorner_18.Parent = ImageButton_4
-
-UICorner_19.Parent = Frame_7
-
-TextLabel_6.Parent = Frame_7
-TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_6.BackgroundTransparency = 1.000
-TextLabel_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_6.BorderSizePixel = 0
-TextLabel_6.Position = UDim2.new(0, 0, 0.781818211, 0)
-TextLabel_6.Size = UDim2.new(0, 156, 0, 24)
-TextLabel_6.Font = Enum.Font.FredokaOne
-TextLabel_6.Text = " Script title/game"
-TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_6.TextSize = 16.000
-TextLabel_6.TextXAlignment = Enum.TextXAlignment.Left
-
-_2.Name = "2"
-_2.Parent = RobloxScripts
-_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-_2.BackgroundTransparency = 1.000
-_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
-_2.BorderSizePixel = 0
-_2.Size = UDim2.new(0, 213, 0, 130)
-
-ImageButton_5.Parent = _2
-ImageButton_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ImageButton_5.BackgroundTransparency = 1.000
-ImageButton_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
-ImageButton_5.BorderSizePixel = 0
-ImageButton_5.Size = UDim2.new(0, 156, 0, 86)
-ImageButton_5.Image = "rbxassetid://16833708981"
-
-UICorner_20.CornerRadius = UDim.new(0, 6)
-UICorner_20.Parent = ImageButton_5
-
-UICorner_21.Parent = _2
-
-TextLabel_7.Parent = _2
-TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_7.BackgroundTransparency = 1.000
-TextLabel_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_7.BorderSizePixel = 0
-TextLabel_7.Position = UDim2.new(0, 0, 0.781818211, 0)
-TextLabel_7.Size = UDim2.new(0, 156, 0, 24)
-TextLabel_7.Font = Enum.Font.FredokaOne
-TextLabel_7.Text = " Script title/game"
-TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_7.TextSize = 16.000
-TextLabel_7.TextXAlignment = Enum.TextXAlignment.Left
-
-Frame_8.Parent = RobloxScripts
-Frame_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Frame_8.BackgroundTransparency = 1.000
-Frame_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Frame_8.BorderSizePixel = 0
-Frame_8.Size = UDim2.new(0, 213, 0, 130)
-
-ImageButton_6.Parent = Frame_8
-ImageButton_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ImageButton_6.BackgroundTransparency = 1.000
-ImageButton_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
-ImageButton_6.BorderSizePixel = 0
-ImageButton_6.Size = UDim2.new(0, 156, 0, 86)
-ImageButton_6.Image = "rbxassetid://16833708981"
-
-UICorner_22.CornerRadius = UDim.new(0, 6)
-UICorner_22.Parent = ImageButton_6
-
-UICorner_23.Parent = Frame_8
-
-TextLabel_8.Parent = Frame_8
-TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_8.BackgroundTransparency = 1.000
-TextLabel_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_8.BorderSizePixel = 0
-TextLabel_8.Position = UDim2.new(0, 0, 0.781818211, 0)
-TextLabel_8.Size = UDim2.new(0, 156, 0, 24)
-TextLabel_8.Font = Enum.Font.FredokaOne
-TextLabel_8.Text = " Script title/game"
-TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_8.TextSize = 16.000
-TextLabel_8.TextXAlignment = Enum.TextXAlignment.Left
-
-Frame_9.Parent = RobloxScripts
-Frame_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Frame_9.BackgroundTransparency = 1.000
-Frame_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Frame_9.BorderSizePixel = 0
-Frame_9.Position = UDim2.new(0, 0, -1.30194442e-08, 0)
-Frame_9.Size = UDim2.new(0, 156, 0, 92)
-
-ImageButton_7.Parent = Frame_9
-ImageButton_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ImageButton_7.BackgroundTransparency = 1.000
-ImageButton_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
-ImageButton_7.BorderSizePixel = 0
-ImageButton_7.Size = UDim2.new(0, 156, 0, 86)
-ImageButton_7.Image = "rbxassetid://16833708981"
-
-UICorner_24.CornerRadius = UDim.new(0, 6)
-UICorner_24.Parent = ImageButton_7
-
-UICorner_25.Parent = Frame_9
-
-TextLabel_9.Parent = Frame_9
-TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_9.BackgroundTransparency = 1.000
-TextLabel_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_9.BorderSizePixel = 0
-TextLabel_9.Position = UDim2.new(0, 0, 0.781818211, 0)
-TextLabel_9.Size = UDim2.new(0, 156, 0, 24)
-TextLabel_9.Font = Enum.Font.FredokaOne
-TextLabel_9.Text = " Script title/game"
-TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_9.TextSize = 16.000
-TextLabel_9.TextXAlignment = Enum.TextXAlignment.Left
-
-_3.Name = "3"
-_3.Parent = RobloxScripts
-_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-_3.BackgroundTransparency = 1.000
-_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
-_3.BorderSizePixel = 0
-_3.Size = UDim2.new(0, 213, 0, 130)
-
-ImageButton_8.Parent = _3
-ImageButton_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ImageButton_8.BackgroundTransparency = 1.000
-ImageButton_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
-ImageButton_8.BorderSizePixel = 0
-ImageButton_8.Size = UDim2.new(0, 156, 0, 86)
-ImageButton_8.Image = "rbxassetid://16833708981"
-
-UICorner_26.CornerRadius = UDim.new(0, 6)
-UICorner_26.Parent = ImageButton_8
-
-UICorner_27.Parent = _3
-
-TextLabel_10.Parent = _3
-TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_10.BackgroundTransparency = 1.000
-TextLabel_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_10.BorderSizePixel = 0
-TextLabel_10.Position = UDim2.new(0, 0, 0.781818211, 0)
-TextLabel_10.Size = UDim2.new(0, 156, 0, 24)
-TextLabel_10.Font = Enum.Font.FredokaOne
-TextLabel_10.Text = " Script title/game"
-TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_10.TextSize = 16.000
-TextLabel_10.TextXAlignment = Enum.TextXAlignment.Left
-
-Frame_10.Parent = RobloxScripts
-Frame_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Frame_10.BackgroundTransparency = 1.000
-Frame_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Frame_10.BorderSizePixel = 0
-Frame_10.Size = UDim2.new(0, 213, 0, 130)
-
-ImageButton_9.Parent = Frame_10
-ImageButton_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ImageButton_9.BackgroundTransparency = 1.000
-ImageButton_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
-ImageButton_9.BorderSizePixel = 0
-ImageButton_9.Size = UDim2.new(0, 156, 0, 86)
-ImageButton_9.Image = "rbxassetid://16833708981"
-
-UICorner_28.CornerRadius = UDim.new(0, 6)
-UICorner_28.Parent = ImageButton_9
-
-UICorner_29.Parent = Frame_10
-
-TextLabel_11.Parent = Frame_10
-TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_11.BackgroundTransparency = 1.000
-TextLabel_11.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_11.BorderSizePixel = 0
-TextLabel_11.Position = UDim2.new(0, 0, 0.781818211, 0)
-TextLabel_11.Size = UDim2.new(0, 156, 0, 24)
-TextLabel_11.Font = Enum.Font.FredokaOne
-TextLabel_11.Text = " Script title/game"
-TextLabel_11.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_11.TextSize = 16.000
-TextLabel_11.TextXAlignment = Enum.TextXAlignment.Left
-
-UIGridLayout.Parent = RobloxScripts
-UIGridLayout.SortOrder = Enum.SortOrder.LayoutOrder
-UIGridLayout.CellSize = UDim2.new(0, 156, 0, 110)
-
-UIListLayout.Parent = RobloxScripts
-UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
-
-SearchBar.Name = "SearchBar"
-SearchBar.Parent = ScriptFrame
-SearchBar.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
-SearchBar.BorderColor3 = Color3.fromRGB(0, 0, 0)
-SearchBar.BorderSizePixel = 0
-SearchBar.Position = UDim2.new(-0.00207039341, 0, 0.0466666669, 0)
-SearchBar.Size = UDim2.new(0, 470, 0, 26)
-SearchBar.Font = Enum.Font.FredokaOne
-SearchBar.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
-SearchBar.Text = ""
-SearchBar.TextColor3 = Color3.fromRGB(255, 255, 255)
-SearchBar.TextSize = 14.000
-
-UICorner_30.CornerRadius = UDim.new(0, 6)
-UICorner_30.Parent = SearchBar
-
-UIStroke_5.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-UIStroke_5.Color = Color3.fromRGB(50, 50, 50)
-UIStroke_5.Parent = SearchBar
-
-ExeButton.Name = "ExeButton"
-ExeButton.Parent = MainFrame
-ExeButton.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
-ExeButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
-ExeButton.BorderSizePixel = 0
-ExeButton.Position = UDim2.new(0.0179999992, 0, 0.213, 90)
-ExeButton.Size = UDim2.new(0, 40, 0, 40)
-ExeButton.Font = Enum.Font.SourceSans
-ExeButton.Text = ""
-ExeButton.TextColor3 = Color3.fromRGB(0, 0, 0)
-ExeButton.TextSize = 14.000
-
-UICorner_31.CornerRadius = UDim.new(0, 6)
-UICorner_31.Parent = ExeButton
-
-exeicon.Name = "exe-icon"
-exeicon.Parent = ExeButton
-exeicon.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-exeicon.BackgroundTransparency = 1.000
-exeicon.BorderColor3 = Color3.fromRGB(0, 0, 0)
-exeicon.BorderSizePixel = 0
-exeicon.Position = UDim2.new(0.11399994, 0, 0.101666644, 0)
-exeicon.Size = UDim2.new(0, 30, 0, 30)
-exeicon.Image = "http://www.roblox.com/asset/?id=16803349493"
-
-UICorner_32.Parent = exeicon
-
-HomeButton.Name = "HomeButton"
-HomeButton.Parent = MainFrame
-HomeButton.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
-HomeButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
-HomeButton.BorderSizePixel = 0
-HomeButton.Position = UDim2.new(0.0179533213, 0, 0.213333338, 0)
-HomeButton.Size = UDim2.new(0, 40, 0, 40)
-HomeButton.Font = Enum.Font.SourceSans
-HomeButton.Text = ""
-HomeButton.TextColor3 = Color3.fromRGB(0, 0, 0)
-HomeButton.TextSize = 14.000
-
-UICorner_33.CornerRadius = UDim.new(0, 6)
-UICorner_33.Parent = HomeButton
-
-homeicon.Name = "home-icon"
-homeicon.Parent = HomeButton
-homeicon.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-homeicon.BackgroundTransparency = 1.000
-homeicon.BorderColor3 = Color3.fromRGB(0, 0, 0)
-homeicon.BorderSizePixel = 0
-homeicon.Position = UDim2.new(0.11399994, 0, 0.101666644, 0)
-homeicon.Size = UDim2.new(0, 30, 0, 30)
-homeicon.Image = "http://www.roblox.com/asset/?id=16803381246"
-
-UICorner_34.Parent = homeicon
-
-ScriptButton.Name = "ScriptButton"
-ScriptButton.Parent = MainFrame
-ScriptButton.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
-ScriptButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
-ScriptButton.BorderSizePixel = 0
-ScriptButton.Position = UDim2.new(0.0180000011, 0, 0.216333359, 45)
-ScriptButton.Size = UDim2.new(0, 40, 0, 40)
-ScriptButton.Font = Enum.Font.SourceSans
-ScriptButton.Text = ""
-ScriptButton.TextColor3 = Color3.fromRGB(0, 0, 0)
-ScriptButton.TextSize = 14.000
-
-UICorner_35.CornerRadius = UDim.new(0, 6)
-UICorner_35.Parent = ScriptButton
-
-scripticon.Name = "script-icon"
-scripticon.Parent = ScriptButton
-scripticon.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-scripticon.BackgroundTransparency = 1.000
-scripticon.BorderColor3 = Color3.fromRGB(0, 0, 0)
-scripticon.BorderSizePixel = 0
-scripticon.Position = UDim2.new(0.119999692, 0, 0.10200043, 0)
-scripticon.Size = UDim2.new(0, 30, 0, 30)
-scripticon.Image = "http://www.roblox.com/asset/?id=16803350096"
-
-UICorner_36.Parent = scripticon
-
--- Scripts:
-
-local function MSLTFI_fake_script() -- MainFrame.Dragify 
-	local script = Instance.new('LocalScript', MainFrame)
-
+--[=[
+ d888b  db    db d888888b      .d888b.      db      db    db  .d8b.  
+88' Y8b 88    88   `88'        VP  `8D      88      88    88 d8' `8b 
+88      88    88    88            odD'      88      88    88 88ooo88 
+88  ooo 88    88    88          .88'        88      88    88 88~~~88 
+88. ~8~ 88b  d88   .88.        j88.         88booo. 88b  d88 88   88 
+ Y888P  ~Y8888P' Y888888P      888888D      Y88888P ~Y8888P' YP   YP  CONVERTER
+]=]
+
+-- Instances: 111 | Scripts: 10 | Modules: 0
+local G2L = {};
+
+-- StarterGui.main
+G2L["1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
+G2L["1"]["Name"] = [[main]];
+G2L["1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
+
+-- StarterGui.main.MainFrame
+G2L["2"] = Instance.new("Frame", G2L["1"]);
+G2L["2"]["BorderSizePixel"] = 0;
+G2L["2"]["BackgroundColor3"] = Color3.fromRGB(21, 21, 21);
+G2L["2"]["Size"] = UDim2.new(0, 557, 0, 300);
+G2L["2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["2"]["Position"] = UDim2.new(0.11369843780994415, 0, 0.09876720607280731, 0);
+G2L["2"]["Name"] = [[MainFrame]];
+
+-- StarterGui.main.MainFrame.UICorner
+G2L["3"] = Instance.new("UICorner", G2L["2"]);
+
+
+-- StarterGui.main.MainFrame.Icon
+G2L["4"] = Instance.new("ImageLabel", G2L["2"]);
+G2L["4"]["BorderSizePixel"] = 0;
+G2L["4"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["4"]["Image"] = [[http://www.roblox.com/asset/?id=16833701721]];
+G2L["4"]["Size"] = UDim2.new(0, 40, 0, 40);
+G2L["4"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["4"]["Name"] = [[Icon]];
+G2L["4"]["BackgroundTransparency"] = 1;
+G2L["4"]["Position"] = UDim2.new(0.017999999225139618, 0, 0.023333333432674408, 0);
+
+-- StarterGui.main.MainFrame.Icon.UICorner
+G2L["5"] = Instance.new("UICorner", G2L["4"]);
+G2L["5"]["CornerRadius"] = UDim.new(0, 6);
+
+-- StarterGui.main.MainFrame.hiders
+G2L["6"] = Instance.new("Frame", G2L["2"]);
+G2L["6"]["BorderSizePixel"] = 0;
+G2L["6"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["6"]["BackgroundTransparency"] = 1;
+G2L["6"]["Size"] = UDim2.new(0, 500, 0, 300);
+G2L["6"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["6"]["Name"] = [[hiders]];
+
+-- StarterGui.main.MainFrame.hiders.Frame
+G2L["7"] = Instance.new("Frame", G2L["6"]);
+G2L["7"]["BorderSizePixel"] = 0;
+G2L["7"]["BackgroundColor3"] = Color3.fromRGB(51, 51, 51);
+G2L["7"]["Size"] = UDim2.new(0, 1, 0, 300);
+G2L["7"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["7"]["Position"] = UDim2.new(0.1080000028014183, 8, 0, 0);
+
+-- StarterGui.main.MainFrame.hiders.Frame
+G2L["8"] = Instance.new("Frame", G2L["6"]);
+G2L["8"]["BorderSizePixel"] = 0;
+G2L["8"]["BackgroundColor3"] = Color3.fromRGB(51, 51, 51);
+G2L["8"]["Size"] = UDim2.new(0, 45, 0, 1);
+G2L["8"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["8"]["Position"] = UDim2.new(0.014000000432133675, 0, 0.1899999976158142, 0);
+
+-- StarterGui.main.MainFrame.Dragify
+G2L["9"] = Instance.new("LocalScript", G2L["2"]);
+G2L["9"]["Name"] = [[Dragify]];
+
+-- StarterGui.main.MainFrame.HomeFrame
+G2L["a"] = Instance.new("Frame", G2L["2"]);
+G2L["a"]["BorderSizePixel"] = 0;
+G2L["a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["a"]["BackgroundTransparency"] = 1;
+G2L["a"]["Size"] = UDim2.new(0, 493, 0, 300);
+G2L["a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["a"]["Position"] = UDim2.new(0.11310595273971558, 0, 0, 0);
+G2L["a"]["Visible"] = false;
+G2L["a"]["Name"] = [[HomeFrame]];
+
+-- StarterGui.main.MainFrame.HomeFrame.Players
+G2L["b"] = Instance.new("Frame", G2L["a"]);
+G2L["b"]["BorderSizePixel"] = 0;
+G2L["b"]["BackgroundColor3"] = Color3.fromRGB(36, 36, 36);
+G2L["b"]["Size"] = UDim2.new(0, 190, 0, 80);
+G2L["b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["b"]["Position"] = UDim2.new(0.01600000075995922, 0, 0.013000000268220901, 5);
+G2L["b"]["Name"] = [[Players]];
+
+-- StarterGui.main.MainFrame.HomeFrame.Players.UICorner
+G2L["c"] = Instance.new("UICorner", G2L["b"]);
+G2L["c"]["CornerRadius"] = UDim.new(0, 6);
+
+-- StarterGui.main.MainFrame.HomeFrame.Players.UIStroke
+G2L["d"] = Instance.new("UIStroke", G2L["b"]);
+G2L["d"]["Color"] = Color3.fromRGB(51, 51, 51);
+G2L["d"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+
+-- StarterGui.main.MainFrame.HomeFrame.Players.avatar
+G2L["e"] = Instance.new("ImageLabel", G2L["b"]);
+G2L["e"]["BorderSizePixel"] = 0;
+G2L["e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["e"]["Image"] = [[rbxasset://textures/ui/GuiImagePlaceholder.png]];
+G2L["e"]["Size"] = UDim2.new(0, 50, 0, 50);
+G2L["e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["e"]["Name"] = [[avatar]];
+G2L["e"]["BackgroundTransparency"] = 1;
+G2L["e"]["Position"] = UDim2.new(0.04210526496171951, 0, 0.1875, 0);
+
+-- StarterGui.main.MainFrame.HomeFrame.Players.avatar.UICorner
+G2L["f"] = Instance.new("UICorner", G2L["e"]);
+G2L["f"]["CornerRadius"] = UDim.new(0, 50);
+
+-- StarterGui.main.MainFrame.HomeFrame.Players.avatar.LocalScript
+G2L["10"] = Instance.new("LocalScript", G2L["e"]);
+
+
+-- StarterGui.main.MainFrame.HomeFrame.Players.name
+G2L["11"] = Instance.new("TextLabel", G2L["b"]);
+G2L["11"]["TextWrapped"] = true;
+G2L["11"]["BorderSizePixel"] = 0;
+G2L["11"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["11"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["11"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["11"]["TextSize"] = 14;
+G2L["11"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["11"]["Size"] = UDim2.new(0, 117, 0, 50);
+G2L["11"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["11"]["Text"] = [[Player Name]];
+G2L["11"]["Name"] = [[name]];
+G2L["11"]["BackgroundTransparency"] = 2;
+G2L["11"]["Position"] = UDim2.new(0.34210526943206787, 0, 0.1875, 0);
+
+-- StarterGui.main.MainFrame.HomeFrame.Players.name.LocalScript
+G2L["12"] = Instance.new("LocalScript", G2L["11"]);
+
+
+-- StarterGui.main.MainFrame.HomeFrame.Frame
+G2L["13"] = Instance.new("Frame", G2L["a"]);
+G2L["13"]["BorderSizePixel"] = 0;
+G2L["13"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["13"]["Size"] = UDim2.new(0, 4, 0, 40);
+G2L["13"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["13"]["Position"] = UDim2.new(-0.032999999821186066, 7, 0.20999999344348907, 0);
+
+-- StarterGui.main.MainFrame.HomeFrame.Frame.UICorner
+G2L["14"] = Instance.new("UICorner", G2L["13"]);
+
+
+-- StarterGui.main.MainFrame.HomeFrame.credits
+G2L["15"] = Instance.new("Frame", G2L["a"]);
+G2L["15"]["BorderSizePixel"] = 0;
+G2L["15"]["BackgroundColor3"] = Color3.fromRGB(36, 36, 36);
+G2L["15"]["Size"] = UDim2.new(0, 267, 0, 80);
+G2L["15"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["15"]["Position"] = UDim2.new(-0.07122109085321426, 250, 0.012999992817640305, 5);
+G2L["15"]["Name"] = [[credits]];
+
+-- StarterGui.main.MainFrame.HomeFrame.credits.UICorner
+G2L["16"] = Instance.new("UICorner", G2L["15"]);
+G2L["16"]["CornerRadius"] = UDim.new(0, 6);
+
+-- StarterGui.main.MainFrame.HomeFrame.credits.UIStroke
+G2L["17"] = Instance.new("UIStroke", G2L["15"]);
+G2L["17"]["Color"] = Color3.fromRGB(51, 51, 51);
+G2L["17"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+
+-- StarterGui.main.MainFrame.HomeFrame.credits.avatar
+G2L["18"] = Instance.new("ImageLabel", G2L["15"]);
+G2L["18"]["BorderSizePixel"] = 0;
+G2L["18"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["18"]["Image"] = [[http://www.roblox.com/asset/?id=16833953865]];
+G2L["18"]["Size"] = UDim2.new(0, 60, 0, 60);
+G2L["18"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["18"]["Name"] = [[avatar]];
+G2L["18"]["BackgroundTransparency"] = 1;
+G2L["18"]["Position"] = UDim2.new(0.02712395414710045, 0, 0.125, 0);
+
+-- StarterGui.main.MainFrame.HomeFrame.credits.avatar.UICorner
+G2L["19"] = Instance.new("UICorner", G2L["18"]);
+G2L["19"]["CornerRadius"] = UDim.new(0, 6);
+
+-- StarterGui.main.MainFrame.HomeFrame.credits.avatar.LocalScript
+G2L["1a"] = Instance.new("LocalScript", G2L["18"]);
+
+
+-- StarterGui.main.MainFrame.HomeFrame.credits.credit1
+G2L["1b"] = Instance.new("TextLabel", G2L["15"]);
+G2L["1b"]["TextWrapped"] = true;
+G2L["1b"]["BorderSizePixel"] = 0;
+G2L["1b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1b"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["1b"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["1b"]["TextSize"] = 14;
+G2L["1b"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1b"]["Size"] = UDim2.new(0, 193, 0, 28);
+G2L["1b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1b"]["Text"] = [[UI Designer - corrupted_2222]];
+G2L["1b"]["Name"] = [[credit1]];
+G2L["1b"]["BackgroundTransparency"] = 2;
+G2L["1b"]["Position"] = UDim2.new(0.27468928694725037, 0, -0.02500000037252903, 0);
+
+-- StarterGui.main.MainFrame.HomeFrame.credits.credit1.LocalScript
+G2L["1c"] = Instance.new("LocalScript", G2L["1b"]);
+
+
+-- StarterGui.main.MainFrame.HomeFrame.credits.credit1
+G2L["1d"] = Instance.new("TextLabel", G2L["15"]);
+G2L["1d"]["TextWrapped"] = true;
+G2L["1d"]["BorderSizePixel"] = 0;
+G2L["1d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1d"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["1d"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["1d"]["TextSize"] = 14;
+G2L["1d"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1d"]["Size"] = UDim2.new(0, 193, 0, 28);
+G2L["1d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1d"]["Text"] = [[Scripter - corrupted_2222]];
+G2L["1d"]["Name"] = [[credit1]];
+G2L["1d"]["BackgroundTransparency"] = 2;
+G2L["1d"]["Position"] = UDim2.new(0.27468928694725037, 0, 0.1875, 0);
+
+-- StarterGui.main.MainFrame.HomeFrame.credits.credit1.LocalScript
+G2L["1e"] = Instance.new("LocalScript", G2L["1d"]);
+
+
+-- StarterGui.main.MainFrame.HomeFrame.credits.discord
+G2L["1f"] = Instance.new("Frame", G2L["15"]);
+G2L["1f"]["BorderSizePixel"] = 0;
+G2L["1f"]["BackgroundColor3"] = Color3.fromRGB(115, 138, 219);
+G2L["1f"]["Size"] = UDim2.new(0, 186, 0, 27);
+G2L["1f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1f"]["Position"] = UDim2.new(0.2849999964237213, 0, 0.5379999876022339, 0);
+G2L["1f"]["Name"] = [[discord]];
+
+-- StarterGui.main.MainFrame.HomeFrame.credits.discord.discordbutton
+G2L["20"] = Instance.new("TextButton", G2L["1f"]);
+G2L["20"]["BorderSizePixel"] = 0;
+G2L["20"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["20"]["TextSize"] = 14;
+G2L["20"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["20"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["20"]["Size"] = UDim2.new(0, 186, 0, 27);
+G2L["20"]["Name"] = [[discordbutton]];
+G2L["20"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["20"]["Text"] = [[Discord Server]];
+G2L["20"]["Position"] = UDim2.new(0.00005381594382924959, 0, -0.017555801197886467, 0);
+G2L["20"]["BackgroundTransparency"] = 1;
+
+-- StarterGui.main.MainFrame.HomeFrame.credits.discord.discordbutton.UICorner
+G2L["21"] = Instance.new("UICorner", G2L["20"]);
+G2L["21"]["CornerRadius"] = UDim.new(0, 6);
+
+-- StarterGui.main.MainFrame.HomeFrame.credits.discord.UICorner
+G2L["22"] = Instance.new("UICorner", G2L["1f"]);
+G2L["22"]["CornerRadius"] = UDim.new(0, 6);
+
+-- StarterGui.main.MainFrame.HomeFrame.credits.discord.UIStroke
+G2L["23"] = Instance.new("UIStroke", G2L["1f"]);
+G2L["23"]["Color"] = Color3.fromRGB(180, 197, 255);
+G2L["23"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+
+-- StarterGui.main.MainFrame.HomeFrame.updates
+G2L["24"] = Instance.new("Frame", G2L["a"]);
+G2L["24"]["BorderSizePixel"] = 0;
+G2L["24"]["BackgroundColor3"] = Color3.fromRGB(36, 36, 36);
+G2L["24"]["Size"] = UDim2.new(0, 474, 0, 190);
+G2L["24"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["24"]["Position"] = UDim2.new(0.014198782853782177, 0, 0.32666662335395813, 0);
+G2L["24"]["Name"] = [[updates]];
+
+-- StarterGui.main.MainFrame.HomeFrame.updates.UICorner
+G2L["25"] = Instance.new("UICorner", G2L["24"]);
+G2L["25"]["CornerRadius"] = UDim.new(0, 6);
+
+-- StarterGui.main.MainFrame.HomeFrame.updates.UIStroke
+G2L["26"] = Instance.new("UIStroke", G2L["24"]);
+G2L["26"]["Color"] = Color3.fromRGB(51, 51, 51);
+G2L["26"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+
+-- StarterGui.main.MainFrame.HomeFrame.updates.TextLabel
+G2L["27"] = Instance.new("TextLabel", G2L["24"]);
+G2L["27"]["BorderSizePixel"] = 0;
+G2L["27"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["27"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["27"]["TextSize"] = 16;
+G2L["27"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["27"]["Size"] = UDim2.new(0, 474, 0, 23);
+G2L["27"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["27"]["Text"] = [[Update Logs]];
+G2L["27"]["BackgroundTransparency"] = 1;
+G2L["27"]["Position"] = UDim2.new(3.2191536547543365e-08, 0, 0, 0);
+
+-- StarterGui.main.MainFrame.HomeFrame.updates.ScrollingFrame
+G2L["28"] = Instance.new("ScrollingFrame", G2L["24"]);
+G2L["28"]["Active"] = true;
+G2L["28"]["BorderSizePixel"] = 0;
+G2L["28"]["CanvasSize"] = UDim2.new(0, 0, 0, 0);
+G2L["28"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["28"]["BackgroundTransparency"] = 1;
+G2L["28"]["Size"] = UDim2.new(0, 473, 0, 165);
+G2L["28"]["ScrollBarImageColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["28"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["28"]["ScrollBarThickness"] = 0;
+G2L["28"]["Position"] = UDim2.new(0.0018734188051894307, 0, 0.1315789520740509, 0);
+
+-- StarterGui.main.MainFrame.HomeFrame.updates.ScrollingFrame.TextLabel
+G2L["29"] = Instance.new("TextLabel", G2L["28"]);
+G2L["29"]["BorderSizePixel"] = 0;
+G2L["29"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["29"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["29"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["29"]["TextSize"] = 15;
+G2L["29"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["29"]["Size"] = UDim2.new(0, 473, 0, 20);
+G2L["29"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["29"]["Text"] = [[ v.1 Release]];
+G2L["29"]["BackgroundTransparency"] = 1;
+
+-- StarterGui.main.MainFrame.ScriptFrame
+G2L["2a"] = Instance.new("Frame", G2L["2"]);
+G2L["2a"]["BorderSizePixel"] = 0;
+G2L["2a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["2a"]["BackgroundTransparency"] = 1;
+G2L["2a"]["Size"] = UDim2.new(0, 483, 0, 300);
+G2L["2a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["2a"]["Position"] = UDim2.new(0.13285458087921143, 0, -5.086263143994074e-08, 0);
+G2L["2a"]["Name"] = [[ScriptFrame]];
+
+-- StarterGui.main.MainFrame.ScriptFrame.Frame
+G2L["2b"] = Instance.new("Frame", G2L["2a"]);
+G2L["2b"]["BorderSizePixel"] = 0;
+G2L["2b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["2b"]["Size"] = UDim2.new(0, 4, 0, 40);
+G2L["2b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["2b"]["Position"] = UDim2.new(-0.050999999046325684, 5, 0.367000013589859, 0);
+
+-- StarterGui.main.MainFrame.ScriptFrame.Frame.UICorner
+G2L["2c"] = Instance.new("UICorner", G2L["2b"]);
+
+
+-- StarterGui.main.MainFrame.ScriptFrame.RobloxScripts
+G2L["2d"] = Instance.new("ScrollingFrame", G2L["2a"]);
+G2L["2d"]["Active"] = true;
+G2L["2d"]["BorderSizePixel"] = 0;
+G2L["2d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["2d"]["BackgroundTransparency"] = 1;
+G2L["2d"]["Size"] = UDim2.new(0, 487, 0, 252);
+G2L["2d"]["ScrollBarImageColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["2d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["2d"]["ScrollBarThickness"] = 4;
+G2L["2d"]["Position"] = UDim2.new(-0.008999968878924847, 0, 0.15666674077510834, 0);
+G2L["2d"]["Name"] = [[RobloxScripts]];
+
+-- StarterGui.main.MainFrame.ScriptFrame.RobloxScripts.1
+G2L["2e"] = Instance.new("Frame", G2L["2d"]);
+G2L["2e"]["BorderSizePixel"] = 0;
+G2L["2e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["2e"]["BackgroundTransparency"] = 1;
+G2L["2e"]["Size"] = UDim2.new(0, 213, 0, 130);
+G2L["2e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["2e"]["Name"] = [[1]];
+
+-- StarterGui.main.MainFrame.ScriptFrame.RobloxScripts.1.ImageButton
+G2L["2f"] = Instance.new("ImageButton", G2L["2e"]);
+G2L["2f"]["BorderSizePixel"] = 0;
+G2L["2f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["2f"]["Image"] = [[rbxassetid://16833708981]];
+G2L["2f"]["Size"] = UDim2.new(0, 156, 0, 86);
+G2L["2f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["2f"]["BackgroundTransparency"] = 1;
+
+-- StarterGui.main.MainFrame.ScriptFrame.RobloxScripts.1.ImageButton.UICorner
+G2L["30"] = Instance.new("UICorner", G2L["2f"]);
+G2L["30"]["CornerRadius"] = UDim.new(0, 6);
+
+-- StarterGui.main.MainFrame.ScriptFrame.RobloxScripts.1.UICorner
+G2L["31"] = Instance.new("UICorner", G2L["2e"]);
+
+
+-- StarterGui.main.MainFrame.ScriptFrame.RobloxScripts.1.TextLabel
+G2L["32"] = Instance.new("TextLabel", G2L["2e"]);
+G2L["32"]["BorderSizePixel"] = 0;
+G2L["32"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["32"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["32"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["32"]["TextSize"] = 16;
+G2L["32"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["32"]["Size"] = UDim2.new(0, 156, 0, 24);
+G2L["32"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["32"]["Text"] = [[ Script title/game]];
+G2L["32"]["BackgroundTransparency"] = 1;
+G2L["32"]["Position"] = UDim2.new(0, 0, 0.7818182110786438, 0);
+
+-- StarterGui.main.MainFrame.ScriptFrame.RobloxScripts.Frame
+G2L["33"] = Instance.new("Frame", G2L["2d"]);
+G2L["33"]["BorderSizePixel"] = 0;
+G2L["33"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["33"]["BackgroundTransparency"] = 1;
+G2L["33"]["Size"] = UDim2.new(0, 156, 0, 92);
+G2L["33"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["33"]["Position"] = UDim2.new(0, 0, -1.3019444189410478e-08, 0);
+
+-- StarterGui.main.MainFrame.ScriptFrame.RobloxScripts.Frame.ImageButton
+G2L["34"] = Instance.new("ImageButton", G2L["33"]);
+G2L["34"]["BorderSizePixel"] = 0;
+G2L["34"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["34"]["Image"] = [[rbxassetid://16833708981]];
+G2L["34"]["Size"] = UDim2.new(0, 156, 0, 86);
+G2L["34"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["34"]["BackgroundTransparency"] = 1;
+
+-- StarterGui.main.MainFrame.ScriptFrame.RobloxScripts.Frame.ImageButton.UICorner
+G2L["35"] = Instance.new("UICorner", G2L["34"]);
+G2L["35"]["CornerRadius"] = UDim.new(0, 6);
+
+-- StarterGui.main.MainFrame.ScriptFrame.RobloxScripts.Frame.UICorner
+G2L["36"] = Instance.new("UICorner", G2L["33"]);
+
+
+-- StarterGui.main.MainFrame.ScriptFrame.RobloxScripts.Frame.TextLabel
+G2L["37"] = Instance.new("TextLabel", G2L["33"]);
+G2L["37"]["BorderSizePixel"] = 0;
+G2L["37"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["37"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["37"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["37"]["TextSize"] = 16;
+G2L["37"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["37"]["Size"] = UDim2.new(0, 156, 0, 24);
+G2L["37"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["37"]["Text"] = [[ Script title/game]];
+G2L["37"]["BackgroundTransparency"] = 1;
+G2L["37"]["Position"] = UDim2.new(0, 0, 0.7818182110786438, 0);
+
+-- StarterGui.main.MainFrame.ScriptFrame.RobloxScripts.Frame
+G2L["38"] = Instance.new("Frame", G2L["2d"]);
+G2L["38"]["BorderSizePixel"] = 0;
+G2L["38"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["38"]["BackgroundTransparency"] = 1;
+G2L["38"]["Size"] = UDim2.new(0, 213, 0, 130);
+G2L["38"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+
+-- StarterGui.main.MainFrame.ScriptFrame.RobloxScripts.Frame.ImageButton
+G2L["39"] = Instance.new("ImageButton", G2L["38"]);
+G2L["39"]["BorderSizePixel"] = 0;
+G2L["39"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["39"]["Image"] = [[rbxassetid://16833708981]];
+G2L["39"]["Size"] = UDim2.new(0, 156, 0, 86);
+G2L["39"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["39"]["BackgroundTransparency"] = 1;
+
+-- StarterGui.main.MainFrame.ScriptFrame.RobloxScripts.Frame.ImageButton.UICorner
+G2L["3a"] = Instance.new("UICorner", G2L["39"]);
+G2L["3a"]["CornerRadius"] = UDim.new(0, 6);
+
+-- StarterGui.main.MainFrame.ScriptFrame.RobloxScripts.Frame.UICorner
+G2L["3b"] = Instance.new("UICorner", G2L["38"]);
+
+
+-- StarterGui.main.MainFrame.ScriptFrame.RobloxScripts.Frame.TextLabel
+G2L["3c"] = Instance.new("TextLabel", G2L["38"]);
+G2L["3c"]["BorderSizePixel"] = 0;
+G2L["3c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["3c"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["3c"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["3c"]["TextSize"] = 16;
+G2L["3c"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["3c"]["Size"] = UDim2.new(0, 156, 0, 24);
+G2L["3c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["3c"]["Text"] = [[ Script title/game]];
+G2L["3c"]["BackgroundTransparency"] = 1;
+G2L["3c"]["Position"] = UDim2.new(0, 0, 0.7818182110786438, 0);
+
+-- StarterGui.main.MainFrame.ScriptFrame.RobloxScripts.Frame
+G2L["3d"] = Instance.new("Frame", G2L["2d"]);
+G2L["3d"]["BorderSizePixel"] = 0;
+G2L["3d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["3d"]["BackgroundTransparency"] = 1;
+G2L["3d"]["Size"] = UDim2.new(0, 156, 0, 92);
+G2L["3d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["3d"]["Position"] = UDim2.new(0, 0, -1.3019444189410478e-08, 0);
+
+-- StarterGui.main.MainFrame.ScriptFrame.RobloxScripts.Frame.ImageButton
+G2L["3e"] = Instance.new("ImageButton", G2L["3d"]);
+G2L["3e"]["BorderSizePixel"] = 0;
+G2L["3e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["3e"]["Image"] = [[rbxassetid://16833708981]];
+G2L["3e"]["Size"] = UDim2.new(0, 156, 0, 86);
+G2L["3e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["3e"]["BackgroundTransparency"] = 1;
+
+-- StarterGui.main.MainFrame.ScriptFrame.RobloxScripts.Frame.ImageButton.UICorner
+G2L["3f"] = Instance.new("UICorner", G2L["3e"]);
+G2L["3f"]["CornerRadius"] = UDim.new(0, 6);
+
+-- StarterGui.main.MainFrame.ScriptFrame.RobloxScripts.Frame.UICorner
+G2L["40"] = Instance.new("UICorner", G2L["3d"]);
+
+
+-- StarterGui.main.MainFrame.ScriptFrame.RobloxScripts.Frame.TextLabel
+G2L["41"] = Instance.new("TextLabel", G2L["3d"]);
+G2L["41"]["BorderSizePixel"] = 0;
+G2L["41"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["41"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["41"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["41"]["TextSize"] = 16;
+G2L["41"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["41"]["Size"] = UDim2.new(0, 156, 0, 24);
+G2L["41"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["41"]["Text"] = [[ Script title/game]];
+G2L["41"]["BackgroundTransparency"] = 1;
+G2L["41"]["Position"] = UDim2.new(0, 0, 0.7818182110786438, 0);
+
+-- StarterGui.main.MainFrame.ScriptFrame.RobloxScripts.2
+G2L["42"] = Instance.new("Frame", G2L["2d"]);
+G2L["42"]["BorderSizePixel"] = 0;
+G2L["42"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["42"]["BackgroundTransparency"] = 1;
+G2L["42"]["Size"] = UDim2.new(0, 213, 0, 130);
+G2L["42"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["42"]["Name"] = [[2]];
+
+-- StarterGui.main.MainFrame.ScriptFrame.RobloxScripts.2.ImageButton
+G2L["43"] = Instance.new("ImageButton", G2L["42"]);
+G2L["43"]["BorderSizePixel"] = 0;
+G2L["43"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["43"]["Image"] = [[rbxassetid://16833708981]];
+G2L["43"]["Size"] = UDim2.new(0, 156, 0, 86);
+G2L["43"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["43"]["BackgroundTransparency"] = 1;
+
+-- StarterGui.main.MainFrame.ScriptFrame.RobloxScripts.2.ImageButton.UICorner
+G2L["44"] = Instance.new("UICorner", G2L["43"]);
+G2L["44"]["CornerRadius"] = UDim.new(0, 6);
+
+-- StarterGui.main.MainFrame.ScriptFrame.RobloxScripts.2.UICorner
+G2L["45"] = Instance.new("UICorner", G2L["42"]);
+
+
+-- StarterGui.main.MainFrame.ScriptFrame.RobloxScripts.2.TextLabel
+G2L["46"] = Instance.new("TextLabel", G2L["42"]);
+G2L["46"]["BorderSizePixel"] = 0;
+G2L["46"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["46"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["46"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["46"]["TextSize"] = 16;
+G2L["46"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["46"]["Size"] = UDim2.new(0, 156, 0, 24);
+G2L["46"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["46"]["Text"] = [[ Script title/game]];
+G2L["46"]["BackgroundTransparency"] = 1;
+G2L["46"]["Position"] = UDim2.new(0, 0, 0.7818182110786438, 0);
+
+-- StarterGui.main.MainFrame.ScriptFrame.RobloxScripts.Frame
+G2L["47"] = Instance.new("Frame", G2L["2d"]);
+G2L["47"]["BorderSizePixel"] = 0;
+G2L["47"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["47"]["BackgroundTransparency"] = 1;
+G2L["47"]["Size"] = UDim2.new(0, 213, 0, 130);
+G2L["47"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+
+-- StarterGui.main.MainFrame.ScriptFrame.RobloxScripts.Frame.ImageButton
+G2L["48"] = Instance.new("ImageButton", G2L["47"]);
+G2L["48"]["BorderSizePixel"] = 0;
+G2L["48"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["48"]["Image"] = [[rbxassetid://16833708981]];
+G2L["48"]["Size"] = UDim2.new(0, 156, 0, 86);
+G2L["48"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["48"]["BackgroundTransparency"] = 1;
+
+-- StarterGui.main.MainFrame.ScriptFrame.RobloxScripts.Frame.ImageButton.UICorner
+G2L["49"] = Instance.new("UICorner", G2L["48"]);
+G2L["49"]["CornerRadius"] = UDim.new(0, 6);
+
+-- StarterGui.main.MainFrame.ScriptFrame.RobloxScripts.Frame.UICorner
+G2L["4a"] = Instance.new("UICorner", G2L["47"]);
+
+
+-- StarterGui.main.MainFrame.ScriptFrame.RobloxScripts.Frame.TextLabel
+G2L["4b"] = Instance.new("TextLabel", G2L["47"]);
+G2L["4b"]["BorderSizePixel"] = 0;
+G2L["4b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["4b"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["4b"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["4b"]["TextSize"] = 16;
+G2L["4b"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["4b"]["Size"] = UDim2.new(0, 156, 0, 24);
+G2L["4b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["4b"]["Text"] = [[ Script title/game]];
+G2L["4b"]["BackgroundTransparency"] = 1;
+G2L["4b"]["Position"] = UDim2.new(0, 0, 0.7818182110786438, 0);
+
+-- StarterGui.main.MainFrame.ScriptFrame.RobloxScripts.Frame
+G2L["4c"] = Instance.new("Frame", G2L["2d"]);
+G2L["4c"]["BorderSizePixel"] = 0;
+G2L["4c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["4c"]["BackgroundTransparency"] = 1;
+G2L["4c"]["Size"] = UDim2.new(0, 156, 0, 92);
+G2L["4c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["4c"]["Position"] = UDim2.new(0, 0, -1.3019444189410478e-08, 0);
+
+-- StarterGui.main.MainFrame.ScriptFrame.RobloxScripts.Frame.ImageButton
+G2L["4d"] = Instance.new("ImageButton", G2L["4c"]);
+G2L["4d"]["BorderSizePixel"] = 0;
+G2L["4d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["4d"]["Image"] = [[rbxassetid://16833708981]];
+G2L["4d"]["Size"] = UDim2.new(0, 156, 0, 86);
+G2L["4d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["4d"]["BackgroundTransparency"] = 1;
+
+-- StarterGui.main.MainFrame.ScriptFrame.RobloxScripts.Frame.ImageButton.UICorner
+G2L["4e"] = Instance.new("UICorner", G2L["4d"]);
+G2L["4e"]["CornerRadius"] = UDim.new(0, 6);
+
+-- StarterGui.main.MainFrame.ScriptFrame.RobloxScripts.Frame.UICorner
+G2L["4f"] = Instance.new("UICorner", G2L["4c"]);
+
+
+-- StarterGui.main.MainFrame.ScriptFrame.RobloxScripts.Frame.TextLabel
+G2L["50"] = Instance.new("TextLabel", G2L["4c"]);
+G2L["50"]["BorderSizePixel"] = 0;
+G2L["50"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["50"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["50"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["50"]["TextSize"] = 16;
+G2L["50"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["50"]["Size"] = UDim2.new(0, 156, 0, 24);
+G2L["50"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["50"]["Text"] = [[ Script title/game]];
+G2L["50"]["BackgroundTransparency"] = 1;
+G2L["50"]["Position"] = UDim2.new(0, 0, 0.7818182110786438, 0);
+
+-- StarterGui.main.MainFrame.ScriptFrame.RobloxScripts.3
+G2L["51"] = Instance.new("Frame", G2L["2d"]);
+G2L["51"]["BorderSizePixel"] = 0;
+G2L["51"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["51"]["BackgroundTransparency"] = 1;
+G2L["51"]["Size"] = UDim2.new(0, 213, 0, 130);
+G2L["51"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["51"]["Name"] = [[3]];
+
+-- StarterGui.main.MainFrame.ScriptFrame.RobloxScripts.3.ImageButton
+G2L["52"] = Instance.new("ImageButton", G2L["51"]);
+G2L["52"]["BorderSizePixel"] = 0;
+G2L["52"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["52"]["Image"] = [[rbxassetid://16833708981]];
+G2L["52"]["Size"] = UDim2.new(0, 156, 0, 86);
+G2L["52"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["52"]["BackgroundTransparency"] = 1;
+
+-- StarterGui.main.MainFrame.ScriptFrame.RobloxScripts.3.ImageButton.UICorner
+G2L["53"] = Instance.new("UICorner", G2L["52"]);
+G2L["53"]["CornerRadius"] = UDim.new(0, 6);
+
+-- StarterGui.main.MainFrame.ScriptFrame.RobloxScripts.3.UICorner
+G2L["54"] = Instance.new("UICorner", G2L["51"]);
+
+
+-- StarterGui.main.MainFrame.ScriptFrame.RobloxScripts.3.TextLabel
+G2L["55"] = Instance.new("TextLabel", G2L["51"]);
+G2L["55"]["BorderSizePixel"] = 0;
+G2L["55"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["55"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["55"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["55"]["TextSize"] = 16;
+G2L["55"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["55"]["Size"] = UDim2.new(0, 156, 0, 24);
+G2L["55"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["55"]["Text"] = [[ Script title/game]];
+G2L["55"]["BackgroundTransparency"] = 1;
+G2L["55"]["Position"] = UDim2.new(0, 0, 0.7818182110786438, 0);
+
+-- StarterGui.main.MainFrame.ScriptFrame.RobloxScripts.Frame
+G2L["56"] = Instance.new("Frame", G2L["2d"]);
+G2L["56"]["BorderSizePixel"] = 0;
+G2L["56"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["56"]["BackgroundTransparency"] = 1;
+G2L["56"]["Size"] = UDim2.new(0, 213, 0, 130);
+G2L["56"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+
+-- StarterGui.main.MainFrame.ScriptFrame.RobloxScripts.Frame.ImageButton
+G2L["57"] = Instance.new("ImageButton", G2L["56"]);
+G2L["57"]["BorderSizePixel"] = 0;
+G2L["57"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["57"]["Image"] = [[rbxassetid://16833708981]];
+G2L["57"]["Size"] = UDim2.new(0, 156, 0, 86);
+G2L["57"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["57"]["BackgroundTransparency"] = 1;
+
+-- StarterGui.main.MainFrame.ScriptFrame.RobloxScripts.Frame.ImageButton.UICorner
+G2L["58"] = Instance.new("UICorner", G2L["57"]);
+G2L["58"]["CornerRadius"] = UDim.new(0, 6);
+
+-- StarterGui.main.MainFrame.ScriptFrame.RobloxScripts.Frame.UICorner
+G2L["59"] = Instance.new("UICorner", G2L["56"]);
+
+
+-- StarterGui.main.MainFrame.ScriptFrame.RobloxScripts.Frame.TextLabel
+G2L["5a"] = Instance.new("TextLabel", G2L["56"]);
+G2L["5a"]["BorderSizePixel"] = 0;
+G2L["5a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["5a"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["5a"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["5a"]["TextSize"] = 16;
+G2L["5a"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["5a"]["Size"] = UDim2.new(0, 156, 0, 24);
+G2L["5a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["5a"]["Text"] = [[ Script title/game]];
+G2L["5a"]["BackgroundTransparency"] = 1;
+G2L["5a"]["Position"] = UDim2.new(0, 0, 0.7818182110786438, 0);
+
+-- StarterGui.main.MainFrame.ScriptFrame.RobloxScripts.UIGridLayout
+G2L["5b"] = Instance.new("UIGridLayout", G2L["2d"]);
+G2L["5b"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+G2L["5b"]["CellSize"] = UDim2.new(0, 156, 0, 110);
+
+-- StarterGui.main.MainFrame.ScriptFrame.RobloxScripts.UIListLayout
+G2L["5c"] = Instance.new("UIListLayout", G2L["2d"]);
+G2L["5c"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+
+-- StarterGui.main.MainFrame.ScriptFrame.SearchBar
+G2L["5d"] = Instance.new("TextBox", G2L["2a"]);
+G2L["5d"]["CursorPosition"] = -1;
+G2L["5d"]["PlaceholderColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["5d"]["BorderSizePixel"] = 0;
+G2L["5d"]["TextSize"] = 14;
+G2L["5d"]["BackgroundColor3"] = Color3.fromRGB(36, 36, 36);
+G2L["5d"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["5d"]["FontFace"] = Font.new([[rbxasset://fonts/families/FredokaOne.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["5d"]["Size"] = UDim2.new(0, 470, 0, 26);
+G2L["5d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["5d"]["Text"] = [[]];
+G2L["5d"]["Position"] = UDim2.new(-0.0020703934133052826, 0, 0.046666666865348816, 0);
+G2L["5d"]["Name"] = [[SearchBar]];
+
+-- StarterGui.main.MainFrame.ScriptFrame.SearchBar.UICorner
+G2L["5e"] = Instance.new("UICorner", G2L["5d"]);
+G2L["5e"]["CornerRadius"] = UDim.new(0, 6);
+
+-- StarterGui.main.MainFrame.ScriptFrame.SearchBar.UIStroke
+G2L["5f"] = Instance.new("UIStroke", G2L["5d"]);
+G2L["5f"]["Color"] = Color3.fromRGB(51, 51, 51);
+G2L["5f"]["ApplyStrokeMode"] = Enum.ApplyStrokeMode.Border;
+
+-- StarterGui.main.MainFrame.ScriptFrame.SearchBar.LocalScript
+G2L["60"] = Instance.new("LocalScript", G2L["5d"]);
+
+
+-- StarterGui.main.MainFrame.ScriptFrame.LocalScript
+G2L["61"] = Instance.new("LocalScript", G2L["2a"]);
+
+
+-- StarterGui.main.MainFrame.ExeButton
+G2L["62"] = Instance.new("TextButton", G2L["2"]);
+G2L["62"]["BorderSizePixel"] = 0;
+G2L["62"]["BackgroundColor3"] = Color3.fromRGB(36, 36, 36);
+G2L["62"]["TextSize"] = 14;
+G2L["62"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["62"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["62"]["Size"] = UDim2.new(0, 40, 0, 40);
+G2L["62"]["Name"] = [[ExeButton]];
+G2L["62"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["62"]["Text"] = [[]];
+G2L["62"]["Position"] = UDim2.new(0.017999999225139618, 0, 0.21299999952316284, 90);
+
+-- StarterGui.main.MainFrame.ExeButton.UICorner
+G2L["63"] = Instance.new("UICorner", G2L["62"]);
+G2L["63"]["CornerRadius"] = UDim.new(0, 6);
+
+-- StarterGui.main.MainFrame.ExeButton.exe-icon
+G2L["64"] = Instance.new("ImageLabel", G2L["62"]);
+G2L["64"]["BorderSizePixel"] = 0;
+G2L["64"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["64"]["Image"] = [[http://www.roblox.com/asset/?id=16803349493]];
+G2L["64"]["Size"] = UDim2.new(0, 30, 0, 30);
+G2L["64"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["64"]["Name"] = [[exe-icon]];
+G2L["64"]["BackgroundTransparency"] = 1;
+G2L["64"]["Position"] = UDim2.new(0.11399994045495987, 0, 0.1016666442155838, 0);
+
+-- StarterGui.main.MainFrame.ExeButton.exe-icon.UICorner
+G2L["65"] = Instance.new("UICorner", G2L["64"]);
+
+
+-- StarterGui.main.MainFrame.HomeButton
+G2L["66"] = Instance.new("TextButton", G2L["2"]);
+G2L["66"]["BorderSizePixel"] = 0;
+G2L["66"]["BackgroundColor3"] = Color3.fromRGB(36, 36, 36);
+G2L["66"]["TextSize"] = 14;
+G2L["66"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["66"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["66"]["Size"] = UDim2.new(0, 40, 0, 40);
+G2L["66"]["Name"] = [[HomeButton]];
+G2L["66"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["66"]["Text"] = [[]];
+G2L["66"]["Position"] = UDim2.new(0.01795332133769989, 0, 0.2133333384990692, 0);
+
+-- StarterGui.main.MainFrame.HomeButton.UICorner
+G2L["67"] = Instance.new("UICorner", G2L["66"]);
+G2L["67"]["CornerRadius"] = UDim.new(0, 6);
+
+-- StarterGui.main.MainFrame.HomeButton.home-icon
+G2L["68"] = Instance.new("ImageLabel", G2L["66"]);
+G2L["68"]["BorderSizePixel"] = 0;
+G2L["68"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["68"]["Image"] = [[http://www.roblox.com/asset/?id=16803381246]];
+G2L["68"]["Size"] = UDim2.new(0, 30, 0, 30);
+G2L["68"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["68"]["Name"] = [[home-icon]];
+G2L["68"]["BackgroundTransparency"] = 1;
+G2L["68"]["Position"] = UDim2.new(0.11399994045495987, 0, 0.1016666442155838, 0);
+
+-- StarterGui.main.MainFrame.HomeButton.home-icon.UICorner
+G2L["69"] = Instance.new("UICorner", G2L["68"]);
+
+
+-- StarterGui.main.MainFrame.HomeButton.LocalScript
+G2L["6a"] = Instance.new("LocalScript", G2L["66"]);
+
+
+-- StarterGui.main.MainFrame.ScriptButton
+G2L["6b"] = Instance.new("TextButton", G2L["2"]);
+G2L["6b"]["BorderSizePixel"] = 0;
+G2L["6b"]["BackgroundColor3"] = Color3.fromRGB(36, 36, 36);
+G2L["6b"]["TextSize"] = 14;
+G2L["6b"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["6b"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["6b"]["Size"] = UDim2.new(0, 40, 0, 40);
+G2L["6b"]["Name"] = [[ScriptButton]];
+G2L["6b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["6b"]["Text"] = [[]];
+G2L["6b"]["Position"] = UDim2.new(0.018000001087784767, 0, 0.21633335947990417, 45);
+
+-- StarterGui.main.MainFrame.ScriptButton.UICorner
+G2L["6c"] = Instance.new("UICorner", G2L["6b"]);
+G2L["6c"]["CornerRadius"] = UDim.new(0, 6);
+
+-- StarterGui.main.MainFrame.ScriptButton.script-icon
+G2L["6d"] = Instance.new("ImageLabel", G2L["6b"]);
+G2L["6d"]["BorderSizePixel"] = 0;
+G2L["6d"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["6d"]["Image"] = [[http://www.roblox.com/asset/?id=16803350096]];
+G2L["6d"]["Size"] = UDim2.new(0, 30, 0, 30);
+G2L["6d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["6d"]["Name"] = [[script-icon]];
+G2L["6d"]["BackgroundTransparency"] = 1;
+G2L["6d"]["Position"] = UDim2.new(0.11999969184398651, 0, 0.10200043022632599, 0);
+
+-- StarterGui.main.MainFrame.ScriptButton.script-icon.UICorner
+G2L["6e"] = Instance.new("UICorner", G2L["6d"]);
+
+
+-- StarterGui.main.MainFrame.ScriptButton.LocalScript
+G2L["6f"] = Instance.new("LocalScript", G2L["6b"]);
+
+
+-- StarterGui.main.MainFrame.Dragify
+local function C_9()
+local script = G2L["9"];
 	local UIS = game:GetService('UserInputService')
 	local frame = script.Parent
 	local dragToggle = nil
@@ -838,55 +896,55 @@ local function MSLTFI_fake_script() -- MainFrame.Dragify
 			end
 		end
 	end)
-end
-coroutine.wrap(MSLTFI_fake_script)()
-local function PGQOK_fake_script() -- avatar.LocalScript 
-	local script = Instance.new('LocalScript', avatar)
-
+end;
+task.spawn(C_9);
+-- StarterGui.main.MainFrame.HomeFrame.Players.avatar.LocalScript
+local function C_10()
+local script = G2L["10"];
 	local Players = game:GetService("Players")
 	local player = Players.LocalPlayer
 	local imagelabel = script.Parent
 	imagelabel.Image = Players:GetUserThumbnailAsync(player.UserId,Enum.ThumbnailType.HeadShot,Enum.ThumbnailSize.Size420x420)
 	
-end
-coroutine.wrap(PGQOK_fake_script)()
-local function ISKJSVB_fake_script() -- name.LocalScript 
-	local script = Instance.new('LocalScript', name)
-
+end;
+task.spawn(C_10);
+-- StarterGui.main.MainFrame.HomeFrame.Players.name.LocalScript
+local function C_12()
+local script = G2L["12"];
 	local player = game.Players.LocalPlayer
 	
 	script.Parent.Text = player.Name
-end
-coroutine.wrap(ISKJSVB_fake_script)()
-local function GYZMOGU_fake_script() -- avatar_2.LocalScript 
-	local script = Instance.new('LocalScript', avatar_2)
-
+end;
+task.spawn(C_12);
+-- StarterGui.main.MainFrame.HomeFrame.credits.avatar.LocalScript
+local function C_1a()
+local script = G2L["1a"];
 	local Players = game:GetService("Players")
 	local player = Players.LocalPlayer
 	local imagelabel = script.Parent
 	imagelabel.Image = Players:GetUserThumbnailAsync(player.UserId,Enum.ThumbnailType.HeadShot,Enum.ThumbnailSize.Size420x420)
 	
-end
-coroutine.wrap(GYZMOGU_fake_script)()
-local function TZYB_fake_script() -- credit1.LocalScript 
-	local script = Instance.new('LocalScript', credit1)
-
+end;
+task.spawn(C_1a);
+-- StarterGui.main.MainFrame.HomeFrame.credits.credit1.LocalScript
+local function C_1c()
+local script = G2L["1c"];
 	local player = game.Players.LocalPlayer
 	
 	script.Parent.Text = player.Name
-end
-coroutine.wrap(TZYB_fake_script)()
-local function FDXXUAX_fake_script() -- credit1_2.LocalScript 
-	local script = Instance.new('LocalScript', credit1_2)
-
+end;
+task.spawn(C_1c);
+-- StarterGui.main.MainFrame.HomeFrame.credits.credit1.LocalScript
+local function C_1e()
+local script = G2L["1e"];
 	local player = game.Players.LocalPlayer
 	
 	script.Parent.Text = player.Name
-end
-coroutine.wrap(FDXXUAX_fake_script)()
-local function FPPCHU_fake_script() -- SearchBar.LocalScript 
-	local script = Instance.new('LocalScript', SearchBar)
-
+end;
+task.spawn(C_1e);
+-- StarterGui.main.MainFrame.ScriptFrame.SearchBar.LocalScript
+local function C_60()
+local script = G2L["60"];
 	local textBox = script.Parent.SearchBar
 	
 	-- Variable to store the original text
@@ -903,11 +961,11 @@ local function FPPCHU_fake_script() -- SearchBar.LocalScript
 	textBox.FocusLost:Connect(checkText)
 	
 	
-end
-coroutine.wrap(FPPCHU_fake_script)()
-local function IYLN_fake_script() -- ScriptFrame.LocalScript 
-	local script = Instance.new('LocalScript', ScriptFrame)
-
+end;
+task.spawn(C_60);
+-- StarterGui.main.MainFrame.ScriptFrame.LocalScript
+local function C_61()
+local script = G2L["61"];
 	local textBox = script.Parent.SearchBar
 	local scrollingFrame = script.Parent.RobloxScripts
 	
@@ -932,25 +990,27 @@ local function IYLN_fake_script() -- ScriptFrame.LocalScript
 	-- Connect the function to the TextBox's 'Changed' event, which fires when the text changes
 	textBox.Changed:Connect(onTextChanged)
 	
-end
-coroutine.wrap(IYLN_fake_script)()
-local function KMVLKS_fake_script() -- HomeButton.LocalScript 
-	local script = Instance.new('LocalScript', HomeButton)
-
+end;
+task.spawn(C_61);
+-- StarterGui.main.MainFrame.HomeButton.LocalScript
+local function C_6a()
+local script = G2L["6a"];
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.HomeFrame.Visible = true
 		script.Parent.Parent.ScriptFrame.Visible = false
 	end)
 	
-end
-coroutine.wrap(KMVLKS_fake_script)()
-local function FOABVWE_fake_script() -- ScriptButton.LocalScript 
-	local script = Instance.new('LocalScript', ScriptButton)
-
+end;
+task.spawn(C_6a);
+-- StarterGui.main.MainFrame.ScriptButton.LocalScript
+local function C_6f()
+local script = G2L["6f"];
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.HomeFrame.Visible = false
 		script.Parent.Parent.ScriptFrame.Visible = true
 	end)
 	
-end
-coroutine.wrap(FOABVWE_fake_script)()
+end;
+task.spawn(C_6f);
+
+return G2L["1"], require;
