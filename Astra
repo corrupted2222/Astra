@@ -104,6 +104,32 @@ local ScriptButton = Instance.new("TextButton")
 local UICorner_35 = Instance.new("UICorner")
 local scripticon = Instance.new("ImageLabel")
 local UICorner_36 = Instance.new("UICorner")
+local ExeFrame = Instance.new("Frame")
+local Buttons = Instance.new("Frame")
+local UICorner_37 = Instance.new("UICorner")
+local UIStroke_6 = Instance.new("UIStroke")
+local execute = Instance.new("Frame")
+local UICorner_38 = Instance.new("UICorner")
+local TextButton = Instance.new("TextButton")
+local ImageLabel = Instance.new("ImageLabel")
+local clear = Instance.new("Frame")
+local UICorner_39 = Instance.new("UICorner")
+local TextButton_2 = Instance.new("TextButton")
+local ImageLabel_2 = Instance.new("ImageLabel")
+local copy = Instance.new("Frame")
+local UICorner_40 = Instance.new("UICorner")
+local TextButton_3 = Instance.new("TextButton")
+local ImageLabel_3 = Instance.new("ImageLabel")
+local paste = Instance.new("Frame")
+local UICorner_41 = Instance.new("UICorner")
+local TextButton_4 = Instance.new("TextButton")
+local ImageLabel_4 = Instance.new("ImageLabel")
+local Frame_11 = Instance.new("Frame")
+local UICorner_42 = Instance.new("UICorner")
+local input = Instance.new("Frame")
+local UICorner_43 = Instance.new("UICorner")
+local UIStroke_7 = Instance.new("UIStroke")
+local output = Instance.new("TextBox")
 
 -- Properties:
 
@@ -799,9 +825,202 @@ scripticon.Image = "http://www.roblox.com/asset/?id=16803350096"
 
 UICorner_36.Parent = scripticon
 
+ExeFrame.Name = "ExeFrame"
+ExeFrame.Parent = MainFrame
+ExeFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ExeFrame.BackgroundTransparency = 1.000
+ExeFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ExeFrame.BorderSizePixel = 0
+ExeFrame.Position = UDim2.new(0.113105901, 0, 5.08626314e-08, 0)
+ExeFrame.Size = UDim2.new(0, 494, 0, 300)
+ExeFrame.Visible = false
+
+Buttons.Name = "Buttons"
+Buttons.Parent = ExeFrame
+Buttons.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Buttons.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Buttons.BorderSizePixel = 0
+Buttons.Position = UDim2.new(0.0161943324, 0, 0.843333304, 0)
+Buttons.Size = UDim2.new(0, 475, 0, 37)
+
+UICorner_37.CornerRadius = UDim.new(0, 6)
+UICorner_37.Parent = Buttons
+
+UIStroke_6.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_6.Color = Color3.fromRGB(50, 50, 50)
+UIStroke_6.Parent = Buttons
+
+execute.Name = "execute"
+execute.Parent = Buttons
+execute.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+execute.BorderColor3 = Color3.fromRGB(0, 0, 0)
+execute.BorderSizePixel = 0
+execute.Position = UDim2.new(0.0189473685, 0, 0.162162155, 0)
+execute.Size = UDim2.new(0, 90, 0, 25)
+
+UICorner_38.CornerRadius = UDim.new(0, 6)
+UICorner_38.Parent = execute
+
+TextButton.Parent = execute
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BackgroundTransparency = 1.000
+TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BorderSizePixel = 0
+TextButton.Size = UDim2.new(0, 85, 0, 25)
+TextButton.Font = Enum.Font.FredokaOne
+TextButton.Text = "Execute"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextSize = 16.000
+TextButton.TextXAlignment = Enum.TextXAlignment.Right
+
+ImageLabel.Parent = TextButton
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(0.0752688199, 0, 0.0799999982, 0)
+ImageLabel.Size = UDim2.new(0, 20, 0, 20)
+ImageLabel.Image = "http://www.roblox.com/asset/?id=16834725027"
+
+clear.Name = "clear"
+clear.Parent = Buttons
+clear.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+clear.BorderColor3 = Color3.fromRGB(0, 0, 0)
+clear.BorderSizePixel = 0
+clear.Position = UDim2.new(0.0189999864, 95, 0.161999673, 0)
+clear.Size = UDim2.new(0, 77, 0, 25)
+
+UICorner_39.CornerRadius = UDim.new(0, 6)
+UICorner_39.Parent = clear
+
+TextButton_2.Parent = clear
+TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.BackgroundTransparency = 1.000
+TextButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.BorderSizePixel = 0
+TextButton_2.Size = UDim2.new(0, 69, 0, 25)
+TextButton_2.Font = Enum.Font.FredokaOne
+TextButton_2.Text = "Clear"
+TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.TextSize = 16.000
+TextButton_2.TextXAlignment = Enum.TextXAlignment.Right
+
+ImageLabel_2.Parent = TextButton_2
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_2.BackgroundTransparency = 1.000
+ImageLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_2.BorderSizePixel = 0
+ImageLabel_2.Position = UDim2.new(0.0752688199, 0, 0.0799999982, 0)
+ImageLabel_2.Size = UDim2.new(0, 20, 0, 20)
+ImageLabel_2.Image = "http://www.roblox.com/asset/?id=16834856701"
+
+copy.Name = "copy"
+copy.Parent = Buttons
+copy.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+copy.BorderColor3 = Color3.fromRGB(0, 0, 0)
+copy.BorderSizePixel = 0
+copy.Position = UDim2.new(0.0189999864, 177, 0.161999673, 0)
+copy.Size = UDim2.new(0, 69, 0, 25)
+
+UICorner_40.CornerRadius = UDim.new(0, 6)
+UICorner_40.Parent = copy
+
+TextButton_3.Parent = copy
+TextButton_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.BackgroundTransparency = 1.000
+TextButton_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.BorderSizePixel = 0
+TextButton_3.Size = UDim2.new(0, 62, 0, 25)
+TextButton_3.Font = Enum.Font.FredokaOne
+TextButton_3.Text = "Copy"
+TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.TextSize = 16.000
+TextButton_3.TextXAlignment = Enum.TextXAlignment.Right
+
+ImageLabel_3.Parent = TextButton_3
+ImageLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_3.BackgroundTransparency = 1.000
+ImageLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_3.BorderSizePixel = 0
+ImageLabel_3.Position = UDim2.new(0.0752688199, 0, 0.0799999982, 0)
+ImageLabel_3.Size = UDim2.new(0, 20, 0, 20)
+ImageLabel_3.Image = "http://www.roblox.com/asset/?id=16834883188"
+
+paste.Name = "paste"
+paste.Parent = Buttons
+paste.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+paste.BorderColor3 = Color3.fromRGB(0, 0, 0)
+paste.BorderSizePixel = 0
+paste.Position = UDim2.new(0.0189999864, 250, 0.161999673, 0)
+paste.Size = UDim2.new(0, 72, 0, 25)
+
+UICorner_41.CornerRadius = UDim.new(0, 6)
+UICorner_41.Parent = paste
+
+TextButton_4.Parent = paste
+TextButton_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.BackgroundTransparency = 1.000
+TextButton_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.BorderSizePixel = 0
+TextButton_4.Size = UDim2.new(0, 66, 0, 25)
+TextButton_4.Font = Enum.Font.FredokaOne
+TextButton_4.Text = "Paste"
+TextButton_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.TextSize = 16.000
+TextButton_4.TextXAlignment = Enum.TextXAlignment.Right
+
+ImageLabel_4.Parent = TextButton_4
+ImageLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_4.BackgroundTransparency = 1.000
+ImageLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_4.BorderSizePixel = 0
+ImageLabel_4.Position = UDim2.new(0.0752688199, 0, 0.0799999982, 0)
+ImageLabel_4.Size = UDim2.new(0, 20, 0, 20)
+ImageLabel_4.Image = "http://www.roblox.com/asset/?id=16834884978"
+
+Frame_11.Parent = ExeFrame
+Frame_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_11.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_11.BorderSizePixel = 0
+Frame_11.Position = UDim2.new(-0.0287327934, 5, 0.510333359, 0)
+Frame_11.Size = UDim2.new(0, 4, 0, 40)
+
+UICorner_42.Parent = Frame_11
+
+input.Name = "input"
+input.Parent = ExeFrame
+input.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+input.BorderColor3 = Color3.fromRGB(0, 0, 0)
+input.BorderSizePixel = 0
+input.Position = UDim2.new(0.0161943324, 0, 0.0299999751, 0)
+input.Size = UDim2.new(0, 475, 0, 232)
+
+UICorner_43.CornerRadius = UDim.new(0, 6)
+UICorner_43.Parent = input
+
+UIStroke_7.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_7.Color = Color3.fromRGB(50, 50, 50)
+UIStroke_7.Parent = input
+
+output.Name = "output"
+output.Parent = ExeFrame
+output.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+output.BackgroundTransparency = 1.000
+output.BorderColor3 = Color3.fromRGB(0, 0, 0)
+output.BorderSizePixel = 0
+output.Position = UDim2.new(0.0344129875, 0, 0.0276436359, 0)
+output.Size = UDim2.new(0, 465, 0, 232)
+output.Font = Enum.Font.FredokaOne
+output.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+output.Text = "print(\"further on top!\")"
+output.TextColor3 = Color3.fromRGB(255, 255, 255)
+output.TextSize = 14.000
+output.TextXAlignment = Enum.TextXAlignment.Left
+output.TextYAlignment = Enum.TextYAlignment.Top
+
 -- Scripts:
 
-local function VPICJ_fake_script() -- MainFrame.Dragify 
+local function XXDA_fake_script() -- MainFrame.Dragify 
 	local script = Instance.new('LocalScript', MainFrame)
 
 	local UIS = game:GetService('UserInputService')
@@ -839,8 +1058,8 @@ local function VPICJ_fake_script() -- MainFrame.Dragify
 		end
 	end)
 end
-coroutine.wrap(VPICJ_fake_script)()
-local function MRYKCAI_fake_script() -- avatar.LocalScript 
+coroutine.wrap(XXDA_fake_script)()
+local function PUKGK_fake_script() -- avatar.LocalScript 
 	local script = Instance.new('LocalScript', avatar)
 
 	local Players = game:GetService("Players")
@@ -849,16 +1068,16 @@ local function MRYKCAI_fake_script() -- avatar.LocalScript
 	imagelabel.Image = Players:GetUserThumbnailAsync(player.UserId,Enum.ThumbnailType.HeadShot,Enum.ThumbnailSize.Size420x420)
 	
 end
-coroutine.wrap(MRYKCAI_fake_script)()
-local function GNSIT_fake_script() -- name.LocalScript 
+coroutine.wrap(PUKGK_fake_script)()
+local function WFMC_fake_script() -- name.LocalScript 
 	local script = Instance.new('LocalScript', name)
 
 	local player = game.Players.LocalPlayer
 	
 	script.Parent.Text = player.Name
 end
-coroutine.wrap(GNSIT_fake_script)()
-local function LDBVXY_fake_script() -- avatar_2.LocalScript 
+coroutine.wrap(WFMC_fake_script)()
+local function JIPOVI_fake_script() -- avatar_2.LocalScript 
 	local script = Instance.new('LocalScript', avatar_2)
 
 	local Players = game:GetService("Players")
@@ -867,24 +1086,8 @@ local function LDBVXY_fake_script() -- avatar_2.LocalScript
 	imagelabel.Image = Players:GetUserThumbnailAsync(player.UserId,Enum.ThumbnailType.HeadShot,Enum.ThumbnailSize.Size420x420)
 	
 end
-coroutine.wrap(LDBVXY_fake_script)()
-local function OGQRHXV_fake_script() -- credit1.LocalScript 
-	local script = Instance.new('LocalScript', credit1)
-
-	local player = game.Players.LocalPlayer
-	
-	script.Parent.Text = player.Name
-end
-coroutine.wrap(OGQRHXV_fake_script)()
-local function JKITAH_fake_script() -- credit1_2.LocalScript 
-	local script = Instance.new('LocalScript', credit1_2)
-
-	local player = game.Players.LocalPlayer
-	
-	script.Parent.Text = player.Name
-end
-coroutine.wrap(JKITAH_fake_script)()
-local function NYWJS_fake_script() -- ScriptFrame.LocalScript 
+coroutine.wrap(JIPOVI_fake_script)()
+local function OMEZI_fake_script() -- ScriptFrame.LocalScript 
 	local script = Instance.new('LocalScript', ScriptFrame)
 
 	local textBox = script.Parent.SearchBar
@@ -912,30 +1115,96 @@ local function NYWJS_fake_script() -- ScriptFrame.LocalScript
 	textBox.Changed:Connect(onTextChanged)
 	
 end
-coroutine.wrap(NYWJS_fake_script)()
-local function BACYOAC_fake_script() -- HomeButton.LocalScript 
+coroutine.wrap(OMEZI_fake_script)()
+local function QRVNT_fake_script() -- ExeButton.LocalScript 
+	local script = Instance.new('LocalScript', ExeButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.HomeFrame.Visible = false
+		script.Parent.Parent.ScriptFrame.Visible = false
+		script.Parent.Parent.ExeFrame.Visible = true
+	end)
+	
+end
+coroutine.wrap(QRVNT_fake_script)()
+local function OFOW_fake_script() -- HomeButton.LocalScript 
 	local script = Instance.new('LocalScript', HomeButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.HomeFrame.Visible = true
 		script.Parent.Parent.ScriptFrame.Visible = false
+		script.Parent.Parent.ExeFrame.Visible = false
 	end)
 	
 end
-coroutine.wrap(BACYOAC_fake_script)()
-local function LQVWH_fake_script() -- ScriptButton.LocalScript 
+coroutine.wrap(OFOW_fake_script)()
+local function ABGCT_fake_script() -- ScriptButton.LocalScript 
 	local script = Instance.new('LocalScript', ScriptButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.HomeFrame.Visible = false
 		script.Parent.Parent.ScriptFrame.Visible = true
+		script.Parent.Parent.ExeFrame.Visible = false
 	end)
-	
 end
-coroutine.wrap(LQVWH_fake_script)()
-local function QUXAVSC_fake_script() -- MainFrame.LocalScript 
+coroutine.wrap(ABGCT_fake_script)()
+local function LVZQ_fake_script() -- MainFrame.LocalScript 
 	local script = Instance.new('LocalScript', MainFrame)
 
 	
 end
-coroutine.wrap(QUXAVSC_fake_script)()
+coroutine.wrap(LVZQ_fake_script)()
+local function HKSVZAZ_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	local button = script.Parent
+	local textbox = script.Parent.input
+	button.MouseButton1Click:Connect(function()
+		loadstring(textbox.Text)()
+	end)
+end
+coroutine.wrap(HKSVZAZ_fake_script)()
+local function ULIADB_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	local button = script.Parent
+	local textbox = script.Parent.input
+	button.MouseButton1Click:Connect(function()
+		textbox.Text = ""
+	end)
+	
+end
+coroutine.wrap(ULIADB_fake_script)()
+local function SSHJ_fake_script() -- output.LocalScript 
+	local script = Instance.new('LocalScript', output)
+
+	local textBox = script.Parent.output
+	local originalSize = textBox.Size
+	local originalTextSize = textBox.TextSize
+	
+	-- Function to scale the TextBox
+	local function scaleTextBox()
+		local textWidth = textBox.TextBounds.X
+		local textHeight = textBox.TextBounds.Y
+	
+		-- Adjust the size of the TextBox based on the text size
+		if textWidth > originalSize.X or textHeight > originalSize.Y then
+			local scaleX = textWidth > originalSize.X and (textWidth / originalSize.X) or 1
+			local scaleY = textHeight > originalSize.Y and (textHeight / originalSize.Y) or 1
+	
+			local scaleFactor = math.max(scaleX, scaleY)
+	
+			textBox.Size = UDim2.new(0, originalSize.X * scaleFactor, 0, originalSize.Y * scaleFactor)
+			textBox.TextSize = originalTextSize * scaleFactor
+		else
+			textBox.Size = originalSize
+			textBox.TextSize = originalTextSize
+		end
+	end
+	
+	-- Connect the function to TextBox events
+	textBox:GetPropertyChangedSignal("Text"):Connect(scaleTextBox)
+	textBox:GetPropertyChangedSignal("Font"):Connect(scaleTextBox)
+	textBox:GetPropertyChangedSignal("TextSize"):Connect(scaleTextBox)
+end
+coroutine.wrap(SSHJ_fake_script)()
